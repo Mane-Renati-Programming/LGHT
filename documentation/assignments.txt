@@ -1,1 +1,17 @@
-Jobs that have been distributed to active developers of the game.
+Jobs for active developers of the game.
+
+Unassigned that we can think of: put your name in parentheses if you are thinking of taking the job
+UI design
+Player Character Design (TJ)
+Story Design (TJ)
+Map/Level Design
+NPC Design
+Enemy Design
+Equipment Design
+Music Design (TJ)
+Combat Design
+Balancing (everyone/playtesters)
+Mechanics Design
+
+Assigned:
+
