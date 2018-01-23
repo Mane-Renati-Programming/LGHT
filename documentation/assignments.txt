@@ -13,5 +13,6 @@ Combat Design
 Balancing (everyone/playtesters)
 Mechanics Design
 
+UX Design (Nate)
 Assigned:
 
