@@ -1,0 +1,7 @@
+First Name: Theia
+Last Name: Euryphaessa
+Means: Wide-shining light
+Gender: F
+Species: Human
+Semblance:
+Weapon: Xiphos / doru
