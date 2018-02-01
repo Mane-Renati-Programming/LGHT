@@ -1,0 +1,7 @@
+First Name: Hardeep
+Last Name: Gupta
+Means: Protected Light
+Gender: M
+Species: Human
+Semblance: Simple light constructs (chakrams)
+Weapon: Morningstar
