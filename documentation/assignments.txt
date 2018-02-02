@@ -2,11 +2,8 @@ Jobs for active developers of the game.
 
 Jobs: put your name in parentheses if you would like the job
 UI design
-Player Character Design (TJ)
 Story Design (TJ)
 Map/Level Design
-NPC Design
-Enemy Design
 Equipment Design
 Music Design (TJ, possibly)
 Combat Design
@@ -14,4 +11,5 @@ Balancing (everyone/playtesters)
 Mechanics Design
 UX Design (Nate)
 Character Art (Ray)
+Character design - general (TJ)
 
