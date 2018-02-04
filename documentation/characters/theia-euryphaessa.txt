@@ -3,5 +3,5 @@ Last Name: Euryphaessa
 Means: Wide-shining light
 Gender: F
 Species: Human
-Semblance:
+Semblance: Controls light reflecting off of self
 Weapon: Xiphos / doru
