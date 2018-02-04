@@ -24,16 +24,17 @@ class Tileset:
                 line.append(image.subsurface(rect))
 
 #We will be using this as a base class for us to extend on for Player, Enemy, and NPCs
-class Sprite:
+class Sprite(pygame.sprite.Sprite):
     def __init__(self, file):
         #Placeholder for Now
-        self.image = pygame.image.load(file).convert()
+        super(Sprites)
         return None
 
 
-class Player:
+class Player(Sprite):
     def __init__(self, file):
-        self.sprite = Sprite(file)
+        super(Sprite, self).__init__(file)
+
 
 
 #For the game we use a simple state machine
@@ -53,5 +54,7 @@ if __name__=='__main__':
     #Initalize the pygame library
     pygame.init()
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+    screen.fill(SCREEN_DEFAULT_COLOR)
+    pygame.display.flip()
     #Set the current state to the overworld
     Game.state = 10
