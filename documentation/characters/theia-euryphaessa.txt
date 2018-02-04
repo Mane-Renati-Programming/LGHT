@@ -1,6 +1,7 @@
 First Name: Theia
 Last Name: Euryphaessa
 Means: Wide-shining light
+Origin: Greek
 Gender: F
 Species: Human
 Semblance: Controls light reflecting off of self
