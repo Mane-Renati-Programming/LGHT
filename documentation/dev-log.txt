@@ -20,3 +20,4 @@ Nathaniel Barragan (NateDogg1232):
             - How to render images
             - How to move sprites onscreen
             - Using z-order
+    - Began a skeleton program

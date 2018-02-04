@@ -1,0 +1,11 @@
+The game could work as a state machine
+    - The game has a set of states, and these states determine the way the game behaves
+        -Example: The menu is state 0 and causes certain things to be loaded and unloaded, and main game can be state 1 and causes other things to be loaded etc.
+
+
+Game state list:
+    - 00: Title Screen
+        - 01: Main menu
+    - 10: Overworld
+    - 20: Battle
+    - 30: Ingame menu
