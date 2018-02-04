@@ -10,3 +10,13 @@ Thomas "T.J." Adams:
 		- Same for enemies
 	- Plot Notes:
 		- Have a very basic plot figured out right now, more details will need to be fleshed out
+
+2/3/2018
+Nathaniel Barragan (NateDogg1232):
+    - Began planning the way we will be rendering graphics onscreen and is detailed in screen.txt in the engine subdirectory of documentation
+    - Began learning how to use Pygame to begin work on the game itself.
+        - As of right now, I'm just learning the basics:
+            - How to set up a screen
+            - How to render images
+            - How to move sprites onscreen
+            - Using z-order
