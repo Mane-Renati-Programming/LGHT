@@ -1,6 +1,7 @@
 First Name: Hardeep
 Last Name: Gupta
 Means: Protected Light
+Origin: Hindi
 Gender: M
 Species: Human
 Semblance: Simple light constructs (usually chakrams, but can also make simple shields and the like)
