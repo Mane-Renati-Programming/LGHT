@@ -21,3 +21,9 @@ Nathaniel Barragan (NateDogg1232):
             - How to move sprites onscreen
             - Using z-order
     - Began a skeleton program
+
+2/4/2018
+Thomas "T.J." Adams:
+	- Added Theia's semblance
+	- Added origins to the character's names
+	- Reformatted assignments
