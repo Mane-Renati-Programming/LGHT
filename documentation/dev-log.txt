@@ -27,3 +27,4 @@ Thomas "T.J." Adams:
 	- Added Theia's semblance
 	- Added origins to the character's names
 	- Reformatted assignments
+	- Lots of file formatting
