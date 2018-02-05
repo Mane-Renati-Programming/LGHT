@@ -27,3 +27,8 @@ Nathaniel Barragan (NateDogg1232):
     - Began working on the map parser and getting that squared away. I'm still deciding on how to do it, but for now, I think I've decided to use a map config file
         - Thinking about how to do any sort of rendering and how I will implement scrolling, but as of now, I need a sample tileset to test rendering in general with
     - Began finding out ways to handle keyboard inputs
+Thomas "T.J." Adams:
+	- Added Theia's semblance
+	- Added origins to the character's names
+	- Reformatted assignments
+	- Lots of file formatting
