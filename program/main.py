@@ -65,13 +65,13 @@ class Map:
         except KeyError:
             return {}
 
-    def drawTile(self, x, y):
-        screen.blit(self.tileset.tile_table[x][y], (self.tileset.tile_width*x, self.tileset.tile_width*y))
+    def drawTile(self, tilex, tiley, x, y):
+        screen.blit(self.tileset.tile_table[tilex][tiley], (self.tileset.tile_width*x, self.tileset.tile_width*y))
 
     def draw(self):
         for tile_y in xrange(0,len(self.tileset.tile_table)):
             for tile_x in xrange(0,len(self.tileset.tile_table[tile_y])):
-                self.drawTile(tile_x, tile_y)
+                self.drawTile(tile_x, tile_y, tile_x, tile_y)
 
 
 #For the game we use a simple state machine
