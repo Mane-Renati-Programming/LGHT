@@ -69,10 +69,10 @@ class Map:
         screen.blit(self.tileset.tile_table[tilex][tiley], (self.tileset.tile_width*x, self.tileset.tile_width*y))
 
     def draw(self):
-        for tile_y in xrange(0,len(self.tileset.tile_table)):
-            for tile_x in xrange(0,len(self.tileset.tile_table[tile_y])):
-                self.drawTile(tile_x, tile_y, tile_x, tile_y)
-
+        for tile_y in xrange(0, len(self.map)):
+            for tile_x in xrange(0, len(self.map[tile_y])):
+                curTile = self.getTile(tile_x, tile_y)
+                self.drawTile(int(curTile["tilex"]), int(curTile["tiley"]), tile_x, tile_y)
 
 #For the game we use a simple state machine
 class Game:
