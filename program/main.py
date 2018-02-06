@@ -15,6 +15,8 @@ class Tileset:
         image = pygame.image.load(file).convert()
         image_width, image_height = image.get_size()
         self.tile_table = []
+        self.tile_width = tile_width
+        self.tile_height = tile_height
         #Iterates through the image, pulling out tiles at the width and height passed
         for tile_x in range(0, image_width/tile_width):
             line = []
@@ -27,14 +29,13 @@ class Tileset:
 class Sprite(pygame.sprite.Sprite):
     def __init__(self, file):
         #Placeholder for Now
-        super(Sprites)
+        super(Sprite, self).__init__()
         return None
 
 
 class Player(Sprite):
     def __init__(self, file):
         super(Sprite, self).__init__(file)
-
 
 class Map:
 
@@ -51,8 +52,8 @@ class Map:
             if len(section) == 1:
                 desc = dict(parser.items(section))
                 self.key[section] = desc
-        self.width = len(self.map[0])
-        self.height = len(self.map)
+            self.width = len(self.map[0])
+            self.height = len(self.map)
 
     def getTile(self, x, y):
         try:
@@ -63,6 +64,15 @@ class Map:
             return self.key[char]
         except KeyError:
             return {}
+
+    def drawTile(self, x, y):
+        screen.blit(self.tileset.tile_table[x][y], (self.tileset.tile_width*x, self.tileset.tile_width*y))
+
+    def draw(self):
+        for tile_y in xrange(0,len(self.tileset.tile_table)):
+            for tile_x in xrange(0,len(self.tileset.tile_table[tile_y])):
+                self.drawTile(tile_x, tile_y)
+
 
 #For the game we use a simple state machine
 class Game:
@@ -88,6 +98,7 @@ if __name__=='__main__':
     game = Game()
     game.loadOverworldMap("testmap")
 
+
     #We create an infinite loop
     while 1:
         #We check for any events that may have occured
@@ -100,6 +111,6 @@ if __name__=='__main__':
             if event.type == pygame.KEYUP:
                 if event.key == pygame.K_a:
                     SCREEN_DEFAULT_COLOR = (255,255,255)
-        screen.fill(SCREEN_DEFAULT_COLOR)
+        game.currentLevel.draw()
         pygame.display.flip()
         pygame.time.wait(1)

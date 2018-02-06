@@ -1,5 +1,5 @@
 [level]
-tileset = testtileset.png
+tileset = PathAndObjects.png
 tilewidth = 32
 tileheight = 32
 map = .......................
@@ -10,10 +10,13 @@ map = .......................
       .......................
 
 [.]
+background = True
 name = floor
-tile = 0, 3
+tile = 2,1
+passable = True
 
 [#]
+background = True
 name = wall
-wall = true
-block = true
+passable = False
+tile = 5,11
