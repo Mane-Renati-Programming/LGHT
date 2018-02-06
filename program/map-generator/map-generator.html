@@ -8,68 +8,77 @@
         <title>Mapset Generator</title>
     </head>
 
-    <body onload="generateMap()">
+    <body>
 
         <script>
 
             //Notes for the code necessary for the generator as well as necessary features
-            //We need it to output valid config files given in the example file in the maps file in assets
-
-
-
-            //Randomly generate map patterns
-            //In a pattern of #s and .s
-            //#s are walls and .s are floor
-            //Each tile is 32x32
+                //We need it to output valid config files given in the example file in the maps file in assets
+                    //For the "map = " portion, Arrays nested in arrays will be necessary
 
 
             function generateMap() {
-                    //Gets the value of each input as a string
-                var ln1 = document.getElementById("line1").value,
-                    ln2 = document.getElementById("line2").value,
-                    ln3 = document.getElementById("line3").value,
-                    ln4 = document.getElementById("line4").value,
-                    ln5 = document.getElementById("line5").value,
-                    ln6 = document.getElementById("line6").value,
-                    ln7 = document.getElementById("line7").value,
-                    ln8 = document.getElementById("line8").value;
-                        //Uses the shorthand function I made doOutput to output each line in a .config file friendly pattern for use as map generation
-                            //For testing purposes. Totally not hack code.
-                    doOutput("map = "
-                        + ln1 + "<br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
-                        + ln2 + "<br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
-                        + ln3 + "<br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
-                        + ln4 + "<br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
-                        + ln5 + "<br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
-                        + ln6 + "<br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
-                        + ln7 + "<br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
-                        + ln8);
 
+                var type = document.getElementById("tileType").value,
+                    x = document.getElementById("tileX").value,
+                    y = document.getElementById("tileY").value,
+                    map = [];
+                
+                //Used to output the properties of whatever type of tile is selected
+                
+                switch(type) {
+                        
+                    case "a":
+                        outputType("passable = true" + "<br>" + "name = floor");
+                        break;
+                    
+                    case "b":
+                        outputType("passable = false" + "<br>" + "name = wall");
+                        break;
+                        
+                    case "c":
+                        outputType("passable = false" + "<br>" + "name = border")
+                        break;
+                        
+                }
+                
+                    //Outputs the Tile's X and Y coordinates as specified
+                
+                outputX("tilex = " + x);
+                outputY("tiley = " + y);
+                
             }
-                //Shorthand function for outputting, force of habit.
-            function doOutput(out) {
+                //Shorthand functions for outputting, force of habit.
+            function outputX(out) {
 
                 document.getElementById("output").innerHTML = out;
 
+            }
+            
+            function outputY(out) {
+                
+                document.getElementById("output2").innerHTML = out;
+                
+            }
+            
+            function outputType(out) {
+                
+                document.getElementById("output3").innerHTML = out;
+                
             }
 
 
         </script>
 
         <p id="output"></p>
-        <p>
-        Input X amount of numbers into Y amount of lines for whatever tileset size you want. Using X by 8 size for now, can be changed.
-        </p>
-
-        <input type="text" id="line1">
-        <input type="text" id="line2">
-        <input type="text" id="line3">
-        <input type="text" id="line4">
-        <input type="text" id="line5">
-        <input type="text" id="line6">
-        <input type="text" id="line7">
-        <input type="text" id="line8">
-
+        <p id="output2"></p>
+        <p id="output3"></p>
+        
+        
+        <input type="number" id="tileX">
+        <input type="number" id="tileY">
+        <input type="text" id="tileType">
+        
         <button onclick="generateMap();">Generate</button>
 
     </body>
