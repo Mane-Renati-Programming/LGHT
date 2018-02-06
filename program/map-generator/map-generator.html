@@ -8,10 +8,10 @@
         <title>Mapset Generator</title>
     </head>
 
-    <body>
+    <body onload="generateMap()">
 
-        <!--Load the P5 library for our usage-->
         <script>
+
             //Notes for the code necessary for the generator as well as necessary features
             //We need it to output valid config files given in the example file in the maps file in assets
 
@@ -20,9 +20,57 @@
             //Randomly generate map patterns
             //In a pattern of #s and .s
             //#s are walls and .s are floor
+            //Each tile is 32x32
 
+
+            function generateMap() {
+                    //Gets the value of each input as a string
+                var ln1 = document.getElementById("line1").value,
+                    ln2 = document.getElementById("line2").value,
+                    ln3 = document.getElementById("line3").value,
+                    ln4 = document.getElementById("line4").value,
+                    ln5 = document.getElementById("line5").value,
+                    ln6 = document.getElementById("line6").value,
+                    ln7 = document.getElementById("line7").value,
+                    ln8 = document.getElementById("line8").value;
+                        //Uses the shorthand function I made doOutput to output each line in a .config file friendly pattern for use as map generation
+                            //For testing purposes. Totally not hack code.
+                    doOutput("map = "
+                        + ln1 + "<br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+                        + ln2 + "<br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+                        + ln3 + "<br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+                        + ln4 + "<br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+                        + ln5 + "<br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+                        + ln6 + "<br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+                        + ln7 + "<br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+                        + ln8);
+
+            }
+                //Shorthand function for outputting, force of habit.
+            function doOutput(out) {
+
+                document.getElementById("output").innerHTML = out;
+
+            }
 
 
         </script>
+
+        <p id="output"></p>
+        <p>
+        Input X amount of numbers into Y amount of lines for whatever tileset size you want. Using X by 8 size for now, can be changed.
+        </p>
+
+        <input type="text" id="line1">
+        <input type="text" id="line2">
+        <input type="text" id="line3">
+        <input type="text" id="line4">
+        <input type="text" id="line5">
+        <input type="text" id="line6">
+        <input type="text" id="line7">
+        <input type="text" id="line8">
+
+        <button onclick="generateMap();">Generate</button>
+
     </body>
 </html>
