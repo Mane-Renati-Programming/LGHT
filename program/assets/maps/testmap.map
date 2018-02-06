@@ -1,0 +1,19 @@
+[level]
+tileset = testtileset.png
+tilewidth = 32
+tileheight = 32
+map = .......................
+      .#####.##..............
+      .#...#..#..............
+      .#...####..............
+      .##.##.................
+      .......................
+
+[.]
+name = floor
+tile = 0, 3
+
+[#]
+name = wall
+wall = true
+block = true
