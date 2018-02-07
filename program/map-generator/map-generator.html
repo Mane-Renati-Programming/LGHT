@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Mapset Generator</title>
-        
+
         <style>
             body {
                 font-family: monospace;
@@ -14,102 +14,104 @@
         </style>
     </head>
 
-    <body>
+    <body onload = "loadKeyHandler()">
 
         <script>
 
             //Notes for the code necessary for the generator as well as necessary features
                 //We need it to output valid config files given in the example file in the maps file in assets
                     //For the "map = " portion, Arrays nested in arrays will be necessary
+            var mapArray,
+                currentX = 0,
+                currentY = 0,
+                oldMapValue = "";
 
+            function loadKeyHandler() {
+                window.addEventListener("keypress", keyHandler, false);
+            }
 
-            function generateMap() {
+            function keyHandler(e) {
+                processCurrentKey(e.keyCode);
+            }
 
-                var type = document.getElementById("tileType").value,
-                    x = document.getElementById("tileX").value,
-                    y = document.getElementById("tileY").value,
-                    map = [];
-                
-                //Used to output the properties of whatever type of tile is selected
-                
-                switch(type) {
-                        
-                    case "a":
-                        outputType("[a]" + "<br>" + "passable = true" + "<br>" + "name = floor");
-                        break;
-                    
-                    case "b":
-                        outputType("[b]" + "<br>" + "passable = false" + "<br>" + "name = wall");
-                        break;
-                        
-                    case "c":
-                        outputType("[c]" + "<br>" + "passable = false" + "<br>" + "name = border")
-                        break;
-                        
+            function processCurrentKey(key) {
+                console.log(key);
+                if (key == 38) { //Up
+                    setSpotOnMap(currentX, currentY, oldMapValue);
+                    currentY++;
+                    oldMapValue = mapArray[currentY][currentX];
+                    setSpotOnMap(currentX, currentY, "~");
+                } else if (key == 40) { //Down
+                    setSpotOnMap(currentX, currentY, oldMapValue);
+                    currentY--;
+                    oldMapValue = mapArray[currentY][currentX];
+                    setSpotOnMap(currentX, currentY, "~");
+                } else if (key == 37) { //Left
+                    setSpotOnMap(currentX, currentY, oldMapValue);
+                    currentX--;
+                    oldMapValue = mapArray[currentY][currentX];
+                    setSpotOnMap(currentX, currentY, "~");
+                } else if (key == 39) { //Right
+                    setSpotOnMap(currentX, currentY, oldMapValue);
+                    currentX++;
+                    oldMapValue = mapArray[currentY][currentX];
+                    setSpotOnMap(currentX, currentY, "~");
+                } else {
+                    setSpotOnMap(currentX, currentY, String.fromCharCode(key));
+                    currentX++;
                 }
-                
-                    //Outputs the Tile's X and Y coordinates as specified
-                
-                outputX("tilex = " + x);
-                outputY("tiley = " + y);
-                mapArray();
-                
-            }
-            
-            function mapArray(x, y) {
-                
-                var xArray = [x],
-                    yArray = [y],
-                    mapArray = [xArray, yArray];
-                
-                outputMap("map = " + mapArray[xArray, yArray]);
-                
-            }
-            
-            
-            
-            
-            
-                //Shorthand functions for outputting, force of habit.
-
-            function outputX(out) {
-
-                document.getElementById("output").innerHTML = out;
-
-            }
-            
-            function outputY(out) {
-                
-                document.getElementById("output2").innerHTML = out;
-                
-            }
-            
-            function outputType(out) {
-                
-                document.getElementById("output3").innerHTML = out;
-                
-            }
-            
-            function outputMap(out) {
-                
-                document.getElementById("mapOutput").innerHTML = out;
-                
             }
 
+            function setSpotOnMap(x, y, char) {
+                mapArray[y][x] = char;
+            }
+
+
+            function drawMap() {
+                var out = document.getElementById("mapOutput");
+                var line;
+                line = "map = ";
+                for (let i = 0; i < mapArray.length; i++) {
+                    for (let j = 0; j < mapArray[i].length; j++) {
+                        line = line + mapArray[i][j];
+                    }
+                    line = line + "<br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+                }
+                out.innerHTML = line;
+            }
+
+            function defineMapSize() {
+                var mapSizeX = parseInt(document.getElementById("mapSizeX").value),
+                    mapSizeY = parseInt(document.getElementById("mapSizeY").value);
+                    mapArray = [mapSizeY];
+                for (let i = 0; i < mapSizeY; i++) {
+                    mapArray[i] = new Array(mapSizeX);
+                }
+
+                for (let i = 0; i < mapArray.length; i++) {
+                    for (let j = 0; j < mapArray[i].length; j++) {
+                        mapArray[i][j] = ".";
+                    }
+                }
+            }
 
         </script>
-        
+
         <p id="mapOutput"></p>
         <p id="output"></p>
         <p id="output2"></p>
         <p id="output3"></p>
-        
-        
-        <input type="number" id="tileX">
-        <input type="number" id="tileY">
-        <input type="text" id="tileType">
-        
-        <button onclick="generateMap();">Generate</button>
+
+
+
+        <p>X</p>
+        <input type="number" id="mapSizeX">
+        <p>Y</p>
+        <input type="number" id="mapSizeY">
+
+        <button onclick="defineMapSize();">Define Map mapSizeY</button>
+
+        <button onclick="drawMap();">Draw Map</button>
 
     </body>
 </html>
