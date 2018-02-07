@@ -10,6 +10,11 @@
         <style>
             body {
                 font-family: monospace;
+                font-size: 20px;
+            }
+            p#mapOutput:focus {
+                background-color: gray;
+                color: white;
             }
         </style>
     </head>
@@ -27,7 +32,7 @@
                 oldMapValue = "";
 
             function loadKeyHandler() {
-                window.addEventListener("keypress", keyHandler, false);
+                document.getElementById("mapOutput").addEventListener("keypress", keyHandler, false);
             }
 
             function keyHandler(e) {
@@ -97,7 +102,7 @@
 
         </script>
 
-        <p id="mapOutput"></p>
+        <p id="mapOutput" tabindex="0"></p>
         <p id="output"></p>
         <p id="output2"></p>
         <p id="output3"></p>
