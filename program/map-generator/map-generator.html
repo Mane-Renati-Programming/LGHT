@@ -11,10 +11,18 @@
             body {
                 font-family: monospace;
                 font-size: 20px;
+                margin: 0;
+            }
+            p#mapOutput {
+                margin-top: 0px;
             }
             p#mapOutput:focus {
                 background-color: gray;
                 color: white;
+            }
+
+            .mapcontrols {
+                margin: 20px;
             }
         </style>
     </head>
@@ -122,6 +130,7 @@
             function defineMapSize() {
                 var mapSizeX = parseInt(document.getElementById("mapSizeX").value),
                     mapSizeY = parseInt(document.getElementById("mapSizeY").value);
+                    mapArray = null;
                     mapArray = [mapSizeY];
                 for (let i = 0; i < mapSizeY; i++) {
                     mapArray[i] = new Array(mapSizeX);
@@ -137,20 +146,18 @@
         </script>
 
         <p id="mapOutput" tabindex="0"></p>
-        <p id="output"></p>
-        <p id="output2"></p>
-        <p id="output3"></p>
 
 
 
-        <p>X</p>
-        <input type="number" id="mapSizeX">
-        <p>Y</p>
-        <input type="number" id="mapSizeY">
+            <div class="mapcontrols">
+                <p>X</p>
+                <input type="number" id="mapSizeX">
+                <p>Y</p>
+                <input type="number" id="mapSizeY">
 
-        <button onclick="defineMapSize();">Define Map mapSizeY</button>
+                <button onclick="defineMapSize();">Define Map mapSizeY</button>
 
-        <button onclick="drawMap();">Draw Map</button>
-
+                <button onclick="drawMap();">Draw Map</button>
+            </div>
     </body>
 </html>
