@@ -35,15 +35,15 @@
                 switch(type) {
                         
                     case "a":
-                        outputType("passable = true" + "<br>" + "name = floor");
+                        outputType("[a]" + "<br>" + "passable = true" + "<br>" + "name = floor");
                         break;
                     
                     case "b":
-                        outputType("passable = false" + "<br>" + "name = wall");
+                        outputType("[b]" + "<br>" + "passable = false" + "<br>" + "name = wall");
                         break;
                         
                     case "c":
-                        outputType("passable = false" + "<br>" + "name = border")
+                        outputType("[c]" + "<br>" + "passable = false" + "<br>" + "name = border")
                         break;
                         
                 }
@@ -52,9 +52,26 @@
                 
                 outputX("tilex = " + x);
                 outputY("tiley = " + y);
+                mapArray();
                 
             }
+            
+            function mapArray(x, y) {
+                
+                var xArray = [x],
+                    yArray = [y],
+                    mapArray = [xArray, yArray];
+                
+                outputMap("map = " + mapArray[xArray, yArray]);
+                
+            }
+            
+            
+            
+            
+            
                 //Shorthand functions for outputting, force of habit.
+
             function outputX(out) {
 
                 document.getElementById("output").innerHTML = out;
@@ -72,10 +89,17 @@
                 document.getElementById("output3").innerHTML = out;
                 
             }
+            
+            function outputMap(out) {
+                
+                document.getElementById("mapOutput").innerHTML = out;
+                
+            }
 
 
         </script>
-
+        
+        <p id="mapOutput"></p>
         <p id="output"></p>
         <p id="output2"></p>
         <p id="output3"></p>
