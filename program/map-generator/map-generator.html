@@ -102,7 +102,7 @@
                         break;
                 }
                 drawMap();
-
+                tileLocation();
             }
 
             function setSpotOnMap(x, y, char) {
@@ -142,10 +142,18 @@
                     }
                 }
             }
+                //Just to show the x, y coordinate of where you are in the array
+            function tileLocation() {
+                var z = document.getElementById("valueOutput").value;
+                document.getElementById("valueOutput").innerHTML = ("tilex = " + eval(currentX + 1) + "<br>" + "tiley = " + eval(currentY + 1));
+            }
+            
+            
 
         </script>
 
         <p id="mapOutput" tabindex="0"></p>
+        <p id="valueOutput"></p>
 
 
 
@@ -154,9 +162,8 @@
                 <input type="number" id="mapSizeX">
                 <p>Y</p>
                 <input type="number" id="mapSizeY">
-
                 <button onclick="defineMapSize();">Define Map mapSizeY</button>
-
+                
                 <button onclick="drawMap();">Draw Map</button>
             </div>
     </body>
