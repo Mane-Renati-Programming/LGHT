@@ -26,7 +26,7 @@ class Tileset:
                 line.append(image.subsurface(rect))
 
 #We will be using this as a base class for us to extend on for Player, Enemy, and NPCs
-class Sprite(pygame.sprite.Sprite):
+class Sprite(pygame.sprite.Group):
     def __init__(self, file):
         #Placeholder for Now
         super(Sprite, self).__init__()

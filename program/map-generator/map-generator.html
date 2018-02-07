@@ -30,7 +30,7 @@
                 currentX = 0,
                 currentY = 0,
                 oldMapValue = ".";
-            const cursor = "•"
+            const cursor = "■"
 
             function loadKeyHandler() {
                 document.getElementById("mapOutput").addEventListener("keydown", keyHandler, false);
@@ -55,7 +55,7 @@
                         setSpotOnMap(currentX, currentY, cursor);
                         break;
                     case 38://Up
-                        if (currentY >= 0) {
+                        if (currentY <= 0) {
                             currentY = 0;
                             break;
                         }
@@ -85,7 +85,7 @@
                         setSpotOnMap(currentX, currentY, oldMapValue);
                         currentX++;
                         oldMapValue = getValueOfMap(currentX, currentY);
-                        setSpotOnMap(currentX, currentY, cursors);
+                        setSpotOnMap(currentX, currentY, cursor);
                         break;
                     default:
                         console.log("key");
