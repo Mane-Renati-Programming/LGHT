@@ -15,7 +15,7 @@ var property = {
 var tile = {
     tilename: "",
     properties: []
-};
+};  
 
 var tileMatrix = [];
 
