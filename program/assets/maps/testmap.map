@@ -39,3 +39,4 @@ name = wall
 passable = False
 tilex = 5
 tiley = 11
+

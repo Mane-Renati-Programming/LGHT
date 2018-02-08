@@ -7,6 +7,16 @@ var mapArray,
     oldMapValue = ".";
 const cursor = "■"
 
+var property = {
+    propertyName: "",
+    propertyValue: "";
+};
+
+var tile = {
+    tilename: "",
+    properties: []
+};
+
 var tileMatrix = [];
 
 function loadKeyHandler() {
@@ -121,57 +131,11 @@ function addTile() {
         propertyValue = document.getElementById("propertyValue").value.trim();
 
 
-    //Init the matrix
-    if (tileMatrix.length == 0) {
-        tileMatrix.push(new Array(3));
-        tileMatrix[0][0] = tileName;
-        tileMatrix[0][1] = new Array(2);
-        tileMatrix[0][1][0] = property;
-        tileMatrix[0][1][1] = propertyValue;
-        outputTileProperties();
-        return;
-    }
-
-    for (let i = 0; i < tileMatrix.length - 1; i++) {
-        //Iterate through every single matricee checking for the tile given
-        if (tileMatrix[i][0] == tileName) {
-            //Since it was already defined, we can just check if that property already exists, and if so, we can just change it.
-            for (let j = 1; j < tileMatrix[i].length - 1; j++) {
-                console.log(j);
-                if (tileMatrix[i][j][0] == property) {
-                    //It already exists, so we can just update that value
-                    tileMatrix[i][j][1] = propertyValue;
-                    outputTileProperties();
-                    //We return since we're done and have updated the value
-                    return;
-                }
-            }
-            //Since we didn't find it, we add that property to the tile
-            tileMatrix[i].push(new Array(2));
-            tileMatrix[i][tileMatrix[i].length - 1][0] = property;
-            tileMatrix[i][tileMatrix[i].length - 1][1] = propertyValue;
-            outputTileProperties();
-            return;
-        }
-    }
-    //We never found the tile, so we add the tile and add that property
-    tileMatrix.push(new Array(3));
-    tileMatrix[tileMatrix.length - 1][0] = tileName;
-    tileMatrix[tileMatrix.length - 1][1] = new Array(2);
-    tileMatrix[tileMatrix.length - 1][1][0] = property;
-    tileMatrix[tileMatrix.length - 1][1][1] = propertyValue;
-    outputTileProperties();
-
 }
 
 function outputTileProperties() {
     var tileOutput = ""
-    for (let i = 0; i < tileMatrix.length - 1; i++) {
-        tileOutput = tileOutput + "<br>[" + tileMatrix[i][0] + "]";
-        for (let j = 1; j < tileMatrix[i].length - 1; j++) {
-            tileOutput = tileOutput + "<br>" + tileMatrix[i][j][0] + " = " + tileMatrix[i][j][1];
-        }
-    }
+    
     document.getElementById("tilePropertiesOutput").innerHTML = tileOutput;
 }
 
