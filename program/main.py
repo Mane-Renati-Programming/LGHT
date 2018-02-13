@@ -5,8 +5,12 @@ import sys, ConfigParser
 #We import the libraries needed by pygame
 import pygame, pygame.locals
 
+
+
 # We set our screen width and height
 SCREEN_WIDTH, SCREEN_HEIGHT = 1024, 768
+TILE_HEIGHT = 32
+TILE_WIDTH = 32
 SCREEN_DEFAULT_COLOR = (255,255,255)
 
 class Tileset:
@@ -26,11 +30,12 @@ class Tileset:
                 line.append(image.subsurface(rect))
 
 #We will be using this as a base class for us to extend on for Player, Enemy, and NPCs
-class Sprite(pygame.sprite.Group):
+class Sprite(pygame.sprite.Sprite):
     def __init__(self, file):
         #Placeholder for Now
         super(Sprite, self).__init__()
-        return None
+        self.spritesheet = pygame.image.load(file).convert()
+        self.sprite_tabe = []
 
 
 class Player(Sprite):
@@ -46,7 +51,7 @@ class Map:
         self.key = {}
         parser = ConfigParser.ConfigParser()
         parser.read("assets/maps/" + mapname + ".map")
-        self.tileset = Tileset(("assets/tilesets/" + parser.get("level", "tileset")), int(parser.get("level", "tilewidth")), int(parser.get("level", "tileheight")))
+        self.tileset = Tileset(("assets/tilesets/" + parser.get("level", "tileset")), TILE_WIDTH, TILE_HEIGHT)
         self.map = parser.get("level", "map").split('\n')
         for section in parser.sections():
             if len(section) == 1:
@@ -90,13 +95,20 @@ class Game:
 
 
 
+def exitGame():
+    pygame.display.quit()
+    sys.exit()
+
 if __name__=='__main__':
     #Initalize the pygame library
     pygame.init()
+    pygame.font.init()
+    gameClock = pygame.time.Clock()
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
     #Set the current state to the overworld
     game = Game()
     game.loadOverworldMap("testmap")
+    myFont = pygame.font.SysFont("Arial", 30)
 
 
     #We create an infinite loop
@@ -104,13 +116,12 @@ if __name__=='__main__':
         #We check for any events that may have occured
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                pygame.display.quit()
-                sys.exit()
-            if event.type == pygame.KEYDOWN:
-                SCREEN_DEFAULT_COLOR = (255,0,0)
-            if event.type == pygame.KEYUP:
-                if event.key == pygame.K_a:
-                    SCREEN_DEFAULT_COLOR = (255,255,255)
+                exitGame()
+
+        # And we draw the game
         game.currentLevel.draw()
+        screen.blit(myFont.render(str(gameClock.get_fps()), False, (255, 255, 255)), (0,0))
+        # Flip the buffer into the display
         pygame.display.flip()
-        pygame.time.wait(1)
+        # Wait one frame
+        gameClock.tick(30)
