@@ -45,16 +45,15 @@ class Sprite(pygame.sprite.Sprite):
         image_width, image_height = image.get_size()
         #Iterates through the image, pulling out tiles at the width and height passed
         for tile_x in range(0, image_width/TILE_WIDTH):
-            #We set a line so we can have the table as a grid
-            line = []
-            #We push that line to the list, adding one more row
-            self.sprite_table.append(line)
             #And now we go through each tile's line and put each tile we get into the list
             for tile_y in range(0, image_height/TILE_HEIGHT):
                 #We make a rectangle containing the tile
                 rect = (tile_x * TILE_WIDTH, tile_y * TILE_HEIGHT, TILE_WIDTH, TILE_HEIGHT)
                 #And we store that part of the image in the list
-                line.append(image.subsurface(rect))
+                self.sprite_table.append(image.subsurface(rect))
+
+    def draw(self, x, y, spriteno):
+        screen.blit(self.sprite_table[spriteno], (x,y))
 
 
 class Player(Sprite):
@@ -159,6 +158,8 @@ if __name__=='__main__':
             if event.type == pygame.QUIT:
                 exitGame()
             if event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_ESCAPE:
+                    exitGame()
                 if event.key == pygame.K_LEFT:
                     game.currentLevel.curx -= 10
                 if event.key == pygame.K_RIGHT:
@@ -170,8 +171,9 @@ if __name__=='__main__':
 
         # And we draw the game
         game.currentLevel.draw()
+        player.draw(game.currentLevel.curx, game.currentLevel.cury, 0)
         #blit sets an image on the screen with the texture given, in this case, our font
-        screen.blit(myFont.render(str(gameClock.get_fps()), False, (255, 255, 255)), (0,0))
+        screen.blit(myFont.render(str(gameClock.get_fps()), False, (0,0,0)), (0,0))
         # Flip the buffer into the display
         pygame.display.flip()
         # Wait one frame
