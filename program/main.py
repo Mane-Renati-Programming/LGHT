@@ -40,10 +40,8 @@ class Sprite(pygame.sprite.Sprite):
     def __init__(self, file):
         #Placeholder for Now
         super(Sprite, self).__init__()
-        self.spritesheet = pygame.image.load(file).convert()
-        self.sprite_tabe = []
-        #The convert is an optimization step. It sets the pixel type, which makes it faster.
-        image = pygame.image.load(file).convert()
+        image = pygame.image.load("assets/sprites/"+file).convert()
+        self.sprite_table = []
         image_width, image_height = image.get_size()
         #Iterates through the image, pulling out tiles at the width and height passed
         for tile_x in range(0, image_width/TILE_WIDTH):
