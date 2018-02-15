@@ -144,24 +144,27 @@ function addTile() {
 
         //It's not empty, so we go through the thing checking for the tile name given
         for (let i = 0; i < tileMatrix.length; i++) {
-            if (tileMatrix.tileName == tileName) {
+            if (tileMatrix[i].tileName == tileName) {
                 //The tile name is already there, so we just search through its properties
                 for (let j = 0; j < tileMatrix[i].properties.length; j++) {
                     if (tileMatrix[i].properties[j].propertyName == property) {
                         //We found that property, so we just update that property
+                        console.log("Change property");
                         tileMatrix[i].properties[j].propertyValue = propertyValue;
                         outputTileProperties();
                         return;
                     }
                 }
+                console.log("add property existing");
                 //We never found that property, so we add that property
                 tileMatrix[i].properties.push(new Property());
-                tileMatrix[i].properties[tileMatrix.properties.length - 1].propertyName = property;
-                tileMatrix[i].properties[tileMatrix.properties.length - 1].propertyValue = propertyValue;
+                tileMatrix[i].properties[tileMatrix[i].properties.length - 1].propertyName = property;
+                tileMatrix[i].properties[tileMatrix[i].properties.length - 1].propertyValue = propertyValue;
                 outputTileProperties();
                 return;
             }
         }
+        console.log("Add tile");
         //We never found that tile name, so we add it, plus its property
         tileMatrix.push(new Tile());
         tileMatrix[tileMatrix.length - 1].tileName = tileName;
@@ -174,7 +177,6 @@ function addTile() {
 function outputTileProperties() {
     var tileOutput = ""
     for (let i = 0; i < tileMatrix.length; i++) {
-        console.log(tileMatrix[i].tileName);
         tileOutput = tileOutput + "[" + tileMatrix[i].tileName + "]<br>";
         for (let j = 0; j < tileMatrix[i].properties.length; j++) {
             tileOutput = tileOutput + tileMatrix[i].properties[j].propertyName + " = " + tileMatrix[i].properties[j].propertyValue + "<br>";
