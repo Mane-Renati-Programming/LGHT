@@ -37,6 +37,5 @@ passable = True
 background = True
 name = wall
 passable = False
-tilex = 5
-tiley = 11
-
+tilex = 2
+tiley = 0

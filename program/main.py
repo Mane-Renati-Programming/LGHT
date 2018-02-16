@@ -16,7 +16,7 @@ TILE_WIDTH = 32
 class Tileset:
     def __init__(self, file, tile_width, tile_height):
         #The convert is an optimization step. It sets the pixel type, which makes it faster.
-        image = pygame.image.load(file).convert()
+        image = pygame.image.load(file).convert_alpha()
         image_width, image_height = image.get_size()
         #We make a list where we will store all the graphics for each tile
         self.tile_table = []
@@ -36,13 +36,13 @@ class Tileset:
                 line.append(image.subsurface(rect))
 
 #We will be using this as a base class for us to extend on for Player, Enemy, and NPCs
-class Sprite(pygame.sprite.Sprite):
+class SpriteSheet(pygame.sprite.Group):
     def __init__(self, file):
-        #Placeholder for Now
-        super(Sprite, self).__init__()
-        image = pygame.image.load("assets/sprites/"+file).convert()
-        self.sprite_table = []
+        pygame.sprite.Group.__init__(self)
+        image = pygame.image.load("assets/sprites/"+file).convert_alpha()
         image_width, image_height = image.get_size()
+        self.x = 0
+        self.y = 0
         #Iterates through the image, pulling out tiles at the width and height passed
         for tile_x in range(0, image_width/TILE_WIDTH):
             #And now we go through each tile's line and put each tile we get into the list
@@ -50,10 +50,32 @@ class Sprite(pygame.sprite.Sprite):
                 #We make a rectangle containing the tile
                 rect = (tile_x * TILE_WIDTH, tile_y * TILE_HEIGHT, TILE_WIDTH, TILE_HEIGHT)
                 #And we store that part of the image in the list
-                self.sprite_table.append(image.subsurface(rect))
+                self.add(Sprite(image.subsurface(rect)))
+    def draw(self, surface, spriteno):
+        surface.blit(self.sprites()[spriteno].image, self.sprites()[spriteno].rect)
+    def move(self, xofs, yofs):
+        self.x += xofs
+        self.y += yofs
+        self.update(self.x, self.y)
 
-    def draw(self, x, y, spriteno):
-        screen.blit(self.sprite_table[spriteno], (x,y))
+
+#Just an extension we can put on the pygame sprite class where we can do whatever the frick we want with
+class Sprite(pygame.sprite.Sprite):
+    def __init__ (self, image):
+        pygame.sprite.Sprite.__init__(self)
+        self.image = image
+        self.width, self.height = self.image.get_size()
+        self.rect = (0, 0, self.width, self.height)
+        self.x = 0
+        self.y = 0
+    def update(self, x, y):
+        self.x = x
+        self.y = y
+        self.rect = (self.x, self.y, self.width+self.x, self.height+self.y)
+    def move(self, xofs, yofs):
+        self.x += xofs
+        self.y += yofs
+        self.rect = (self.x, self.y, self.width+self.x, self.height+self.y)
 
 
 class Player(Sprite):
@@ -148,11 +170,13 @@ if __name__=='__main__':
     #We set up a font to draw our FPS stuff in
     myFont = pygame.font.SysFont("Arial", 30)
 
-    player = Sprite("32x32-ex-idle.png")
+    player = SpriteSheet("32x32-ex-idle.png")
+    counter = 0
 
 
     #We create an infinite loop
     while 1:
+        counter += 1
         #We check for any events that may have occured
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
@@ -162,18 +186,24 @@ if __name__=='__main__':
                     exitGame()
                 if event.key == pygame.K_LEFT:
                     game.currentLevel.curx -= 10
+                    player.move(-5,0)
                 if event.key == pygame.K_RIGHT:
                     game.currentLevel.curx += 10
+                    player.move(5,0)
                 if event.key == pygame.K_UP:
                     game.currentLevel.cury -= 10
+                    player.move(0,-5)
                 if event.key == pygame.K_DOWN:
                     game.currentLevel.cury += 10
+                    player.move(0,5)
 
         # And we draw the game
         game.currentLevel.draw()
-        player.draw(game.currentLevel.curx, game.currentLevel.cury, 0)
-        #blit sets an image on the screen with the texture given, in this case, our font
-        screen.blit(myFont.render(str(gameClock.get_fps()), False, (0,0,0)), (0,0))
+        player.draw(screen, 0)
+        #Every second, print the current fps
+        if (counter % 30) == 0:
+            print gameClock.get_fps()
+
         # Flip the buffer into the display
         pygame.display.flip()
         # Wait one frame
