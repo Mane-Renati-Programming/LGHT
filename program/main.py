@@ -161,62 +161,6 @@ class Map:
                 mapx.draw(surface)
 
 
-
-
-# This is only for refrence as we rebuild the map class to support the Tile class
-class OldMap:
-
-    #We can load our map here
-    def __init__(self, mapname):
-        self.curx = 0
-        self.cury = 0
-        self.mapname = mapname
-        #Will contain the map itself
-        self.map = []
-        #This is a dictionary (Accessable per characters instead of numbers) storing each tile type and its properties
-        self.key = {}
-        #We set up our parser to make sense of our config file
-        parser = ConfigParser.ConfigParser()
-        parser.read("assets/maps/" + mapname + ".map")
-        #We set up our current tileset for this map as the tileset given in the config file
-        self.tileset = Tileset(("assets/tilesets/" + parser.get("level", "tileset")), TILE_WIDTH, TILE_HEIGHT)
-        #And we get the full map and split it by each line
-        self.map = parser.get("level", "map").split('\n')
-        #We set the width and height of the map
-        self.width = len(self.map[0])
-        self.height = len(self.map)
-        #We go through each section which is a tile in our config file
-        for section in parser.sections():
-            #We check if the section is a tile descriptor (It will only have one character)
-            if len(section) == 1:
-                #We get each property and make it into a dictionary
-                desc = dict(parser.items(section))
-                #And we add this onto the key with the tile given as the index we use to look for it
-                self.key[section] = desc
-
-
-    def getTile(self, x, y):
-        try:
-            char = self.map[y][x]
-        except IndexError:
-            return {}
-        try:
-            return self.key[char]
-        except KeyError:
-            return {}
-
-    def drawTile(self, tilex, tiley, x, y, xofs, yofs):
-        #TODO: Fix this
-        screen.blit(self.tileset.tile_table[tilex][tiley], (self.tileset.tile_width*x+xofs, self.tileset.tile_width*y+yofs))
-
-    def draw(self):
-        screen.fill((0,0,0))
-        for tile_y in xrange(0, len(self.map)):
-            for tile_x in xrange(0, len(self.map[tile_y])):
-                curTile = self.getTile(tile_x, tile_y)
-                self.drawTile(int(curTile["tilex"]), int(curTile["tiley"]), tile_x, tile_y, self.curx, self.cury)
-
-
 ### FUNCTIONALITY CLASSES
 
 #For the game we use a simple state machine
