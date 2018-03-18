@@ -16,10 +16,14 @@ TILE_WIDTH = 32
 #This will also affect overall game speed, as the game's internal timer is based on how many frames have passed
 MAX_FPS = 30
 
+ScreenLocation = (0,0) #This is the offset of the screen of itself.
+
 ### GRAPHICS CLASSES
 
 ## SPRITE CLASSES
 #We will be using this as a base class for us to extend on for Player, Enemy, and NPCs
+
+#All coordinates given that have to do with sprites will be done in coordinaes of where they are on the map.
 class SpriteSheet(pygame.sprite.Group):
     def __init__(self, file):
         pygame.sprite.Group.__init__(self)
@@ -32,7 +36,7 @@ class SpriteSheet(pygame.sprite.Group):
             #And now we go through each tile's line and put each tile we get into the list
             for tile_y in range(0, image_height/TILE_HEIGHT):
                 #We make a rectangle containing the tile
-                rect = (tile_x * TILE_WIDTH, tile_y * TILE_HEIGHT, TILE_WIDTH, TILE_HEIGHT)
+                rect = pygame.Rect(tile_x * TILE_WIDTH, tile_y * TILE_HEIGHT, TILE_WIDTH, TILE_HEIGHT)
                 #And we store that part of the image in the list
                 self.add(Sprite(image.subsurface(rect)))
     def draw(self, surface, spriteno):
@@ -41,7 +45,10 @@ class SpriteSheet(pygame.sprite.Group):
         self.x += xofs
         self.y += yofs
         self.update(self.x, self.y)
-
+    def setPos(self, x, y):
+        self.x = x
+        self.y = y
+        self.update(self.x, self.y)
     def getSprite(self, spriteno):
         return self.sprites()[spriteno]
 
@@ -52,23 +59,25 @@ class Sprite(pygame.sprite.Sprite):
         pygame.sprite.Sprite.__init__(self)
         self.image = image
         self.width, self.height = self.image.get_size()
-        self.rect = (0, 0, self.width, self.height)
+        self.rect = pygame.Rect(0, 0, self.width, self.height)
         self.x = 0
         self.y = 0
     def update(self, x, y):
         self.x = x
         self.y = y
-        self.rect = (self.x, self.y, self.width+self.x, self.height+self.y)
+        #We need to create the rectange of the sprite. I can't divide this up or else it'll take a performance hit, so I'll put the statements in a seprate document
+        self.rect = pygame.Rect((self.x * TILE_WIDTH) + ScreenLocation[0], (self.y * TILE_HEIGHT) + ScreenLocation[1], self.width, self.height)
     def move(self, xofs, yofs):
         self.x += xofs
         self.y += yofs
-        self.rect = (self.x, self.y, self.width+self.x, self.height+self.y)
+        self.rect = pygame.Rect((self.x * TILE_WIDTH) + ScreenLocation[0], (self.y * TILE_HEIGHT) + ScreenLocation[1], self.width, self.height)
     def draw(self, surface):
         surface.blit(self.image, self.rect)
 
 class Player(SpriteSheet):
     def __init__(self, file):
         SpriteSheet.__init__(self, file)
+        #We can put all the stats in here
 
 
 ## BACKGROUND CLASSES
@@ -99,14 +108,11 @@ class Tileset:
 #We use this as a base for our map
 class Tile(Sprite):
     def __init__(self, image, properties):
-        super(Sprite, self)
+        Sprite.__init__(self, image)
         self.name = properties["name"]
-        self.image = image
-        self.width, self.height = self.image.get_size()
-        self.rect = (0, 0, self.width, self.height)
-        self.x = 0
-        self.y = 0
         self.properties = properties
+        self.tilex = 0
+        self.tiley = 0
     def getProperty(self, prop):
         return self.properties[prop]
 
@@ -125,6 +131,8 @@ class Map:
         parser = ConfigParser.ConfigParser()
         parser.read("assets/maps/" + mapname + ".map")
         self.tileset = Tileset(("assets/tilesets/" + parser.get("level", "tileset")), TILE_WIDTH, TILE_HEIGHT)
+        self.playerx = int(parser.get("player", "startx"))
+        self.playery = int(parser.get("player", "starty"))
         tmpMap = parser.get("level", "map").split('\n')
         self.dimensions = (len(tmpMap[0]), len(tmpMap))
         for section in parser.sections():
@@ -137,7 +145,7 @@ class Map:
         #And now we parse the map into a matrix of tiles
         for mapy in tmpMap:
             line = []
-            for mapx in mapy:
+            for mapx in list(mapy):
                 curTileProp = tmpKey[mapx]
                 line.append(Tile(self.tileset.getTile(int(curTileProp["tilex"]), int(curTileProp["tiley"])), curTileProp))
             self.map.append(line)
@@ -153,12 +161,18 @@ class Map:
     def update(self):
         for mapy in xrange(0, len(self.map)):
             for mapx in xrange(0, len(self.map[0])):
-                self.map[mapy][mapx].update(self.curx + (mapx*TILE_WIDTH), self.cury + (mapy*TILE_HEIGHT))
+                self.map[mapy][mapx].update(self.curx + mapx, self.cury + mapy)
 
     def draw(self, surface):
         for mapy in self.map:
             for mapx in mapy:
                 mapx.draw(surface)
+
+    def collision(self, sprite):
+        for mapy in self.map:
+            for mapx in mapy:
+                if pygame.sprite.collide_rect(sprite, mapx):
+                    return mapx
 
 
 ### FUNCTIONALITY CLASSES
@@ -179,6 +193,7 @@ class Game:
     def tick(self):
         #Overworld
         if self.state == 10:
+            tmpCollision = None
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     exitGame()
@@ -186,17 +201,30 @@ class Game:
                     if event.key == pygame.K_ESCAPE:
                         exitGame()
                     if event.key == pygame.K_LEFT:
-                        game.currentLevel.move(-10, 0)
-                        player.move(-5,0)
+                        player.move(-1,0)
+                        tmpCollision = self.currentLevel.collision(player.getSprite(0))
+                        if type(tmpCollision) is Tile:
+                            if tmpCollision.getProperty("passable") == "False":
+                                player.move(1,0)
                     if event.key == pygame.K_RIGHT:
-                        game.currentLevel.move(10, 0)
-                        player.move(5,0)
+                        player.move(1,0)
+                        tmpCollision = self.currentLevel.collision(player.getSprite(0))
+                        if type(tmpCollision) is Tile:
+                            if tmpCollision.getProperty("passable") == "False":
+                                player.move(-1,0)
                     if event.key == pygame.K_UP:
-                        game.currentLevel.move(0, -10)
-                        player.move(0,-5)
+                        player.move(0,-1)
+                        tmpCollision = self.currentLevel.collision(player.getSprite(0))
+                        if type(tmpCollision) is Tile:
+                            if tmpCollision.getProperty("passable") == "False":
+                                player.move(0,1)
                     if event.key == pygame.K_DOWN:
-                        game.currentLevel.move(0, 10)
-                        player.move(0,5)
+                        player.move(0,1)
+                        tmpCollision = self.currentLevel.collision(player.getSprite(0))
+                        if type(tmpCollision) is Tile:
+                            print tmpCollision.getProperty("passable")
+                            if tmpCollision.getProperty("passable") == "False":
+                                player.move(0,-1)
             #We fill the background with black just to make surface
             screen.fill((0,0,0))
             #And we draw the game
@@ -227,12 +255,15 @@ if __name__=='__main__':
     #Set the current state to the overworld
     game = Game()
     game.loadOverworldMap("testmap")
+    player = Player("32x32-ex-idle.png")
+    player.setPos(game.currentLevel.playerx, game.currentLevel.playery)
     #We set up a font to draw our FPS stuff in
     myFont = pygame.font.SysFont("Arial", 30)
-
-
-    player = Player("32x32-ex-idle.png")
     counter = 0
+
+    pygame.display.set_caption("RWBY-JRPG")
+
+    ScreenLocation = (0,0)
 
 
     #We create an infinite loop
