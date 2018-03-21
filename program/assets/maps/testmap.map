@@ -1,7 +1,5 @@
 [level]
 tileset = PathAndObjects.png
-tilewidth = 32
-tileheight = 32
 map = ################################
       #.....#............###......#..#
       #.....#............###......#..#
@@ -27,6 +25,9 @@ map = ################################
       #.###############..###......#..#
       ################################
 
+[player]
+startx = 1
+starty = 1
 
 [.]
 background = True
@@ -39,5 +40,5 @@ passable = True
 background = True
 name = wall
 passable = False
-tilex = 5
-tiley = 11
+tilex = 2
+tiley = 0

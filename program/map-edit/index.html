@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mapset Generator</title>
+
+    <style>
+        body {
+            font-family: monospace;
+            font-size: 20px;
+            margin: 0;
+        }
+
+        p#mapOutput {
+            margin-top: 0px;
+        }
+
+        p#mapOutput:focus {
+            background-color: gray;
+            color: white;
+        }
+
+        .mapcontrols {
+            margin: 20px;
+        }
+
+    </style>
+</head>
+
+<body onload="loadKeyHandler()">
+
+   <script src="map-edit.js"></script>
+
+    <p id="mapOutput" tabindex="0"></p>
+
+
+
+
+    <div class="mapcontrols">
+        <p id="valueOutput"></p>
+        <p>X</p>
+        <input type="number" id="mapSizeX">
+        <p>Y</p>
+        <input type="number" id="mapSizeY">
+
+        <button onclick="defineMapSize();">Define Map mapSizeY</button>
+
+        <button onclick="drawMap();">Draw Map</button>
+
+
+    </div>
+
+    <div class="tileProperties">
+        <input type="text" id="tileName">
+        <input type="text" id="property">
+        <input type="text" id="propertyValue">
+        <button onclick="addTile();">Add tile</button>
+        <p id="tilePropertiesOutput"></p>
+    </div>
+</body>
+
+</html>
