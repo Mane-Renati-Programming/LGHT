@@ -1,0 +1,10 @@
+Screen dimensions: 1024x768
+
+Tiles are 32x32
+Sprites are 32x32 also
+
+If we do scaling, I believe that only integer scaling would be best, although I could look into bilinear scaling.
+
+The screen can be split into a grid of 32x24 tiles.
+
+This is key to level design and therefore should be stated in the documentation for that later on.
