@@ -1,0 +1,6 @@
+2/5/18
+Sean Raymond (SeanRaymond2301):
+	-Began work on a JavaScript Map generator
+		-Will use X and Y values to navigate Arrays to assign values to part of an array to output 
+		.config file structure
+	

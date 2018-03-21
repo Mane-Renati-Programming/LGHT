@@ -1,0 +1,25 @@
+2/2/2018
+- This is the beginning of the Dev Log, where everything that people want to add as updates may be added
+- I will personally be using this as much as I can to help organize my thoughts
+- Please note that some things have occured prior to this journal's creation, and are therefore not mentioned in this log
+- If any other members on this project wish to create an entry, please note the format I have created and follow it, at least until your in your own personal entries, which it doesn't matter how you format those
+- Character Notes:
+	- Have basic info on most of the PCs, need to concrete the senblance for Theia
+	- No NPC work is done yet, need to create a world first
+	- Same for enemies
+- Plot Notes:
+	- Have a very basic plot figured out right now, more details will need to be fleshed out
+
+2/4/2018
+- Added Theia's semblance
+- Added origins to the character's names
+- Reformatted assignments
+- Lots of file formatting
+
+2/27/2018
+- Reformatted my Dev Log as each is a file with a name now
+- Work has been coming along on creating the main characters
+
+3/20/2018
+- Added to the repo what I have so far on Leocadia
+- File formatting to keep out spoiler documentation

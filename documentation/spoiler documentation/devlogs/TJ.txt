@@ -19,3 +19,7 @@
 2/27/2018
 - Reformatted my Dev Log as each is a file with a name now
 - Work has been coming along on creating the main characters
+
+3/20/2018
+- Added to the repo what I have so far on Leocadia
+- File formatting to keep out spoiler documentation
