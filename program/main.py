@@ -16,7 +16,11 @@ TILE_WIDTH = 32
 #This will also affect overall game speed, as the game's internal timer is based on how many frames have passed
 MAX_FPS = 30
 
-ScreenLocation = (0,0) #This is the offset of the screen of itself.
+ScreenLocation = [0,0] #This is the offset of the screen of itself.
+
+#Converts a map coordinate to a screen coordinate
+def convertCoordinate(x, y):
+    return (x * TILE_WIDTH) + ScreenLocation[0], (y * TILE_HEIGHT) + ScreenLocation[1]
 
 ### GRAPHICS CLASSES
 
@@ -78,6 +82,18 @@ class Player(SpriteSheet):
     def __init__(self, file):
         SpriteSheet.__init__(self, file)
         #We can put all the stats in here
+    def move(self, xofs, yofs):
+        self.x += xofs
+        self.y += yofs
+        #Check if the X coordinate is greater than what we want
+        if convertCoordinate(self.x, self.y)[0] > SCREEN_WIDTH * 0.75:
+            print "This happened"
+            print ScreenLocation
+            ScreenLocation[0] -= TILE_WIDTH
+        self.update(self.x, self.y)
+
+
+
 
 
 ## BACKGROUND CLASSES
@@ -225,6 +241,8 @@ class Game:
                             print tmpCollision.getProperty("passable")
                             if tmpCollision.getProperty("passable") == "False":
                                 player.move(0,-1)
+            #We update the map just to be sure
+            game.currentLevel.update()
             #We fill the background with black just to make surface
             screen.fill((0,0,0))
             #And we draw the game
@@ -263,7 +281,7 @@ if __name__=='__main__':
 
     pygame.display.set_caption("RWBY-JRPG")
 
-    ScreenLocation = (0,0)
+    ScreenLocation = [0,0]
 
 
     #We create an infinite loop
