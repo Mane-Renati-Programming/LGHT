@@ -1,0 +1,9 @@
+All tiles are located per a coordinate system. This does not correspond to where the object is on the screen, but rather where the object is on the map.
+This means one unit on this plane is one tile large.
+
+
+HOW WE GET A TILE'S SCREEN COORDINATE:
+We first take the current coordinate. We then multiply that by the tile width (Aligning its coordinate). After this, we take that and add the offset of the current screen.
+
+HOW WE GET A TILE'S COORDINATE FROM A SCREEN COORDINATE:
+We take the screen's coordinate and subtract the offset of the screen. We then take the coordinate and divide by the current coordinate. We could align this coordinate by not taking any decimal points from this.
