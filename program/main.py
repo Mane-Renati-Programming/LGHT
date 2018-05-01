@@ -16,7 +16,7 @@ TILE_WIDTH = 32
 #This will also affect overall game speed, as the game's internal timer is based on how many frames have passed
 MAX_FPS = 30
 
-ScreenLocation = (0,0) #This is the offset of the screen of itself.
+ScreenLocation = [0 , 0] #This is the offset of the screen of itself.
 
 ### GRAPHICS CLASSES
 
@@ -66,11 +66,11 @@ class Sprite(pygame.sprite.Sprite):
         self.x = x
         self.y = y
         #We need to create the rectange of the sprite. I can't divide this up or else it'll take a performance hit, so I'll put the statements in a seprate document
-        self.rect = pygame.Rect((self.x * TILE_WIDTH) + ScreenLocation[0], (self.y * TILE_HEIGHT) + ScreenLocation[1], self.width, self.height)
+        self.rect = pygame.Rect((self.x * TILE_WIDTH) - ScreenLocation[0], (self.y * TILE_HEIGHT) - ScreenLocation[1], self.width, self.height)
     def move(self, xofs, yofs):
         self.x += xofs
         self.y += yofs
-        self.rect = pygame.Rect((self.x * TILE_WIDTH) + ScreenLocation[0], (self.y * TILE_HEIGHT) + ScreenLocation[1], self.width, self.height)
+        self.rect = pygame.Rect((self.x * TILE_WIDTH) - ScreenLocation[0], (self.y * TILE_HEIGHT) - ScreenLocation[1], self.width, self.height)
     def draw(self, surface):
         surface.blit(self.image, self.rect)
 
@@ -78,6 +78,14 @@ class Player(SpriteSheet):
     def __init__(self, file):
         SpriteSheet.__init__(self, file)
         #We can put all the stats in here
+    def move(self, xofs, yofs):
+        self.x += xofs
+        self.y += yofs
+        if (self.x * TILE_WIDTH - ScreenLocation[0] > SCREEN_WIDTH * 0.75):
+            ScreenLocation[0] -= TILE_WIDTH
+        if (self.y * TILE_HEIGHT - ScreenLocation[1] > SCREEN_HEIGHT * 0.75):
+            ScreenLocation[1] -= TILE_HEIGHT
+        SpriteSheet.update(self, self.x, self.y)
 
 
 ## BACKGROUND CLASSES
@@ -177,6 +185,56 @@ class Map:
 
 ### FUNCTIONALITY CLASSES
 
+class Overworld:
+    def __init__(self, mapname):
+        self.currentMap = Map(mapname)
+        game.handlers['frame'].append(self.tick)
+        game.handlers['keydown'].append(self.keyPress)
+
+    def keyPress(self,key):
+        tmpCollision = None
+        if key == pygame.K_ESCAPE:
+            game.quit()
+        if key == pygame.K_LEFT:
+            player.move(-1,0)
+            tmpCollision = self.currentMap.collision(player.getSprite(0))
+            if type(tmpCollision) is Tile:
+                if tmpCollision.getProperty("passable") == "False":
+                    player.move(1,0)
+        if key == pygame.K_RIGHT:
+            player.move(1,0)
+            tmpCollision = self.currentMap.collision(player.getSprite(0))
+            if type(tmpCollision) is Tile:
+                if tmpCollision.getProperty("passable") == "False":
+                    player.move(-1,0)
+        if key == pygame.K_UP:
+            player.move(0,-1)
+            tmpCollision = self.currentMap.collision(player.getSprite(0))
+            if type(tmpCollision) is Tile:
+                if tmpCollision.getProperty("passable") == "False":
+                    player.move(0,1)
+        if key == pygame.K_DOWN:
+            player.move(0,1)
+            tmpCollision = self.currentMap.collision(player.getSprite(0))
+            if type(tmpCollision) is Tile:
+                if tmpCollision.getProperty("passable") == "False":
+                    player.move(0,-1)
+    def tick(self):
+        self.currentMap.update()
+
+        #We fill the background with black just to make surface
+        screen.fill((0,0,0))
+        #And we draw the game
+        self.currentMap.draw(screen)
+        player.draw(screen, 0)
+        #Every second, print the current fps
+        if (counter % 30) == 0:
+            print gameClock.get_fps()
+        #Flip the buffer into the display
+        pygame.display.flip()
+        #Wait one frame
+        gameClock.tick(MAX_FPS)
+
 #For the game we use a simple state machine
 class Game:
     #Here is our constructor
@@ -184,59 +242,30 @@ class Game:
         # The default state can be the title menu
         self.state = 0
         self.currentLevel = None
+        self.handlers = {}
+        self.handlers['frame'] = []
+        self.handlers['keydown'] = []
+        self.handlers['quit'] = []
 
-    def loadOverworldMap(self, mapname):
-        #We set the state to overworld
-        self.state = 10
-        self.currentLevel = Map(mapname)
-
+    def setState(self,stateno,data):
+        if stateno == 10:
+            self.currentLevel = Overworld(data)
+    def quit(self):
+        for handler in self.handlers['quit']:
+            handler()
+        exitGame()
     def tick(self):
-        #Overworld
-        if self.state == 10:
-            tmpCollision = None
-            for event in pygame.event.get():
-                if event.type == pygame.QUIT:
-                    exitGame()
-                if event.type == pygame.KEYDOWN:
-                    if event.key == pygame.K_ESCAPE:
-                        exitGame()
-                    if event.key == pygame.K_LEFT:
-                        player.move(-1,0)
-                        tmpCollision = self.currentLevel.collision(player.getSprite(0))
-                        if type(tmpCollision) is Tile:
-                            if tmpCollision.getProperty("passable") == "False":
-                                player.move(1,0)
-                    if event.key == pygame.K_RIGHT:
-                        player.move(1,0)
-                        tmpCollision = self.currentLevel.collision(player.getSprite(0))
-                        if type(tmpCollision) is Tile:
-                            if tmpCollision.getProperty("passable") == "False":
-                                player.move(-1,0)
-                    if event.key == pygame.K_UP:
-                        player.move(0,-1)
-                        tmpCollision = self.currentLevel.collision(player.getSprite(0))
-                        if type(tmpCollision) is Tile:
-                            if tmpCollision.getProperty("passable") == "False":
-                                player.move(0,1)
-                    if event.key == pygame.K_DOWN:
-                        player.move(0,1)
-                        tmpCollision = self.currentLevel.collision(player.getSprite(0))
-                        if type(tmpCollision) is Tile:
-                            print tmpCollision.getProperty("passable")
-                            if tmpCollision.getProperty("passable") == "False":
-                                player.move(0,-1)
-            #We fill the background with black just to make surface
-            screen.fill((0,0,0))
-            #And we draw the game
-            game.currentLevel.draw(screen)
-            player.draw(screen, 0)
-            #Every second, print the current fps
-            if (counter % 30) == 0:
-                print gameClock.get_fps()
-            #Flip the buffer into the display
-            pygame.display.flip()
-            #Wait one frame
-            gameClock.tick(MAX_FPS)
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                for handler in self.handlers['quit']:
+                    handler()
+                exitGame()
+            if event.type == pygame.KEYDOWN:
+                for handler in self.handlers['keydown']:
+                    handler(event.key)
+
+        for handler in self.handlers['frame']:
+            handler()
 
 
 def exitGame():
@@ -249,21 +278,22 @@ if __name__=='__main__':
     #Initalize the pygame library
     pygame.init()
     pygame.font.init()
+    pygame.key.set_repeat(100, 50)
     gameClock = pygame.time.Clock()
     #We initialize the screen with our resolution
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
     #Set the current state to the overworld
     game = Game()
-    game.loadOverworldMap("testmap")
+    game.setState(10,"testmap")
     player = Player("32x32-ex-idle.png")
-    player.setPos(game.currentLevel.playerx, game.currentLevel.playery)
+    player.setPos(game.currentLevel.currentMap.playerx, game.currentLevel.currentMap.playery)
     #We set up a font to draw our FPS stuff in
     myFont = pygame.font.SysFont("Arial", 30)
     counter = 0
 
-    pygame.display.set_caption("RWBY-JRPG")
+    pygame.display.set_caption("LGHT")
 
-    ScreenLocation = (0,0)
+    ScreenLocation = [0,0]
 
 
     #We create an infinite loop
