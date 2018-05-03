@@ -77,15 +77,31 @@ class Sprite(pygame.sprite.Sprite):
 class Player(SpriteSheet):
     def __init__(self, file):
         SpriteSheet.__init__(self, file)
+        #self.update(self.x,self.y)
         #We can put all the stats in here
     def move(self, xofs, yofs):
+        print self.x,self.y
         self.x += xofs
         self.y += yofs
         if (self.x * TILE_WIDTH - ScreenLocation[0] > SCREEN_WIDTH * 0.75):
-            ScreenLocation[0] -= TILE_WIDTH
+            ScreenLocation[0] += TILE_WIDTH
         if (self.y * TILE_HEIGHT - ScreenLocation[1] > SCREEN_HEIGHT * 0.75):
+            ScreenLocation[1] += TILE_HEIGHT
+        if (self.x * TILE_WIDTH - ScreenLocation[0] < SCREEN_WIDTH * 0.25):
+            ScreenLocation[0] -= TILE_WIDTH
+        if (self.y * TILE_HEIGHT - ScreenLocation[1] < SCREEN_HEIGHT * 0.25):
             ScreenLocation[1] -= TILE_HEIGHT
-        SpriteSheet.update(self, self.x, self.y)
+        self.update(self.x, self.y)
+    #Returns true if the player will colide if it moves to that spot
+    def willCollideMap(self,xofs,yofs,map):
+        print self.x,self.y
+        print map.getTile(self.x + xofs, self.y + yofs).properties['passable']
+        if not map.getTile(self.x + xofs, self.y + yofs).properties['passable']=="True":
+            print "can't pass"
+            return True
+        else:
+            print "can pass"
+            return False
 
 
 ## BACKGROUND CLASSES
@@ -175,7 +191,8 @@ class Map:
         for mapy in self.map:
             for mapx in mapy:
                 mapx.draw(surface)
-
+    def getTile(self, x, y):
+        return self.map[y][x]
     def collision(self, sprite):
         for mapy in self.map:
             for mapx in mapy:
@@ -188,37 +205,25 @@ class Map:
 class Overworld:
     def __init__(self, mapname):
         self.currentMap = Map(mapname)
-        game.handlers['frame'].append(self.tick)
-        game.handlers['keydown'].append(self.keyPress)
+        self.frameHandler = game.addHandler('frame',self.tick)
+        self.keyHandler = game.addHandler('keydown', self.keyPress)
 
     def keyPress(self,key):
-        tmpCollision = None
         if key == pygame.K_ESCAPE:
             game.quit()
         if key == pygame.K_LEFT:
-            player.move(-1,0)
-            tmpCollision = self.currentMap.collision(player.getSprite(0))
-            if type(tmpCollision) is Tile:
-                if tmpCollision.getProperty("passable") == "False":
-                    player.move(1,0)
+            if not player.willCollideMap(-1,0,self.currentMap):
+                player.move(-1,0)
         if key == pygame.K_RIGHT:
-            player.move(1,0)
-            tmpCollision = self.currentMap.collision(player.getSprite(0))
-            if type(tmpCollision) is Tile:
-                if tmpCollision.getProperty("passable") == "False":
-                    player.move(-1,0)
+            if not player.willCollideMap(1,0,self.currentMap):
+                player.move(1,0)
         if key == pygame.K_UP:
-            player.move(0,-1)
-            tmpCollision = self.currentMap.collision(player.getSprite(0))
-            if type(tmpCollision) is Tile:
-                if tmpCollision.getProperty("passable") == "False":
-                    player.move(0,1)
+            if not player.willCollideMap(0,-1,self.currentMap):
+                player.move(0,-1)
         if key == pygame.K_DOWN:
-            player.move(0,1)
-            tmpCollision = self.currentMap.collision(player.getSprite(0))
-            if type(tmpCollision) is Tile:
-                if tmpCollision.getProperty("passable") == "False":
-                    player.move(0,-1)
+            if not player.willCollideMap(0,1,self.currentMap):
+                player.move(0,1)
+
     def tick(self):
         self.currentMap.update()
 
@@ -227,13 +232,6 @@ class Overworld:
         #And we draw the game
         self.currentMap.draw(screen)
         player.draw(screen, 0)
-        #Every second, print the current fps
-        if (counter % 30) == 0:
-            print gameClock.get_fps()
-        #Flip the buffer into the display
-        pygame.display.flip()
-        #Wait one frame
-        gameClock.tick(MAX_FPS)
 
 #For the game we use a simple state machine
 class Game:
@@ -246,7 +244,11 @@ class Game:
         self.handlers['frame'] = []
         self.handlers['keydown'] = []
         self.handlers['quit'] = []
-
+    def addHandler(self, handlertype, handler):
+        self.handlers[handlertype].append(handler)
+        return len(self.handlers[handlertype])
+    def removeHandler(self,handlerID):
+        del(self.handlers[handlertype][handlerID])
     def setState(self,stateno,data):
         if stateno == 10:
             self.currentLevel = Overworld(data)
@@ -257,15 +259,20 @@ class Game:
     def tick(self):
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                for handler in self.handlers['quit']:
-                    handler()
-                exitGame()
+                self.quit()
             if event.type == pygame.KEYDOWN:
                 for handler in self.handlers['keydown']:
                     handler(event.key)
 
         for handler in self.handlers['frame']:
             handler()
+        #Every second, print the current fps
+        if (counter % 30) == 0:
+            print gameClock.get_fps()
+        #Flip the buffer into the display
+        pygame.display.flip()
+        #Wait one frame
+        gameClock.tick(MAX_FPS)
 
 
 def exitGame():
