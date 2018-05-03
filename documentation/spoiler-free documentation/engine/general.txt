@@ -1,3 +1,0 @@
-For the library, we will be using the pygame library (Install using "pip install pygame")
-
-We are using Python 2.7
