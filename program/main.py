@@ -1,11 +1,11 @@
 #This is our main game file
 
 #We import our main libraries which we need
-import sys, ConfigParser
+import sys, ConfigParser, datetime
 #We import the libraries needed by pygame
 import pygame, pygame.locals
 
-
+GAME_NAME = "LGHT"
 
 # We set our screen width and height
 SCREEN_WIDTH, SCREEN_HEIGHT = 1024, 768
@@ -16,7 +16,14 @@ TILE_WIDTH = 32
 #This will also affect overall game speed, as the game's internal timer is based on how many frames have passed
 MAX_FPS = 30
 
+#Sets if debugging is enabled
+DEBUG = True
+if DEBUG:
+    LogFile = None
+
 ScreenLocation = [0 , 0] #This is the offset of the screen of itself.
+
+counter = 0
 
 ### GRAPHICS CLASSES
 
@@ -77,10 +84,9 @@ class Sprite(pygame.sprite.Sprite):
 class Player(SpriteSheet):
     def __init__(self, file):
         SpriteSheet.__init__(self, file)
-        #self.update(self.x,self.y)
+        self.update(self.x,self.y)
         #We can put all the stats in here
     def move(self, xofs, yofs):
-        print self.x,self.y
         self.x += xofs
         self.y += yofs
         if (self.x * TILE_WIDTH - ScreenLocation[0] > SCREEN_WIDTH * 0.75):
@@ -92,15 +98,17 @@ class Player(SpriteSheet):
         if (self.y * TILE_HEIGHT - ScreenLocation[1] < SCREEN_HEIGHT * 0.25):
             ScreenLocation[1] -= TILE_HEIGHT
         self.update(self.x, self.y)
+    def update(self, x, y):
+        self.x = x
+        self.y = y
+        #Let's handle map scrolling.
+        #We start by checking if the map needs to be scrolled
+        SpriteSheet.update(self, x, y)
     #Returns true if the player will colide if it moves to that spot
     def willCollideMap(self,xofs,yofs,map):
-        print self.x,self.y
-        print map.getTile(self.x + xofs, self.y + yofs).properties['passable']
         if not map.getTile(self.x + xofs, self.y + yofs).properties['passable']=="True":
-            print "can't pass"
             return True
         else:
-            print "can pass"
             return False
 
 
@@ -226,7 +234,6 @@ class Overworld:
 
     def tick(self):
         self.currentMap.update()
-
         #We fill the background with black just to make surface
         screen.fill((0,0,0))
         #And we draw the game
@@ -253,6 +260,7 @@ class Game:
         if stateno == 10:
             self.currentLevel = Overworld(data)
     def quit(self):
+        log(1, "Quitting game at: " + str(datetime.datetime.now()))
         for handler in self.handlers['quit']:
             handler()
         exitGame()
@@ -268,7 +276,7 @@ class Game:
             handler()
         #Every second, print the current fps
         if (counter % 30) == 0:
-            print gameClock.get_fps()
+            log(2, "Current FPS: " + str(gameClock.get_fps()))
         #Flip the buffer into the display
         pygame.display.flip()
         #Wait one frame
@@ -279,12 +287,33 @@ def exitGame():
     pygame.display.quit()
     sys.exit()
 
+def screenScroll(x,y):
+    screenLocation = [x,y]
 
+def log(loglevel, thing):
+    if DEBUG:
+        string = ""
+        if loglevel == 0:
+            string = "[ERR]" + str(thing)
+        elif loglevel == 1:
+            string = "[WARN]" + str(thing)
+        elif loglevel == 2:
+            string = "[VERBOSE]" + str(thing)
+        elif loglevel == 3:
+            string = "[DEBUG]" + str(thing)
+        else:
+            string = "[UNKNOWN]" + str(thing)
+        print string
+        LogFile.write(str(counter) + ": " + string + '\n')
 #Check to make sure the game isn't being used as a module
 if __name__=='__main__':
     #Initalize the pygame library
     pygame.init()
     pygame.font.init()
+    #Let's try to open the log file, if debugging is enabled
+    if DEBUG:
+        LogFile = open("log.txt","ab")
+    log(1, "Starting game at: " + str(datetime.datetime.now()))
     pygame.key.set_repeat(100, 50)
     gameClock = pygame.time.Clock()
     #We initialize the screen with our resolution
@@ -298,7 +327,7 @@ if __name__=='__main__':
     myFont = pygame.font.SysFont("Arial", 30)
     counter = 0
 
-    pygame.display.set_caption("LGHT")
+    pygame.display.set_caption(GAME_NAME)
 
     ScreenLocation = [0,0]
 
