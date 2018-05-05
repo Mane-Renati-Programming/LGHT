@@ -84,19 +84,20 @@ class Sprite(pygame.sprite.Sprite):
 class Player(SpriteSheet):
     def __init__(self, file):
         SpriteSheet.__init__(self, file)
+        self.screenHandler = game.addHandler(3, self.screenUpdate)
         self.update(self.x,self.y)
         #We can put all the stats in here
     def move(self, xofs, yofs):
         self.x += xofs
         self.y += yofs
         if (self.x * TILE_WIDTH - ScreenLocation[0] > SCREEN_WIDTH * 0.75):
-            ScreenLocation[0] += TILE_WIDTH
+            game.screenMove(TILE_WIDTH,0)
         if (self.y * TILE_HEIGHT - ScreenLocation[1] > SCREEN_HEIGHT * 0.75):
-            ScreenLocation[1] += TILE_HEIGHT
+            game.screenMove(0,TILE_HEIGHT)
         if (self.x * TILE_WIDTH - ScreenLocation[0] < SCREEN_WIDTH * 0.25):
-            ScreenLocation[0] -= TILE_WIDTH
+            game.screenMove(-TILE_WIDTH,0)
         if (self.y * TILE_HEIGHT - ScreenLocation[1] < SCREEN_HEIGHT * 0.25):
-            ScreenLocation[1] -= TILE_HEIGHT
+            game.screenMove(0,-TILE_HEIGHT)
         self.update(self.x, self.y)
     def update(self, x, y):
         self.x = x
@@ -104,6 +105,8 @@ class Player(SpriteSheet):
         #Let's handle map scrolling.
         #We start by checking if the map needs to be scrolled
         SpriteSheet.update(self, x, y)
+    def screenUpdate(self):
+        SpriteSheet.update(self, self.x, self.y)
     #Returns true if the player will colide if it moves to that spot
     def willCollideMap(self,xofs,yofs,map):
         if not map.getTile(self.x + xofs, self.y + yofs).properties['passable']=="True":
@@ -113,34 +116,36 @@ class Player(SpriteSheet):
 
 
 ## BACKGROUND CLASSES
-class Tileset:
-    def __init__(self, file, tile_width, tile_height):
-        #The convert is an optimization step. It sets the pixel type, which makes it faster.
-        image = pygame.image.load(file).convert_alpha()
-        image_width, image_height = image.get_size()
-        #We make a list where we will store all the graphics for each tile
-        self.tile_table = []
-        self.tile_width = tile_width
-        self.tile_height = tile_height
-        #Iterates through the image, pulling out tiles at the width and height passed
-        for tile_x in range(0, image_width/tile_width):
-            #We set a line so we can have the table as a grid
-            line = []
-            #We push that line to the list, adding one more row
-            self.tile_table.append(line)
-            #And now we go through each tile's line and put each tile we get into the list
-            for tile_y in range(0, image_height/tile_height):
-                #We make a rectangle containing the tile
-                rect = (tile_x * tile_width, tile_y * tile_height, tile_width, tile_height)
-                #And we store that part of the image in the list
-                line.append(image.subsurface(rect))
-    def getTile(self, x, y):
-        return self.tile_table[x][y]
+# class Tileset:
+#     def __init__(self, file, tile_width, tile_height):
+#         #The convert is an optimization step. It sets the pixel type, which makes it faster.
+#         image = pygame.image.load(file).convert_alpha()
+#         image_width, image_height = image.get_size()
+#         #We make a list where we will store all the graphics for each tile
+#         self.tile_table = []
+#         self.tile_width = tile_width
+#         self.tile_height = tile_height
+#         #Iterates through the image, pulling out tiles at the width and height passed
+#         for tile_x in range(0, image_width/tile_width):
+#             #We set a line so we can have the table as a grid
+#             line = []
+#             #We push that line to the list, adding one more row
+#             self.tile_table.append(line)
+#             #And now we go through each tile's line and put each tile we get into the list
+#             for tile_y in range(0, image_height/tile_height):
+#                 #We make a rectangle containing the tile
+#                 rect = (tile_x * tile_width, tile_y * tile_height, tile_width, tile_height)
+#                 #And we store that part of the image in the list
+#                 line.append(image.subsurface(rect))
+#     def getTile(self, x, y):
+#         return self.tile_table[x][y]
 
 #We use this as a base for our map
-class Tile(Sprite):
-    def __init__(self, image, properties):
-        Sprite.__init__(self, image)
+class Tile:
+#class Tile(Sprite):
+    def __init__(self, properties):
+    #def __init__(self, image, properties):
+        #Sprite.__init__(self, image)
         self.name = properties["name"]
         self.properties = properties
         self.tilex = 0
@@ -148,6 +153,7 @@ class Tile(Sprite):
     def getProperty(self, prop):
         return self.properties[prop]
 
+#This will have a lot of commented out lines. This is due to the fact that we do not need to render each tile anymore.
 class Map:
     def __init__(self, mapname):
         #Set up basic coordinates
@@ -162,11 +168,15 @@ class Map:
         tmpKey = {}
         parser = ConfigParser.ConfigParser()
         parser.read("assets/maps/" + mapname + ".map")
-        self.tileset = Tileset(("assets/tilesets/" + parser.get("level", "tileset")), TILE_WIDTH, TILE_HEIGHT)
+        #We don't need to render every single tile now
+        # self.tileset = Tileset(("assets/tilesets/" + parser.get("level", "tileset")), TILE_WIDTH, TILE_HEIGHT)
+        #We need to load the image of the map for the use of the background
+        self.image = pygame.image.load("assets/maps/" + mapname + ".png").convert_alpha()
         self.playerx = int(parser.get("player", "startx"))
         self.playery = int(parser.get("player", "starty"))
         tmpMap = parser.get("level", "map").split('\n')
         self.dimensions = (len(tmpMap[0]), len(tmpMap))
+        self.screenHandler = game.addHandler(3, self.update)
         for section in parser.sections():
             #We check if the section is a tile descriptor (It will only have one character)
             if len(section) == 1:
@@ -179,7 +189,8 @@ class Map:
             line = []
             for mapx in list(mapy):
                 curTileProp = tmpKey[mapx]
-                line.append(Tile(self.tileset.getTile(int(curTileProp["tilex"]), int(curTileProp["tiley"])), curTileProp))
+                # line.append(Tile(self.tileset.getTile(int(curTileProp["tilex"]), int(curTileProp["tiley"])), curTileProp))
+                line.append(Tile(curTileProp))
             self.map.append(line)
 
         #And now we update the map itself
@@ -191,21 +202,18 @@ class Map:
         self.update()
 
     def update(self):
-        for mapy in xrange(0, len(self.map)):
-            for mapx in xrange(0, len(self.map[0])):
-                self.map[mapy][mapx].update(self.curx + mapx, self.cury + mapy)
+        #We simply update the rectangle to reflect the map's position
+        self.rect = pygame.Rect((-ScreenLocation[0], -ScreenLocation[1]), (self.dimensions[0] * TILE_WIDTH, self.dimensions[1] * TILE_HEIGHT))
 
     def draw(self, surface):
-        for mapy in self.map:
-            for mapx in mapy:
-                mapx.draw(surface)
+        surface.blit(self.image, self.rect)
     def getTile(self, x, y):
         return self.map[y][x]
-    def collision(self, sprite):
-        for mapy in self.map:
-            for mapx in mapy:
-                if pygame.sprite.collide_rect(sprite, mapx):
-                    return mapx
+    # def collision(self, sprite):
+    #     for mapy in self.map:
+    #         for mapx in mapy:
+    #             if pygame.sprite.collide_rect(sprite, mapx):
+    #                 return mapx
 
 
 ### FUNCTIONALITY CLASSES
@@ -213,8 +221,8 @@ class Map:
 class Overworld:
     def __init__(self, mapname):
         self.currentMap = Map(mapname)
-        self.frameHandler = game.addHandler('frame',self.tick)
-        self.keyHandler = game.addHandler('keydown', self.keyPress)
+        self.frameHandler = game.addHandler(0,self.tick)
+        self.keyHandler = game.addHandler(2, self.keyPress)
 
     def keyPress(self,key):
         if key == pygame.K_ESCAPE:
@@ -247,32 +255,40 @@ class Game:
         # The default state can be the title menu
         self.state = 0
         self.currentLevel = None
-        self.handlers = {}
-        self.handlers['frame'] = []
-        self.handlers['keydown'] = []
-        self.handlers['quit'] = []
+        #4 handlers
+        self.handlers = [[],[],[],[]]
     def addHandler(self, handlertype, handler):
+        #Handler list:
+        # 0: Frame
+        # 1: Quit
+        # 2: Keydown
+        # 3: Screen Move (Screen offset change)
         self.handlers[handlertype].append(handler)
         return len(self.handlers[handlertype])
-    def removeHandler(self,handlerID):
+    def removeHandler(self,handlertype,handlerID):
         del(self.handlers[handlertype][handlerID])
     def setState(self,stateno,data):
         if stateno == 10:
             self.currentLevel = Overworld(data)
     def quit(self):
         log(1, "Quitting game at: " + str(datetime.datetime.now()))
-        for handler in self.handlers['quit']:
+        for handler in self.handlers[1]:
             handler()
         exitGame()
+    def screenMove(self, xofs, yofs):
+        ScreenLocation[0] += xofs
+        ScreenLocation[1] += yofs
+        for handler in self.handlers[3]:
+            handler()
     def tick(self):
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 self.quit()
             if event.type == pygame.KEYDOWN:
-                for handler in self.handlers['keydown']:
+                for handler in self.handlers[2]:
                     handler(event.key)
 
-        for handler in self.handlers['frame']:
+        for handler in self.handlers[0]:
             handler()
         #Every second, print the current fps
         if (counter % 30) == 0:

@@ -1,0 +1,176 @@
+0: [WARN]Starting game at: 2018-05-04 20:49:45.110000
+30: [VERBOSE]Current FPS: 29.1545181274
+30: [VERBOSE]Time spent in frame: 33
+30: [VERBOSE]Time spent doing calculations: 3
+60: [VERBOSE]Current FPS: 29.6735897064
+60: [VERBOSE]Time spent in frame: 33
+60: [VERBOSE]Time spent doing calculations: 2
+90: [VERBOSE]Current FPS: 29.8507461548
+90: [VERBOSE]Time spent in frame: 33
+90: [VERBOSE]Time spent doing calculations: 3
+120: [VERBOSE]Current FPS: 29.940120697
+120: [VERBOSE]Time spent in frame: 34
+120: [VERBOSE]Time spent doing calculations: 3
+150: [VERBOSE]Current FPS: 30.0300292969
+150: [VERBOSE]Time spent in frame: 33
+150: [VERBOSE]Time spent doing calculations: 3
+180: [VERBOSE]Current FPS: 29.7619056702
+180: [VERBOSE]Time spent in frame: 34
+180: [VERBOSE]Time spent doing calculations: 5
+210: [VERBOSE]Current FPS: 29.1545181274
+210: [VERBOSE]Time spent in frame: 33
+210: [VERBOSE]Time spent doing calculations: 3
+240: [VERBOSE]Current FPS: 29.8507461548
+240: [VERBOSE]Time spent in frame: 34
+240: [VERBOSE]Time spent doing calculations: 2
+270: [VERBOSE]Current FPS: 29.7619056702
+270: [VERBOSE]Time spent in frame: 34
+270: [VERBOSE]Time spent doing calculations: 2
+300: [VERBOSE]Current FPS: 29.7619056702
+300: [VERBOSE]Time spent in frame: 33
+300: [VERBOSE]Time spent doing calculations: 3
+330: [VERBOSE]Current FPS: 29.7619056702
+330: [VERBOSE]Time spent in frame: 34
+330: [VERBOSE]Time spent doing calculations: 2
+360: [VERBOSE]Current FPS: 29.8507461548
+360: [VERBOSE]Time spent in frame: 33
+360: [VERBOSE]Time spent doing calculations: 2
+390: [VERBOSE]Current FPS: 28.2485866547
+390: [VERBOSE]Time spent in frame: 34
+390: [VERBOSE]Time spent doing calculations: 2
+402: [WARN]Quitting game at: 2018-05-04 20:49:58.903000
+0: [WARN]Starting game at: 2018-05-04 20:57:50.338000
+0: [WARN]Starting game at: 2018-05-04 20:58:12.859000
+30: [VERBOSE]Current FPS: 29.3255138397
+30: [VERBOSE]Time spent in frame: 33
+30: [VERBOSE]Time spent doing calculations: 3
+60: [VERBOSE]Current FPS: 29.6735897064
+60: [VERBOSE]Time spent in frame: 33
+60: [VERBOSE]Time spent doing calculations: 4
+0: [WARN]Starting game at: 2018-05-04 21:00:15.448000
+0: [WARN]Starting game at: 2018-05-04 21:01:17.467000
+30: [VERBOSE]Current FPS: 29.940120697
+30: [VERBOSE]Time spent in frame: 34
+30: [VERBOSE]Time spent doing calculations: 2
+60: [VERBOSE]Current FPS: 28.4900283813
+60: [VERBOSE]Time spent in frame: 34
+60: [VERBOSE]Time spent doing calculations: 4
+90: [VERBOSE]Current FPS: 29.7619056702
+90: [VERBOSE]Time spent in frame: 33
+90: [VERBOSE]Time spent doing calculations: 3
+0: [WARN]Starting game at: 2018-05-04 21:01:38.195000
+30: [VERBOSE]Current FPS: 29.6735897064
+30: [VERBOSE]Time spent in frame: 34
+30: [VERBOSE]Time spent doing calculations: 2
+0: [WARN]Starting game at: 2018-05-04 21:02:49.119000
+30: [VERBOSE]Current FPS: 29.7619056702
+30: [VERBOSE]Time spent in frame: 33
+30: [VERBOSE]Time spent doing calculations: 3
+60: [VERBOSE]Current FPS: 29.8507461548
+60: [VERBOSE]Time spent in frame: 34
+60: [VERBOSE]Time spent doing calculations: 3
+90: [VERBOSE]Current FPS: 29.7619056702
+90: [VERBOSE]Time spent in frame: 33
+90: [VERBOSE]Time spent doing calculations: 4
+120: [VERBOSE]Current FPS: 29.940120697
+120: [VERBOSE]Time spent in frame: 33
+120: [VERBOSE]Time spent doing calculations: 2
+150: [VERBOSE]Current FPS: 28.2485866547
+150: [VERBOSE]Time spent in frame: 34
+150: [VERBOSE]Time spent doing calculations: 0
+180: [VERBOSE]Current FPS: 29.8507461548
+180: [VERBOSE]Time spent in frame: 33
+180: [VERBOSE]Time spent doing calculations: 1
+201: [WARN]Quitting game at: 2018-05-04 21:02:56.166000
+0: [WARN]Starting game at: 2018-05-04 21:03:07.042000
+30: [VERBOSE]Current FPS: 29.6735897064
+30: [VERBOSE]Time spent in frame: 34
+30: [VERBOSE]Time spent doing calculations: 2
+60: [VERBOSE]Current FPS: 29.940120697
+60: [VERBOSE]Time spent in frame: 34
+60: [VERBOSE]Time spent doing calculations: 2
+90: [VERBOSE]Current FPS: 29.8507461548
+90: [VERBOSE]Time spent in frame: 34
+90: [VERBOSE]Time spent doing calculations: 2
+120: [VERBOSE]Current FPS: 29.6735897064
+120: [VERBOSE]Time spent in frame: 55
+120: [VERBOSE]Time spent doing calculations: 2
+150: [VERBOSE]Current FPS: 29.8507461548
+150: [VERBOSE]Time spent in frame: 34
+150: [VERBOSE]Time spent doing calculations: 3
+180: [VERBOSE]Current FPS: 28.4900283813
+180: [VERBOSE]Time spent in frame: 34
+180: [VERBOSE]Time spent doing calculations: 2
+210: [VERBOSE]Current FPS: 29.6735897064
+210: [VERBOSE]Time spent in frame: 34
+210: [VERBOSE]Time spent doing calculations: 2
+240: [VERBOSE]Current FPS: 29.6735897064
+240: [VERBOSE]Time spent in frame: 34
+240: [VERBOSE]Time spent doing calculations: 4
+270: [VERBOSE]Current FPS: 28.8184432983
+270: [VERBOSE]Time spent in frame: 33
+270: [VERBOSE]Time spent doing calculations: 3
+300: [VERBOSE]Current FPS: 29.6735897064
+300: [VERBOSE]Time spent in frame: 33
+300: [VERBOSE]Time spent doing calculations: 2
+330: [VERBOSE]Current FPS: 30.0300292969
+330: [VERBOSE]Time spent in frame: 34
+330: [VERBOSE]Time spent doing calculations: 2
+360: [VERBOSE]Current FPS: 29.6735897064
+360: [VERBOSE]Time spent in frame: 33
+360: [VERBOSE]Time spent doing calculations: 3
+390: [VERBOSE]Current FPS: 29.8507461548
+390: [VERBOSE]Time spent in frame: 33
+390: [VERBOSE]Time spent doing calculations: 2
+420: [VERBOSE]Current FPS: 29.4117641449
+420: [VERBOSE]Time spent in frame: 34
+420: [VERBOSE]Time spent doing calculations: 1
+450: [VERBOSE]Current FPS: 29.8507461548
+450: [VERBOSE]Time spent in frame: 34
+450: [VERBOSE]Time spent doing calculations: 2
+480: [VERBOSE]Current FPS: 29.940120697
+480: [VERBOSE]Time spent in frame: 34
+480: [VERBOSE]Time spent doing calculations: 2
+510: [VERBOSE]Current FPS: 29.6735897064
+510: [VERBOSE]Time spent in frame: 34
+510: [VERBOSE]Time spent doing calculations: 2
+540: [VERBOSE]Current FPS: 29.2397651672
+540: [VERBOSE]Time spent in frame: 34
+540: [VERBOSE]Time spent doing calculations: 2
+570: [VERBOSE]Current FPS: 29.940120697
+570: [VERBOSE]Time spent in frame: 33
+570: [VERBOSE]Time spent doing calculations: 3
+600: [VERBOSE]Current FPS: 29.940120697
+600: [VERBOSE]Time spent in frame: 33
+600: [VERBOSE]Time spent doing calculations: 3
+630: [VERBOSE]Current FPS: 29.7619056702
+630: [VERBOSE]Time spent in frame: 34
+630: [VERBOSE]Time spent doing calculations: 2
+660: [VERBOSE]Current FPS: 29.940120697
+660: [VERBOSE]Time spent in frame: 34
+660: [VERBOSE]Time spent doing calculations: 2
+690: [VERBOSE]Current FPS: 29.940120697
+690: [VERBOSE]Time spent in frame: 33
+690: [VERBOSE]Time spent doing calculations: 3
+720: [VERBOSE]Current FPS: 29.940120697
+720: [VERBOSE]Time spent in frame: 34
+720: [VERBOSE]Time spent doing calculations: 2
+750: [VERBOSE]Current FPS: 29.7619056702
+750: [VERBOSE]Time spent in frame: 34
+750: [VERBOSE]Time spent doing calculations: 2
+780: [VERBOSE]Current FPS: 30.0300292969
+780: [VERBOSE]Time spent in frame: 34
+780: [VERBOSE]Time spent doing calculations: 1
+810: [VERBOSE]Current FPS: 29.7619056702
+810: [VERBOSE]Time spent in frame: 33
+810: [VERBOSE]Time spent doing calculations: 2
+840: [VERBOSE]Current FPS: 29.940120697
+840: [VERBOSE]Time spent in frame: 33
+840: [VERBOSE]Time spent doing calculations: 2
+870: [VERBOSE]Current FPS: 28.2485866547
+870: [VERBOSE]Time spent in frame: 33
+870: [VERBOSE]Time spent doing calculations: 3
+900: [VERBOSE]Current FPS: 29.940120697
+900: [VERBOSE]Time spent in frame: 48
+900: [VERBOSE]Time spent doing calculations: 2
+927: [WARN]Quitting game at: 2018-05-04 21:03:38.502000

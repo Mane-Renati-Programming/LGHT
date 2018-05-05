@@ -125,18 +125,25 @@ class Map:
                     return mapx
 
 
-#Check to make sure the game isn't being used as a module
+#Check to make sure the program isn't being used as a module
 if __name__=='__main__':
     #Initalize the pygame library
     pygame.init()
+    #Initalize the display to be able to create a surface to render to
     pygame.display.init()
+    #Check to see if any arguments have been passed
     if len(sys.argv) != 2:
         print "Pygame map baker"
         print "Syntax: python mapbaker.py <mapname>"
         sys.exit()
     mapfile = sys.argv[1]
     print "Baking " + mapfile + ".map"
+    #Parse the map and get all its tiles ready
     map = Map(mapfile)
+    #Create a surface which we will render onto
     surface = pygame.Surface(map.dimensions)
+    #Draw the map on that surface
     map.draw(surface)
+    #Save an image of that map
     pygame.image.save(surface, "../assets/maps/" + mapfile + ".png")
+    #And our work here is done
