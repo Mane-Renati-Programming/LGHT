@@ -23,3 +23,7 @@
 3/20/2018
 - Added to the repo what I have so far on Leocadia
 - File formatting to keep out spoiler documentation
+
+5/2/2018
+- Put more of Leocadia into the repository
+- More file formatting, reversing spoiler/spoiler-free documentation
