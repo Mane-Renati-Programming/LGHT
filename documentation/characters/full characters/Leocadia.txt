@@ -100,3 +100,13 @@ Physical Attributes:
 
 	Emblem Description - 
 		There will be one attached when I get the chance
+
+Combat:
+	Sembalnce -
+		Leocadia's semblance is shadow-walking. She can meld into a shadow and reappear at another shadow within sight. The shadow must be larger than hers and envelop her copmletely. Overusage of this will make her dizzy.
+
+	Weapon - 
+		Leocadia's weaponis La Ballesta de Sombra (Spanish for The Crossbow of Shadow). It is a double-bladed halberd with rivets on the flats along with a notch and handle on the haft for it to double as a crossbow.
+
+	Fighting Style - 
+		Leocadia is quite the scrapper, despite the size of her weapon. She'll weave in and out of melee with her semblance to confuse her opponents.
