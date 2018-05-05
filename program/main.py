@@ -277,6 +277,8 @@ class Game:
         #Every second, print the current fps
         if (counter % 30) == 0:
             log(2, "Current FPS: " + str(gameClock.get_fps()))
+            log(2, "Time spent in frame: " + str(gameClock.get_time()))
+            log(2, "Time spent doing calculations: " + str(gameClock.get_rawtime()))
         #Flip the buffer into the display
         pygame.display.flip()
         #Wait one frame
