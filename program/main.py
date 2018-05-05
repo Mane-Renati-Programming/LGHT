@@ -14,7 +14,7 @@ TILE_HEIGHT = 32
 TILE_WIDTH = 32
 
 #This will also affect overall game speed, as the game's internal timer is based on how many frames have passed
-MAX_FPS = 30
+MAX_FPS = 60
 
 #Sets if debugging is enabled
 DEBUG = True
@@ -32,12 +32,13 @@ counter = 0
 
 #All coordinates given that have to do with sprites will be done in coordinaes of where they are on the map.
 class SpriteSheet(pygame.sprite.Group):
-    def __init__(self, file):
+    def __init__(self, file, needsUpdate):
         pygame.sprite.Group.__init__(self)
         image = pygame.image.load("assets/sprites/"+file).convert_alpha()
         image_width, image_height = image.get_size()
         self.x = 0
         self.y = 0
+        self.animation = [0]
         #Iterates through the image, pulling out tiles at the width and height passed
         for tile_x in range(0, image_width/TILE_WIDTH):
             #And now we go through each tile's line and put each tile we get into the list
@@ -45,9 +46,11 @@ class SpriteSheet(pygame.sprite.Group):
                 #We make a rectangle containing the tile
                 rect = pygame.Rect(tile_x * TILE_WIDTH, tile_y * TILE_HEIGHT, TILE_WIDTH, TILE_HEIGHT)
                 #And we store that part of the image in the list
-                self.add(Sprite(image.subsurface(rect)))
+                self.add(Sprite(image.subsurface(rect), needsUpdate))
     def draw(self, surface, spriteno):
         surface.blit(self.sprites()[spriteno].image, self.sprites()[spriteno].rect)
+    def animationUpdate(self, surface):
+        self.draw(surface,self.animation[0])
     def move(self, xofs, yofs):
         self.x += xofs
         self.y += yofs
@@ -62,13 +65,16 @@ class SpriteSheet(pygame.sprite.Group):
 
 #Just an extension we can put on the pygame sprite class where we can do whatever the frick we want with
 class Sprite(pygame.sprite.Sprite):
-    def __init__ (self, image):
+    def __init__ (self, image, needsUpdate):
         pygame.sprite.Sprite.__init__(self)
         self.image = image
         self.width, self.height = self.image.get_size()
         self.rect = pygame.Rect(0, 0, self.width, self.height)
         self.x = 0
         self.y = 0
+        self.needsUpdate = needsUpdate
+        if needsUpdate:
+            self.screenUpdate = game.addHandler(4, self.draw)
     def update(self, x, y):
         self.x = x
         self.y = y
@@ -83,8 +89,8 @@ class Sprite(pygame.sprite.Sprite):
 
 class Player(SpriteSheet):
     def __init__(self, file):
-        SpriteSheet.__init__(self, file)
-        self.screenHandler = game.addHandler(3, self.screenUpdate)
+        #This sprite needs to be updated every time the map is redrawn
+        SpriteSheet.__init__(self, file, True)
         self.update(self.x,self.y)
         #We can put all the stats in here
     def move(self, xofs, yofs):
@@ -103,10 +109,8 @@ class Player(SpriteSheet):
         self.x = x
         self.y = y
         #Let's handle map scrolling.
-        #We start by checking if the map needs to be scrolled
+        game.screenMove(0,0)
         SpriteSheet.update(self, x, y)
-    def screenUpdate(self):
-        SpriteSheet.update(self, self.x, self.y)
     #Returns true if the player will colide if it moves to that spot
     def willCollideMap(self,xofs,yofs,map):
         if not map.getTile(self.x + xofs, self.y + yofs).properties['passable']=="True":
@@ -176,7 +180,7 @@ class Map:
         self.playery = int(parser.get("player", "starty"))
         tmpMap = parser.get("level", "map").split('\n')
         self.dimensions = (len(tmpMap[0]), len(tmpMap))
-        self.screenHandler = game.addHandler(3, self.update)
+        self.screenHandler = game.addHandler(0, self.update)
         for section in parser.sections():
             #We check if the section is a tile descriptor (It will only have one character)
             if len(section) == 1:
@@ -192,20 +196,20 @@ class Map:
                 # line.append(Tile(self.tileset.getTile(int(curTileProp["tilex"]), int(curTileProp["tiley"])), curTileProp))
                 line.append(Tile(curTileProp))
             self.map.append(line)
-
-        #And now we update the map itself
-        self.update()
-
+        self.rect = pygame.Rect((-ScreenLocation[0], -ScreenLocation[1]), (self.dimensions[0] * TILE_WIDTH, self.dimensions[1] * TILE_HEIGHT))
     def move(self, xofs, yofs):
         self.curx += xofs
         self.cury += yofs
         self.update()
 
-    def update(self):
+    def update(self, surface):
         #We simply update the rectangle to reflect the map's position
         self.rect = pygame.Rect((-ScreenLocation[0], -ScreenLocation[1]), (self.dimensions[0] * TILE_WIDTH, self.dimensions[1] * TILE_HEIGHT))
 
     def draw(self, surface):
+        #We fill the background with black
+        surface.fill((0,0,0))
+        #And then we draw our map
         surface.blit(self.image, self.rect)
     def getTile(self, x, y):
         return self.map[y][x]
@@ -221,8 +225,11 @@ class Map:
 class Overworld:
     def __init__(self, mapname):
         self.currentMap = Map(mapname)
-        self.frameHandler = game.addHandler(0,self.tick)
+        self.frameHandler = game.addHandler(0,self.tickBG)
+        self.finalHandler = game.addHandler(5,self.tickFinal)
         self.keyHandler = game.addHandler(2, self.keyPress)
+        self.currentMap.draw(screen)
+        player.setPos(self.currentMap.playerx, self.currentMap.playery)
 
     def keyPress(self,key):
         if key == pygame.K_ESCAPE:
@@ -240,13 +247,12 @@ class Overworld:
             if not player.willCollideMap(0,1,self.currentMap):
                 player.move(0,1)
 
-    def tick(self):
-        self.currentMap.update()
-        #We fill the background with black just to make surface
-        screen.fill((0,0,0))
-        #And we draw the game
-        self.currentMap.draw(screen)
-        player.draw(screen, 0)
+    def tickBG(self, surface):
+        self.currentMap.draw(surface)
+    def tickFG(self,surface):
+        pass
+    def tickFinal(self,surface):
+        player.animationUpdate(surface)
 
 #For the game we use a simple state machine
 class Game:
@@ -255,14 +261,16 @@ class Game:
         # The default state can be the title menu
         self.state = 0
         self.currentLevel = None
-        #4 handlers
-        self.handlers = [[],[],[],[]]
+        #6 handlers
+        self.handlers = [[],[],[],[],[],[]]
     def addHandler(self, handlertype, handler):
         #Handler list:
-        # 0: Frame
+        # 0: Frame (BG)
         # 1: Quit
         # 2: Keydown
         # 3: Screen Move (Screen offset change)
+        # 4: Frame (FG)
+        # 5: Frame (Final)
         self.handlers[handlertype].append(handler)
         return len(self.handlers[handlertype])
     def removeHandler(self,handlertype,handlerID):
@@ -289,7 +297,11 @@ class Game:
                     handler(event.key)
 
         for handler in self.handlers[0]:
-            handler()
+            handler(screen)
+        for handler in self.handlers[4]:
+            handler(screen)
+        for handler in self.handlers[5]:
+            handler(screen)
         #Every second, print the current fps
         if (counter % 30) == 0:
             log(2, "Current FPS: " + str(gameClock.get_fps()))
@@ -338,9 +350,8 @@ if __name__=='__main__':
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
     #Set the current state to the overworld
     game = Game()
-    game.setState(10,"testmap")
     player = Player("32x32-ex-idle.png")
-    player.setPos(game.currentLevel.currentMap.playerx, game.currentLevel.currentMap.playery)
+    game.setState(10,"testmap")
     #We set up a font to draw our FPS stuff in
     myFont = pygame.font.SysFont("Arial", 30)
     counter = 0
