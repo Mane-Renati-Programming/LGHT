@@ -1,7 +1,7 @@
 #This is our main game file
 
 #We import our main libraries which we need
-import sys, ConfigParser, datetime
+import sys, ConfigParser, datetime, ast
 #We import the libraries needed by pygame
 import pygame, pygame.locals
 
@@ -14,7 +14,7 @@ TILE_HEIGHT = 32
 TILE_WIDTH = 32
 
 #This will also affect overall game speed, as the game's internal timer is based on how many frames have passed
-MAX_FPS = 60
+MAX_FPS = 30
 
 #Sets if debugging is enabled
 DEBUG = True
@@ -34,11 +34,14 @@ counter = 0
 class SpriteSheet(pygame.sprite.Group):
     def __init__(self, file, needsUpdate):
         pygame.sprite.Group.__init__(self)
-        image = pygame.image.load("assets/sprites/"+file).convert_alpha()
+        image = pygame.image.load("assets/sprites/"+file+".png").convert_alpha()
         image_width, image_height = image.get_size()
         self.x = 0
         self.y = 0
-        self.animation = [0]
+        aniFile = open("assets/sprites/animation/"+file+".ani")
+        self.animation = ast.literal_eval(aniFile.read())
+        self.currentAnimation = 0
+        self.animationIndex = 0
         #Iterates through the image, pulling out tiles at the width and height passed
         for tile_x in range(0, image_width/TILE_WIDTH):
             #And now we go through each tile's line and put each tile we get into the list
@@ -49,8 +52,14 @@ class SpriteSheet(pygame.sprite.Group):
                 self.add(Sprite(image.subsurface(rect), needsUpdate))
     def draw(self, surface, spriteno):
         surface.blit(self.sprites()[spriteno].image, self.sprites()[spriteno].rect)
+    def setAnimation(self, animationNo):
+        self.currentAnimation = animationNo
+        self.animationIndex = 0
     def animationUpdate(self, surface):
-        self.draw(surface,self.animation[0])
+        self.animationIndex += 1
+        if self.animationIndex >= len(self.animation[self.currentAnimation]):
+            self.animationIndex = 0
+        self.draw(surface,self.animation[self.currentAnimation][self.animationIndex])
     def move(self, xofs, yofs):
         self.x += xofs
         self.y += yofs
@@ -350,7 +359,7 @@ if __name__=='__main__':
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
     #Set the current state to the overworld
     game = Game()
-    player = Player("32x32-ex-idle.png")
+    player = Player("player")
     game.setState(10,"testmap")
     #We set up a font to draw our FPS stuff in
     myFont = pygame.font.SysFont("Arial", 30)
