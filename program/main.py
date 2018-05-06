@@ -1,7 +1,9 @@
 #This is our main game file
 
+
 #We import our main libraries which we need
-import sys, ConfigParser, datetime, ast
+import sys, ConfigParser, datetime, ast, time, threading
+
 #We import the libraries needed by pygame
 import pygame, pygame.locals
 
@@ -14,12 +16,14 @@ TILE_HEIGHT = 32
 TILE_WIDTH = 32
 
 #This will also affect overall game speed, as the game's internal timer is based on how many frames have passed
-MAX_FPS = 30
+MAX_FPS = 60
 
 #Sets if debugging is enabled
-DEBUG = True
-if DEBUG:
+DEBUG = 2
+if DEBUG != False:
     LogFile = None
+
+isRunning = True
 
 ScreenLocation = [0 , 0] #This is the offset of the screen of itself.
 
@@ -71,7 +75,6 @@ class SpriteSheet(pygame.sprite.Group):
     def getSprite(self, spriteno):
         return self.sprites()[spriteno]
 
-
 #Just an extension we can put on the pygame sprite class where we can do whatever the frick we want with
 class Sprite(pygame.sprite.Sprite):
     def __init__ (self, image, needsUpdate):
@@ -117,8 +120,6 @@ class Player(SpriteSheet):
     def update(self, x, y):
         self.x = x
         self.y = y
-        #Let's handle map scrolling.
-        game.screenMove(0,0)
         SpriteSheet.update(self, x, y)
     #Returns true if the player will colide if it moves to that spot
     def willCollideMap(self,xofs,yofs,map):
@@ -129,36 +130,10 @@ class Player(SpriteSheet):
 
 
 ## BACKGROUND CLASSES
-# class Tileset:
-#     def __init__(self, file, tile_width, tile_height):
-#         #The convert is an optimization step. It sets the pixel type, which makes it faster.
-#         image = pygame.image.load(file).convert_alpha()
-#         image_width, image_height = image.get_size()
-#         #We make a list where we will store all the graphics for each tile
-#         self.tile_table = []
-#         self.tile_width = tile_width
-#         self.tile_height = tile_height
-#         #Iterates through the image, pulling out tiles at the width and height passed
-#         for tile_x in range(0, image_width/tile_width):
-#             #We set a line so we can have the table as a grid
-#             line = []
-#             #We push that line to the list, adding one more row
-#             self.tile_table.append(line)
-#             #And now we go through each tile's line and put each tile we get into the list
-#             for tile_y in range(0, image_height/tile_height):
-#                 #We make a rectangle containing the tile
-#                 rect = (tile_x * tile_width, tile_y * tile_height, tile_width, tile_height)
-#                 #And we store that part of the image in the list
-#                 line.append(image.subsurface(rect))
-#     def getTile(self, x, y):
-#         return self.tile_table[x][y]
 
 #We use this as a base for our map
 class Tile:
-#class Tile(Sprite):
     def __init__(self, properties):
-    #def __init__(self, image, properties):
-        #Sprite.__init__(self, image)
         self.name = properties["name"]
         self.properties = properties
         self.tilex = 0
@@ -222,11 +197,6 @@ class Map:
         surface.blit(self.image, self.rect)
     def getTile(self, x, y):
         return self.map[y][x]
-    # def collision(self, sprite):
-    #     for mapy in self.map:
-    #         for mapx in mapy:
-    #             if pygame.sprite.collide_rect(sprite, mapx):
-    #                 return mapx
 
 
 ### FUNCTIONALITY CLASSES
@@ -273,7 +243,7 @@ class Game:
         #6 handlers
         self.handlers = [[],[],[],[],[],[]]
     def addHandler(self, handlertype, handler):
-        #Handler list:
+		#Handler list:
         # 0: Frame (BG)
         # 1: Quit
         # 2: Keydown
@@ -298,39 +268,56 @@ class Game:
         for handler in self.handlers[3]:
             handler()
     def tick(self):
+        #global mainRenderingProcess
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 self.quit()
             if event.type == pygame.KEYDOWN:
                 for handler in self.handlers[2]:
                     handler(event.key)
+        log(3, "Tick")
+        # if not mainRenderingProcess.is_alive():
+        #      mainRenderingProcess.run()
 
-        for handler in self.handlers[0]:
-            handler(screen)
-        for handler in self.handlers[4]:
-            handler(screen)
-        for handler in self.handlers[5]:
-            handler(screen)
-        #Every second, print the current fps
-        if (counter % 30) == 0:
-            log(2, "Current FPS: " + str(gameClock.get_fps()))
-            log(2, "Time spent in frame: " + str(gameClock.get_time()))
-            log(2, "Time spent doing calculations: " + str(gameClock.get_rawtime()))
-        #Flip the buffer into the display
-        pygame.display.flip()
-        #Wait one frame
-        gameClock.tick(MAX_FPS)
+class RenderingProcess(threading.Thread):
+    def run(self):
+        global isRunning
+        while isRunning:
+            log(3, "Process begin")
+            global counter
+            for handler in game.handlers[0]:
+                handler(screen)
+            for handler in game.handlers[4]:
+                handler(screen)
+            for handler in game.handlers[5]:
+                handler(screen)
+            #Every second, print the current fps
+            if (counter % 30) == 0:
+                log(2, "Current FPS: " + str(gameClock.get_fps()))
+                log(2, "Time spent in frame: " + str(gameClock.get_time()))
+                log(2, "Time spent doing calculations: " + str(gameClock.get_rawtime()))
+            counter += 1
+            #Flip the buffer into the display
+            pygame.display.flip()
+            #Wait one frame
+            gameClock.tick(MAX_FPS)
+            log(3, "Process end")
 
-
+#General purpose functions
 def exitGame():
+    global isRunning
+    isRunning = False
+    mainRenderingProcess.join()
     pygame.display.quit()
+    log(1, "Game exited at: " + str(datetime.datetime.now()))
     sys.exit()
 
-def screenScroll(x,y):
-    screenLocation = [x,y]
+# def screenScroll(x,y):
+#     global ScreenLocation
+#     ScreenLocation = [x,y]
 
 def log(loglevel, thing):
-    if DEBUG:
+    if DEBUG != False:
         string = ""
         if loglevel == 0:
             string = "[ERR]" + str(thing)
@@ -342,8 +329,9 @@ def log(loglevel, thing):
             string = "[DEBUG]" + str(thing)
         else:
             string = "[UNKNOWN]" + str(thing)
-        print string
         LogFile.write(str(counter) + ": " + string + '\n')
+        if loglevel <= DEBUG:
+            print string
 #Check to make sure the game isn't being used as a module
 if __name__=='__main__':
     #Initalize the pygame library
@@ -368,12 +356,13 @@ if __name__=='__main__':
     pygame.display.set_caption(GAME_NAME)
 
     ScreenLocation = [0,0]
-
+    mainRenderingProcess = RenderingProcess()
+    mainRenderingProcess.start()
 
     #We create an infinite loop
     while 1:
-        counter += 1
         #We check for any events that may have occured
+        time.sleep(0.001)
         game.tick()
 
 else:

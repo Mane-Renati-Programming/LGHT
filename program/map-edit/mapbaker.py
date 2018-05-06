@@ -1,5 +1,5 @@
 #We import our main libraries which we need
-import sys, ConfigParser, datetime
+import sys, ConfigParser
 #We import the libraries needed by pygame
 import pygame, pygame.locals
 
