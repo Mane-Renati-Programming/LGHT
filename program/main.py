@@ -2,7 +2,7 @@
 
 
 #We import our main libraries which we need
-import sys, ConfigParser, datetime, ast, time, threading
+import sys, ConfigParser, datetime, ast, threading
 
 #We import the libraries needed by pygame
 import pygame, pygame.locals
@@ -16,7 +16,7 @@ TILE_HEIGHT = 32
 TILE_WIDTH = 32
 
 #This will also affect overall game speed, as the game's internal timer is based on how many frames have passed
-MAX_FPS = 60
+MAX_FPS = 30
 
 #Sets if debugging is enabled
 DEBUG = 2
@@ -297,6 +297,7 @@ class RenderingProcess(threading.Thread):
                 log(2, "Time spent in frame: " + str(gameClock.get_time()))
                 log(2, "Time spent doing calculations: " + str(gameClock.get_rawtime()))
             counter += 1
+            #pygame.transform.scale(screen, (1920, 1080), realscreen)
             #Flip the buffer into the display
             pygame.display.flip()
             #Wait one frame
@@ -344,7 +345,10 @@ if __name__=='__main__':
     pygame.key.set_repeat(100, 50)
     gameClock = pygame.time.Clock()
     #We initialize the screen with our resolution
+    #The commented out lines are there in case we want to use scaling.
+    #screen = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+    #realscreen = pygame.display.set_mode((1920,1080), pygame.FULLSCREEN)
     #Set the current state to the overworld
     game = Game()
     player = Player("player")
@@ -362,7 +366,7 @@ if __name__=='__main__':
     #We create an infinite loop
     while 1:
         #We check for any events that may have occured
-        time.sleep(0.001)
+        pygame.time.wait(5)
         game.tick()
 
 else:
