@@ -2,7 +2,9 @@
 
 
 #We import our main libraries which we need
-import sys, ConfigParser, datetime, ast, threading
+import sys, ConfigParser, datetime, ast
+import threading
+#import multiprocessing
 
 #We import the libraries needed by pygame
 import pygame, pygame.locals
@@ -155,14 +157,15 @@ class Map:
         tmpMap = []
         tmpKey = {}
         parser = ConfigParser.ConfigParser()
-        parser.read("assets/maps/" + mapname + ".map")
+        parser.read("assets/maps/" + mapname + "/metadata.ini")
+        mapdat = open("assets/maps/" + mapname + "/mapdata.map")
+        tmpMap = mapdat.read().splitlines()
         #We don't need to render every single tile now
         # self.tileset = Tileset(("assets/tilesets/" + parser.get("level", "tileset")), TILE_WIDTH, TILE_HEIGHT)
         #We need to load the image of the map for the use of the background
-        self.image = pygame.image.load("assets/maps/" + mapname + ".png").convert_alpha()
+        self.image = pygame.image.load("assets/maps/" + mapname + "/map.png").convert_alpha()
         self.playerx = int(parser.get("player", "startx"))
         self.playery = int(parser.get("player", "starty"))
-        tmpMap = parser.get("level", "map").split('\n')
         self.dimensions = (len(tmpMap[0]), len(tmpMap))
         self.screenHandler = game.addHandler(0, self.update)
         for section in parser.sections():
@@ -258,10 +261,11 @@ class Game:
         if stateno == 10:
             self.currentLevel = Overworld(data)
     def quit(self):
+        global isRunning
         log(1, "Quitting game at: " + str(datetime.datetime.now()))
         for handler in self.handlers[1]:
             handler()
-        exitGame()
+        isRunning = False
     def screenMove(self, xofs, yofs):
         ScreenLocation[0] += xofs
         ScreenLocation[1] += yofs
@@ -280,6 +284,7 @@ class Game:
         #      mainRenderingProcess.run()
 
 class RenderingProcess(threading.Thread):
+#class RenderingProcess(multiprocessing.Process):
     def run(self):
         global isRunning
         while isRunning:
@@ -291,6 +296,8 @@ class RenderingProcess(threading.Thread):
                 handler(screen)
             for handler in game.handlers[5]:
                 handler(screen)
+            tmpSurface = myFont.render("Current FPS: "+str(gameClock.get_fps()), True, (255,255,255), (0,0,0))
+            screen.blit(tmpSurface, tmpSurface.get_bounding_rect())
             #Every second, print the current fps
             if (counter % 30) == 0:
                 log(2, "Current FPS: " + str(gameClock.get_fps()))
@@ -304,12 +311,25 @@ class RenderingProcess(threading.Thread):
             gameClock.tick(MAX_FPS)
             log(3, "Process end")
 
+class GameTickProcess(threading.Thread):
+    def run(self):
+        global isRunning
+        while isRunning:
+            for event in pygame.event.get():
+                if event.type == pygame.QUIT:
+                    game.quit()
+                if event.type == pygame.KEYDOWN:
+                    for handler in game.handlers[2]:
+                        handler(event.key)
+            pygame.time.wait(5)
+            log(3, "Tick at" + str(datetime.datetime.now()))
+
 #General purpose functions
 def exitGame():
-    global isRunning
-    isRunning = False
+    mainGameProcess.join()
     mainRenderingProcess.join()
     pygame.display.quit()
+    pygame.quit()
     log(1, "Game exited at: " + str(datetime.datetime.now()))
     sys.exit()
 
@@ -362,12 +382,16 @@ if __name__=='__main__':
     ScreenLocation = [0,0]
     mainRenderingProcess = RenderingProcess()
     mainRenderingProcess.start()
+    mainGameProcess = GameTickProcess()
+    mainGameProcess.start()
 
     #We create an infinite loop
     while 1:
+        if not isRunning:
+            exitGame()
         #We check for any events that may have occured
-        pygame.time.wait(5)
-        game.tick()
+        #pygame.time.wait(5)
+        #game.tick()
 
 else:
     print "This game should not be used as a module"
