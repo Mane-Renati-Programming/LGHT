@@ -41429,3 +41429,5228 @@
 72: [WARN]Quitting game at: 2018-05-05 18:18:25.315000
 73: [DEBUG]Process end
 73: [WARN]Game exited at: 2018-05-05 18:18:25.331000
+0: [WARN]Starting game at: 2018-05-05 18:21:21.600896
+0: [DEBUG]Process begin
+0: [VERBOSE]Current FPS: 0.0
+0: [DEBUG]Tick
+0: [VERBOSE]Time spent in frame: 0
+0: [VERBOSE]Time spent doing calculations: 0
+1: [DEBUG]Tick
+1: [DEBUG]Tick
+1: [DEBUG]Tick
+1: [DEBUG]Tick
+1: [DEBUG]Tick
+1: [DEBUG]Tick
+1: [DEBUG]Tick
+1: [DEBUG]Tick
+1: [DEBUG]Tick
+1: [DEBUG]Process end
+1: [DEBUG]Process begin
+2: [DEBUG]Tick
+2: [DEBUG]Tick
+2: [DEBUG]Tick
+2: [DEBUG]Tick
+2: [DEBUG]Process end
+2: [DEBUG]Process begin
+3: [DEBUG]Tick
+3: [DEBUG]Tick
+3: [DEBUG]Tick
+3: [DEBUG]Tick
+3: [DEBUG]Process end
+3: [DEBUG]Process begin
+4: [DEBUG]Tick
+4: [DEBUG]Tick
+4: [DEBUG]Tick
+4: [DEBUG]Tick
+4: [DEBUG]Process end
+4: [DEBUG]Process begin
+5: [DEBUG]Tick
+5: [DEBUG]Tick
+5: [DEBUG]Tick
+5: [DEBUG]Tick
+5: [DEBUG]Process end
+5: [DEBUG]Process begin
+6: [DEBUG]Tick
+6: [DEBUG]Tick
+6: [DEBUG]Tick
+6: [DEBUG]Tick
+6: [DEBUG]Process end
+6: [DEBUG]Process begin
+7: [DEBUG]Tick
+7: [DEBUG]Tick
+7: [DEBUG]Tick
+7: [DEBUG]Tick
+7: [DEBUG]Process end
+7: [DEBUG]Process begin
+8: [DEBUG]Tick
+8: [DEBUG]Tick
+8: [DEBUG]Tick
+8: [DEBUG]Process end
+8: [DEBUG]Process begin
+9: [DEBUG]Tick
+9: [DEBUG]Tick
+9: [DEBUG]Tick
+9: [DEBUG]Tick
+9: [DEBUG]Tick
+9: [DEBUG]Process end
+9: [DEBUG]Process begin
+10: [DEBUG]Tick
+10: [DEBUG]Tick
+10: [DEBUG]Tick
+10: [DEBUG]Tick
+10: [DEBUG]Tick
+10: [DEBUG]Process end
+10: [DEBUG]Process begin
+11: [DEBUG]Tick
+11: [DEBUG]Tick
+11: [DEBUG]Tick
+11: [DEBUG]Tick
+11: [DEBUG]Tick
+11: [DEBUG]Process end
+11: [DEBUG]Process begin
+12: [DEBUG]Tick
+12: [DEBUG]Tick
+12: [DEBUG]Tick
+12: [DEBUG]Tick
+12: [DEBUG]Process end
+12: [DEBUG]Process begin
+13: [DEBUG]Tick
+13: [DEBUG]Tick
+13: [DEBUG]Tick
+13: [DEBUG]Tick
+13: [DEBUG]Tick
+13: [DEBUG]Process end
+13: [DEBUG]Process begin
+14: [DEBUG]Tick
+14: [DEBUG]Tick
+14: [DEBUG]Tick
+14: [DEBUG]Tick
+14: [DEBUG]Process end
+14: [DEBUG]Process begin
+15: [DEBUG]Tick
+15: [DEBUG]Tick
+15: [DEBUG]Tick
+15: [DEBUG]Tick
+15: [DEBUG]Process end
+15: [DEBUG]Process begin
+16: [DEBUG]Tick
+16: [DEBUG]Tick
+16: [DEBUG]Tick
+16: [DEBUG]Tick
+16: [DEBUG]Process end
+16: [DEBUG]Process begin
+17: [DEBUG]Tick
+17: [DEBUG]Tick
+17: [DEBUG]Tick
+17: [DEBUG]Tick
+17: [DEBUG]Tick
+17: [DEBUG]Process end
+17: [DEBUG]Process begin
+18: [DEBUG]Tick
+18: [DEBUG]Tick
+18: [DEBUG]Tick
+18: [DEBUG]Tick
+18: [DEBUG]Tick
+18: [DEBUG]Process end
+18: [DEBUG]Tick
+18: [DEBUG]Process begin
+19: [DEBUG]Tick
+19: [DEBUG]Tick
+19: [DEBUG]Tick
+19: [DEBUG]Tick
+19: [DEBUG]Tick
+19: [DEBUG]Process end
+19: [DEBUG]Process begin
+20: [DEBUG]Tick
+20: [DEBUG]Tick
+20: [DEBUG]Tick
+20: [DEBUG]Process end
+20: [DEBUG]Process begin
+21: [DEBUG]Tick
+21: [DEBUG]Tick
+21: [DEBUG]Tick
+21: [DEBUG]Tick
+21: [DEBUG]Process end
+21: [DEBUG]Process begin
+22: [DEBUG]Tick
+22: [DEBUG]Tick
+22: [DEBUG]Tick
+22: [DEBUG]Process end
+22: [DEBUG]Process begin
+23: [DEBUG]Tick
+23: [DEBUG]Tick
+23: [DEBUG]Tick
+23: [DEBUG]Tick
+23: [DEBUG]Tick
+23: [DEBUG]Process end
+23: [DEBUG]Process begin
+24: [DEBUG]Tick
+24: [DEBUG]Tick
+24: [DEBUG]Tick
+24: [DEBUG]Tick
+24: [DEBUG]Process end
+24: [DEBUG]Process begin
+24: [DEBUG]Tick
+25: [DEBUG]Tick
+25: [DEBUG]Tick
+25: [DEBUG]Tick
+25: [DEBUG]Tick
+25: [DEBUG]Tick
+25: [DEBUG]Process end
+25: [DEBUG]Process begin
+26: [DEBUG]Tick
+26: [DEBUG]Tick
+26: [DEBUG]Tick
+26: [DEBUG]Tick
+26: [DEBUG]Tick
+26: [DEBUG]Process end
+26: [DEBUG]Process begin
+26: [DEBUG]Tick
+27: [DEBUG]Tick
+27: [DEBUG]Tick
+27: [DEBUG]Tick
+27: [DEBUG]Tick
+27: [DEBUG]Tick
+27: [DEBUG]Process end
+27: [DEBUG]Process begin
+27: [DEBUG]Tick
+28: [DEBUG]Tick
+28: [DEBUG]Tick
+28: [DEBUG]Tick
+28: [DEBUG]Tick
+28: [DEBUG]Process end
+28: [DEBUG]Process begin
+28: [DEBUG]Tick
+28: [DEBUG]Tick
+29: [DEBUG]Tick
+29: [DEBUG]Tick
+29: [DEBUG]Tick
+29: [DEBUG]Tick
+29: [DEBUG]Tick
+29: [DEBUG]Process end
+29: [DEBUG]Process begin
+29: [DEBUG]Tick
+30: [DEBUG]Tick
+30: [DEBUG]Tick
+30: [DEBUG]Tick
+30: [DEBUG]Tick
+30: [DEBUG]Process end
+30: [DEBUG]Tick
+30: [DEBUG]Process begin
+30: [VERBOSE]Current FPS: 21.0970458984
+30: [DEBUG]Tick
+30: [VERBOSE]Time spent in frame: 44
+30: [VERBOSE]Time spent doing calculations: 44
+31: [DEBUG]Tick
+31: [DEBUG]Tick
+31: [DEBUG]Tick
+31: [DEBUG]Tick
+31: [DEBUG]Process end
+31: [DEBUG]Process begin
+31: [DEBUG]Tick
+32: [DEBUG]Tick
+32: [DEBUG]Tick
+32: [DEBUG]Tick
+32: [DEBUG]Tick
+32: [DEBUG]Process end
+32: [DEBUG]Process begin
+33: [DEBUG]Tick
+33: [DEBUG]Tick
+33: [DEBUG]Tick
+33: [DEBUG]Tick
+33: [DEBUG]Tick
+33: [DEBUG]Tick
+33: [DEBUG]Process end
+33: [DEBUG]Process begin
+33: [DEBUG]Tick
+34: [DEBUG]Tick
+34: [DEBUG]Tick
+34: [DEBUG]Tick
+34: [DEBUG]Tick
+34: [DEBUG]Process end
+34: [DEBUG]Tick
+34: [DEBUG]Process begin
+34: [DEBUG]Tick
+35: [DEBUG]Tick
+35: [DEBUG]Tick
+35: [DEBUG]Tick
+35: [DEBUG]Tick
+35: [DEBUG]Tick
+35: [DEBUG]Process end
+35: [DEBUG]Process begin
+35: [DEBUG]Tick
+36: [DEBUG]Tick
+36: [DEBUG]Tick
+36: [DEBUG]Tick
+36: [DEBUG]Tick
+36: [DEBUG]Process end
+36: [DEBUG]Process begin
+37: [DEBUG]Tick
+37: [DEBUG]Tick
+37: [DEBUG]Tick
+37: [DEBUG]Tick
+37: [DEBUG]Tick
+37: [DEBUG]Tick
+37: [DEBUG]Process end
+37: [DEBUG]Process begin
+38: [DEBUG]Tick
+38: [DEBUG]Tick
+38: [DEBUG]Tick
+38: [DEBUG]Tick
+38: [DEBUG]Process end
+38: [DEBUG]Process begin
+39: [DEBUG]Tick
+39: [DEBUG]Tick
+39: [DEBUG]Tick
+39: [DEBUG]Tick
+39: [DEBUG]Tick
+39: [DEBUG]Tick
+39: [DEBUG]Tick
+39: [DEBUG]Process end
+39: [DEBUG]Process begin
+40: [DEBUG]Tick
+40: [DEBUG]Tick
+40: [DEBUG]Tick
+40: [DEBUG]Tick
+40: [DEBUG]Tick
+40: [DEBUG]Process end
+40: [DEBUG]Process begin
+41: [DEBUG]Tick
+41: [DEBUG]Tick
+41: [DEBUG]Process end
+41: [DEBUG]Process begin
+42: [DEBUG]Tick
+42: [DEBUG]Tick
+42: [DEBUG]Tick
+42: [DEBUG]Tick
+42: [DEBUG]Tick
+42: [DEBUG]Process end
+42: [DEBUG]Process begin
+43: [DEBUG]Tick
+43: [DEBUG]Tick
+43: [DEBUG]Tick
+43: [DEBUG]Tick
+43: [DEBUG]Tick
+43: [DEBUG]Process end
+43: [DEBUG]Process begin
+44: [DEBUG]Tick
+44: [DEBUG]Tick
+44: [DEBUG]Tick
+44: [DEBUG]Tick
+44: [DEBUG]Tick
+44: [DEBUG]Process end
+44: [DEBUG]Process begin
+45: [DEBUG]Tick
+45: [DEBUG]Tick
+45: [DEBUG]Tick
+45: [DEBUG]Tick
+45: [DEBUG]Tick
+45: [DEBUG]Process end
+45: [DEBUG]Process begin
+46: [DEBUG]Tick
+46: [DEBUG]Tick
+46: [DEBUG]Tick
+46: [DEBUG]Tick
+46: [DEBUG]Tick
+46: [DEBUG]Process end
+46: [DEBUG]Process begin
+47: [DEBUG]Tick
+47: [DEBUG]Tick
+47: [DEBUG]Tick
+47: [DEBUG]Tick
+47: [DEBUG]Tick
+47: [DEBUG]Tick
+47: [DEBUG]Process end
+47: [DEBUG]Process begin
+48: [DEBUG]Tick
+48: [DEBUG]Tick
+48: [DEBUG]Tick
+48: [DEBUG]Tick
+48: [DEBUG]Tick
+48: [DEBUG]Process end
+48: [DEBUG]Process begin
+48: [DEBUG]Tick
+49: [DEBUG]Tick
+49: [DEBUG]Tick
+49: [DEBUG]Tick
+49: [DEBUG]Tick
+49: [DEBUG]Tick
+49: [DEBUG]Process end
+49: [DEBUG]Process begin
+50: [DEBUG]Tick
+50: [DEBUG]Tick
+50: [DEBUG]Tick
+50: [DEBUG]Tick
+50: [DEBUG]Tick
+50: [DEBUG]Process end
+50: [DEBUG]Process begin
+51: [DEBUG]Tick
+51: [DEBUG]Tick
+51: [DEBUG]Tick
+51: [DEBUG]Tick
+51: [DEBUG]Tick
+51: [DEBUG]Tick
+51: [DEBUG]Process end
+51: [DEBUG]Process begin
+51: [DEBUG]Tick
+52: [DEBUG]Tick
+52: [DEBUG]Tick
+52: [DEBUG]Tick
+52: [DEBUG]Tick
+52: [DEBUG]Process end
+52: [DEBUG]Process begin
+52: [DEBUG]Tick
+53: [DEBUG]Tick
+53: [DEBUG]Tick
+53: [DEBUG]Tick
+53: [DEBUG]Process end
+53: [DEBUG]Process begin
+54: [DEBUG]Tick
+54: [DEBUG]Tick
+54: [DEBUG]Tick
+54: [DEBUG]Tick
+54: [DEBUG]Tick
+54: [DEBUG]Process end
+54: [DEBUG]Process begin
+55: [DEBUG]Tick
+55: [DEBUG]Tick
+55: [DEBUG]Tick
+55: [DEBUG]Tick
+55: [DEBUG]Tick
+55: [DEBUG]Process end
+55: [DEBUG]Process begin
+55: [DEBUG]Tick
+56: [DEBUG]Tick
+56: [DEBUG]Tick
+56: [DEBUG]Tick
+56: [DEBUG]Tick
+56: [DEBUG]Process end
+56: [DEBUG]Process begin
+57: [DEBUG]Tick
+57: [DEBUG]Tick
+57: [DEBUG]Tick
+57: [DEBUG]Tick
+57: [DEBUG]Tick
+57: [DEBUG]Process end
+57: [DEBUG]Process begin
+58: [DEBUG]Tick
+58: [DEBUG]Tick
+58: [DEBUG]Tick
+58: [DEBUG]Tick
+58: [DEBUG]Tick
+58: [DEBUG]Process end
+58: [DEBUG]Process begin
+59: [DEBUG]Tick
+59: [DEBUG]Tick
+59: [DEBUG]Tick
+59: [DEBUG]Tick
+59: [DEBUG]Tick
+59: [DEBUG]Process end
+59: [DEBUG]Process begin
+60: [DEBUG]Tick
+60: [DEBUG]Tick
+60: [DEBUG]Tick
+60: [DEBUG]Tick
+60: [DEBUG]Process end
+60: [DEBUG]Process begin
+60: [VERBOSE]Current FPS: 20.5761318207
+60: [VERBOSE]Time spent in frame: 47
+60: [VERBOSE]Time spent doing calculations: 47
+61: [DEBUG]Tick
+61: [DEBUG]Tick
+61: [DEBUG]Tick
+61: [DEBUG]Tick
+61: [DEBUG]Tick
+61: [DEBUG]Process end
+61: [DEBUG]Process begin
+61: [DEBUG]Tick
+62: [DEBUG]Tick
+62: [DEBUG]Tick
+62: [DEBUG]Tick
+62: [DEBUG]Tick
+62: [DEBUG]Process end
+62: [DEBUG]Process begin
+62: [DEBUG]Tick
+63: [DEBUG]Tick
+63: [DEBUG]Tick
+63: [DEBUG]Tick
+63: [DEBUG]Tick
+63: [DEBUG]Process end
+63: [DEBUG]Process begin
+64: [DEBUG]Tick
+64: [DEBUG]Tick
+64: [DEBUG]Tick
+64: [DEBUG]Tick
+64: [DEBUG]Process end
+64: [DEBUG]Process begin
+65: [DEBUG]Tick
+65: [DEBUG]Tick
+65: [DEBUG]Tick
+65: [DEBUG]Tick
+65: [DEBUG]Tick
+65: [DEBUG]Tick
+65: [DEBUG]Process end
+65: [DEBUG]Process begin
+66: [DEBUG]Tick
+66: [DEBUG]Tick
+66: [DEBUG]Tick
+66: [DEBUG]Tick
+66: [DEBUG]Tick
+66: [DEBUG]Process end
+66: [DEBUG]Process begin
+67: [DEBUG]Tick
+67: [DEBUG]Tick
+67: [DEBUG]Tick
+67: [DEBUG]Tick
+67: [DEBUG]Tick
+67: [DEBUG]Tick
+67: [DEBUG]Process end
+67: [DEBUG]Process begin
+67: [DEBUG]Tick
+68: [DEBUG]Tick
+68: [DEBUG]Tick
+68: [DEBUG]Tick
+68: [DEBUG]Process end
+68: [DEBUG]Process begin
+69: [DEBUG]Tick
+69: [DEBUG]Tick
+69: [DEBUG]Tick
+69: [DEBUG]Tick
+69: [DEBUG]Tick
+69: [DEBUG]Process end
+69: [DEBUG]Process begin
+70: [DEBUG]Tick
+70: [DEBUG]Process end
+70: [DEBUG]Process begin
+71: [DEBUG]Tick
+71: [DEBUG]Tick
+71: [DEBUG]Tick
+71: [DEBUG]Tick
+71: [DEBUG]Tick
+71: [DEBUG]Process end
+71: [DEBUG]Process begin
+71: [DEBUG]Tick
+72: [DEBUG]Tick
+72: [DEBUG]Tick
+72: [DEBUG]Tick
+72: [DEBUG]Tick
+72: [DEBUG]Tick
+72: [DEBUG]Tick
+72: [DEBUG]Process end
+72: [DEBUG]Process begin
+73: [DEBUG]Tick
+73: [DEBUG]Tick
+73: [DEBUG]Tick
+73: [DEBUG]Tick
+73: [DEBUG]Tick
+73: [DEBUG]Process end
+73: [DEBUG]Process begin
+74: [DEBUG]Tick
+74: [DEBUG]Tick
+74: [DEBUG]Tick
+74: [DEBUG]Tick
+74: [DEBUG]Tick
+74: [DEBUG]Process end
+74: [DEBUG]Process begin
+75: [DEBUG]Tick
+75: [DEBUG]Tick
+75: [DEBUG]Tick
+75: [DEBUG]Tick
+75: [DEBUG]Tick
+75: [DEBUG]Process end
+75: [DEBUG]Process begin
+76: [DEBUG]Tick
+76: [DEBUG]Tick
+76: [DEBUG]Tick
+76: [DEBUG]Tick
+76: [DEBUG]Tick
+76: [DEBUG]Process end
+76: [DEBUG]Process begin
+77: [DEBUG]Tick
+77: [DEBUG]Tick
+77: [DEBUG]Tick
+77: [DEBUG]Tick
+77: [DEBUG]Tick
+77: [DEBUG]Tick
+77: [DEBUG]Process end
+77: [DEBUG]Process begin
+78: [DEBUG]Tick
+78: [DEBUG]Tick
+78: [DEBUG]Tick
+78: [DEBUG]Tick
+78: [DEBUG]Tick
+78: [DEBUG]Process end
+78: [DEBUG]Process begin
+79: [DEBUG]Tick
+79: [DEBUG]Tick
+79: [DEBUG]Tick
+79: [DEBUG]Tick
+79: [DEBUG]Tick
+79: [DEBUG]Process end
+79: [DEBUG]Process begin
+80: [DEBUG]Tick
+80: [DEBUG]Tick
+80: [DEBUG]Tick
+80: [DEBUG]Tick
+80: [DEBUG]Tick
+80: [DEBUG]Process end
+80: [DEBUG]Process begin
+80: [DEBUG]Tick
+81: [DEBUG]Tick
+81: [DEBUG]Tick
+81: [DEBUG]Tick
+81: [DEBUG]Tick
+81: [DEBUG]Tick
+81: [DEBUG]Process end
+81: [DEBUG]Process begin
+82: [DEBUG]Tick
+82: [DEBUG]Tick
+82: [DEBUG]Tick
+82: [DEBUG]Tick
+82: [DEBUG]Tick
+82: [DEBUG]Process end
+82: [DEBUG]Process begin
+83: [DEBUG]Tick
+83: [DEBUG]Tick
+83: [DEBUG]Tick
+83: [DEBUG]Tick
+83: [DEBUG]Tick
+83: [DEBUG]Process end
+83: [DEBUG]Process begin
+84: [DEBUG]Tick
+84: [DEBUG]Tick
+84: [DEBUG]Tick
+84: [DEBUG]Tick
+84: [DEBUG]Tick
+84: [DEBUG]Process end
+84: [DEBUG]Process begin
+85: [DEBUG]Tick
+85: [DEBUG]Tick
+85: [DEBUG]Tick
+85: [DEBUG]Tick
+85: [DEBUG]Tick
+85: [DEBUG]Process end
+85: [DEBUG]Process begin
+86: [DEBUG]Tick
+86: [DEBUG]Tick
+86: [DEBUG]Tick
+86: [DEBUG]Tick
+86: [DEBUG]Tick
+86: [DEBUG]Tick
+86: [DEBUG]Process end
+86: [DEBUG]Process begin
+87: [DEBUG]Tick
+87: [DEBUG]Tick
+87: [DEBUG]Tick
+87: [DEBUG]Tick
+87: [DEBUG]Tick
+87: [DEBUG]Process end
+87: [DEBUG]Process begin
+88: [DEBUG]Tick
+88: [DEBUG]Tick
+88: [DEBUG]Tick
+88: [DEBUG]Tick
+88: [DEBUG]Tick
+88: [DEBUG]Tick
+88: [DEBUG]Process end
+88: [DEBUG]Process begin
+89: [DEBUG]Tick
+89: [DEBUG]Tick
+89: [DEBUG]Tick
+89: [DEBUG]Tick
+89: [DEBUG]Tick
+89: [DEBUG]Process end
+89: [DEBUG]Process begin
+90: [DEBUG]Tick
+90: [DEBUG]Tick
+90: [DEBUG]Tick
+90: [DEBUG]Tick
+90: [DEBUG]Tick
+90: [DEBUG]Tick
+90: [DEBUG]Process end
+90: [DEBUG]Process begin
+90: [VERBOSE]Current FPS: 20.4081630707
+90: [DEBUG]Tick
+90: [VERBOSE]Time spent in frame: 56
+90: [VERBOSE]Time spent doing calculations: 56
+91: [DEBUG]Tick
+91: [DEBUG]Tick
+91: [DEBUG]Tick
+91: [DEBUG]Tick
+91: [DEBUG]Tick
+91: [DEBUG]Process end
+91: [DEBUG]Process begin
+92: [DEBUG]Tick
+92: [DEBUG]Tick
+92: [DEBUG]Tick
+92: [DEBUG]Tick
+92: [DEBUG]Tick
+92: [DEBUG]Tick
+92: [DEBUG]Tick
+92: [DEBUG]Tick
+92: [DEBUG]Tick
+92: [DEBUG]Tick
+92: [DEBUG]Process end
+92: [DEBUG]Process begin
+93: [DEBUG]Tick
+93: [DEBUG]Tick
+93: [DEBUG]Tick
+93: [DEBUG]Tick
+93: [DEBUG]Tick
+93: [DEBUG]Process end
+93: [DEBUG]Process begin
+94: [DEBUG]Tick
+94: [DEBUG]Tick
+94: [DEBUG]Tick
+94: [DEBUG]Tick
+94: [DEBUG]Tick
+94: [DEBUG]Tick
+94: [DEBUG]Tick
+94: [DEBUG]Tick
+94: [DEBUG]Process end
+94: [DEBUG]Process begin
+94: [DEBUG]Tick
+95: [DEBUG]Tick
+95: [DEBUG]Tick
+95: [DEBUG]Tick
+95: [DEBUG]Tick
+95: [DEBUG]Tick
+95: [DEBUG]Process end
+95: [DEBUG]Process begin
+96: [DEBUG]Tick
+96: [DEBUG]Tick
+96: [DEBUG]Tick
+96: [DEBUG]Tick
+96: [DEBUG]Process end
+96: [DEBUG]Process begin
+97: [DEBUG]Tick
+97: [DEBUG]Tick
+97: [DEBUG]Tick
+97: [DEBUG]Tick
+97: [DEBUG]Tick
+97: [DEBUG]Process end
+97: [DEBUG]Process begin
+98: [DEBUG]Tick
+98: [DEBUG]Tick
+98: [DEBUG]Tick
+98: [DEBUG]Tick
+98: [DEBUG]Tick
+98: [DEBUG]Process end
+98: [DEBUG]Process begin
+99: [DEBUG]Tick
+99: [DEBUG]Tick
+99: [DEBUG]Tick
+99: [DEBUG]Tick
+99: [DEBUG]Tick
+99: [DEBUG]Process end
+99: [DEBUG]Process begin
+100: [DEBUG]Tick
+100: [DEBUG]Tick
+100: [DEBUG]Tick
+100: [DEBUG]Tick
+100: [DEBUG]Tick
+100: [DEBUG]Tick
+100: [DEBUG]Process end
+100: [DEBUG]Process begin
+101: [DEBUG]Tick
+101: [DEBUG]Tick
+101: [DEBUG]Tick
+101: [DEBUG]Tick
+101: [DEBUG]Tick
+101: [DEBUG]Process end
+101: [DEBUG]Process begin
+101: [DEBUG]Tick
+102: [DEBUG]Tick
+102: [DEBUG]Tick
+102: [DEBUG]Tick
+102: [DEBUG]Tick
+102: [DEBUG]Tick
+102: [DEBUG]Process end
+102: [DEBUG]Process begin
+102: [DEBUG]Tick
+103: [DEBUG]Tick
+103: [DEBUG]Tick
+103: [DEBUG]Tick
+103: [DEBUG]Tick
+103: [DEBUG]Tick
+103: [DEBUG]Process end
+103: [DEBUG]Process begin
+104: [DEBUG]Tick
+104: [DEBUG]Tick
+104: [DEBUG]Tick
+104: [DEBUG]Process end
+104: [DEBUG]Process begin
+105: [DEBUG]Tick
+105: [DEBUG]Process end
+105: [DEBUG]Process begin
+106: [DEBUG]Tick
+106: [DEBUG]Tick
+106: [DEBUG]Tick
+106: [DEBUG]Process end
+106: [DEBUG]Process begin
+107: [DEBUG]Tick
+107: [DEBUG]Tick
+107: [DEBUG]Tick
+107: [DEBUG]Tick
+107: [DEBUG]Tick
+107: [DEBUG]Process end
+107: [DEBUG]Process begin
+108: [DEBUG]Tick
+108: [DEBUG]Tick
+108: [DEBUG]Tick
+108: [DEBUG]Tick
+108: [DEBUG]Tick
+108: [DEBUG]Tick
+108: [DEBUG]Tick
+108: [DEBUG]Process end
+108: [DEBUG]Process begin
+109: [DEBUG]Tick
+109: [DEBUG]Tick
+109: [DEBUG]Tick
+109: [DEBUG]Tick
+109: [DEBUG]Process end
+109: [DEBUG]Process begin
+110: [DEBUG]Tick
+110: [DEBUG]Tick
+110: [DEBUG]Tick
+110: [DEBUG]Tick
+110: [DEBUG]Tick
+110: [DEBUG]Process end
+110: [DEBUG]Process begin
+111: [DEBUG]Tick
+111: [DEBUG]Tick
+111: [DEBUG]Tick
+111: [DEBUG]Tick
+111: [DEBUG]Tick
+111: [DEBUG]Process end
+111: [DEBUG]Process begin
+112: [DEBUG]Tick
+112: [DEBUG]Tick
+112: [DEBUG]Process end
+112: [DEBUG]Process begin
+113: [DEBUG]Tick
+113: [DEBUG]Tick
+113: [DEBUG]Tick
+113: [DEBUG]Tick
+113: [DEBUG]Tick
+113: [DEBUG]Tick
+113: [DEBUG]Process end
+113: [DEBUG]Process begin
+114: [DEBUG]Tick
+114: [DEBUG]Tick
+114: [DEBUG]Tick
+114: [DEBUG]Tick
+114: [DEBUG]Tick
+114: [DEBUG]Process end
+114: [DEBUG]Process begin
+115: [DEBUG]Tick
+115: [DEBUG]Tick
+115: [DEBUG]Tick
+115: [DEBUG]Tick
+115: [DEBUG]Tick
+115: [DEBUG]Process end
+115: [DEBUG]Process begin
+116: [DEBUG]Tick
+116: [DEBUG]Tick
+116: [DEBUG]Tick
+116: [DEBUG]Tick
+116: [DEBUG]Tick
+116: [DEBUG]Process end
+116: [DEBUG]Process begin
+117: [DEBUG]Tick
+117: [DEBUG]Tick
+117: [DEBUG]Tick
+117: [DEBUG]Tick
+117: [DEBUG]Tick
+117: [DEBUG]Tick
+117: [DEBUG]Tick
+117: [DEBUG]Process end
+117: [DEBUG]Process begin
+118: [DEBUG]Tick
+118: [DEBUG]Tick
+118: [DEBUG]Tick
+118: [DEBUG]Tick
+118: [DEBUG]Process end
+118: [DEBUG]Tick
+118: [DEBUG]Process begin
+119: [DEBUG]Tick
+119: [DEBUG]Tick
+119: [DEBUG]Tick
+119: [DEBUG]Tick
+119: [DEBUG]Tick
+119: [DEBUG]Tick
+119: [DEBUG]Process end
+119: [DEBUG]Process begin
+120: [DEBUG]Tick
+120: [DEBUG]Tick
+120: [DEBUG]Tick
+120: [DEBUG]Tick
+120: [DEBUG]Tick
+120: [DEBUG]Process end
+120: [DEBUG]Process begin
+120: [VERBOSE]Current FPS: 20.87682724
+120: [DEBUG]Tick
+120: [VERBOSE]Time spent in frame: 45
+120: [VERBOSE]Time spent doing calculations: 45
+121: [DEBUG]Tick
+121: [DEBUG]Tick
+121: [DEBUG]Tick
+121: [DEBUG]Tick
+121: [DEBUG]Tick
+121: [DEBUG]Tick
+121: [DEBUG]Process end
+121: [DEBUG]Process begin
+122: [DEBUG]Tick
+122: [DEBUG]Tick
+122: [DEBUG]Tick
+122: [DEBUG]Tick
+122: [DEBUG]Process end
+122: [DEBUG]Process begin
+123: [DEBUG]Tick
+123: [DEBUG]Tick
+123: [DEBUG]Tick
+123: [DEBUG]Tick
+123: [DEBUG]Process end
+123: [DEBUG]Process begin
+124: [DEBUG]Tick
+124: [DEBUG]Tick
+124: [DEBUG]Tick
+124: [DEBUG]Tick
+124: [DEBUG]Process end
+124: [DEBUG]Tick
+124: [DEBUG]Process begin
+125: [DEBUG]Tick
+125: [DEBUG]Tick
+125: [DEBUG]Tick
+125: [DEBUG]Tick
+125: [DEBUG]Process end
+125: [DEBUG]Process begin
+126: [DEBUG]Tick
+126: [DEBUG]Tick
+126: [DEBUG]Tick
+126: [DEBUG]Tick
+126: [DEBUG]Tick
+126: [DEBUG]Process end
+126: [DEBUG]Process begin
+127: [DEBUG]Tick
+127: [DEBUG]Tick
+127: [DEBUG]Tick
+127: [DEBUG]Tick
+127: [DEBUG]Tick
+127: [DEBUG]Process end
+127: [DEBUG]Process begin
+128: [DEBUG]Tick
+128: [DEBUG]Tick
+128: [DEBUG]Tick
+128: [DEBUG]Tick
+128: [DEBUG]Process end
+128: [DEBUG]Process begin
+128: [DEBUG]Tick
+129: [DEBUG]Tick
+129: [DEBUG]Tick
+129: [DEBUG]Tick
+129: [DEBUG]Tick
+129: [DEBUG]Process end
+129: [DEBUG]Process begin
+130: [DEBUG]Tick
+130: [DEBUG]Tick
+130: [DEBUG]Tick
+130: [DEBUG]Tick
+130: [DEBUG]Tick
+130: [DEBUG]Tick
+130: [DEBUG]Tick
+130: [DEBUG]Process end
+130: [DEBUG]Process begin
+130: [DEBUG]Tick
+131: [DEBUG]Tick
+131: [DEBUG]Tick
+131: [DEBUG]Tick
+131: [DEBUG]Tick
+131: [DEBUG]Process end
+131: [DEBUG]Process begin
+131: [DEBUG]Tick
+132: [DEBUG]Tick
+132: [DEBUG]Tick
+132: [DEBUG]Tick
+132: [DEBUG]Tick
+132: [DEBUG]Process end
+132: [DEBUG]Process begin
+132: [DEBUG]Tick
+133: [DEBUG]Tick
+133: [DEBUG]Tick
+133: [DEBUG]Tick
+133: [DEBUG]Tick
+133: [DEBUG]Process end
+133: [DEBUG]Process begin
+133: [DEBUG]Tick
+134: [DEBUG]Tick
+134: [DEBUG]Tick
+134: [DEBUG]Tick
+134: [DEBUG]Tick
+134: [DEBUG]Process end
+134: [DEBUG]Process begin
+134: [DEBUG]Tick
+135: [DEBUG]Tick
+135: [DEBUG]Tick
+135: [DEBUG]Tick
+135: [DEBUG]Tick
+135: [DEBUG]Tick
+135: [DEBUG]Tick
+135: [DEBUG]Process end
+135: [DEBUG]Process begin
+136: [DEBUG]Tick
+136: [DEBUG]Tick
+136: [DEBUG]Tick
+136: [DEBUG]Tick
+136: [DEBUG]Tick
+136: [DEBUG]Process end
+136: [DEBUG]Process begin
+137: [DEBUG]Tick
+137: [DEBUG]Tick
+137: [DEBUG]Tick
+137: [DEBUG]Tick
+137: [DEBUG]Process end
+137: [DEBUG]Process begin
+138: [DEBUG]Tick
+138: [DEBUG]Tick
+138: [DEBUG]Tick
+138: [DEBUG]Tick
+138: [DEBUG]Tick
+138: [DEBUG]Process end
+138: [DEBUG]Process begin
+139: [DEBUG]Tick
+139: [DEBUG]Tick
+139: [DEBUG]Tick
+139: [DEBUG]Tick
+139: [DEBUG]Tick
+139: [DEBUG]Tick
+139: [DEBUG]Tick
+139: [DEBUG]Process end
+139: [DEBUG]Process begin
+140: [DEBUG]Tick
+140: [DEBUG]Tick
+140: [DEBUG]Tick
+140: [DEBUG]Tick
+140: [DEBUG]Tick
+140: [DEBUG]Process end
+140: [DEBUG]Process begin
+141: [DEBUG]Tick
+141: [DEBUG]Tick
+141: [DEBUG]Tick
+141: [DEBUG]Tick
+141: [DEBUG]Tick
+141: [DEBUG]Process end
+141: [DEBUG]Process begin
+142: [DEBUG]Tick
+142: [DEBUG]Tick
+142: [DEBUG]Tick
+142: [DEBUG]Tick
+142: [DEBUG]Tick
+142: [DEBUG]Tick
+142: [DEBUG]Process end
+142: [DEBUG]Process begin
+143: [DEBUG]Tick
+143: [DEBUG]Tick
+143: [DEBUG]Tick
+143: [DEBUG]Tick
+143: [DEBUG]Tick
+143: [DEBUG]Process end
+143: [DEBUG]Process begin
+144: [DEBUG]Tick
+144: [DEBUG]Tick
+144: [DEBUG]Tick
+144: [DEBUG]Tick
+144: [DEBUG]Tick
+144: [DEBUG]Process end
+144: [DEBUG]Process begin
+145: [DEBUG]Tick
+145: [DEBUG]Tick
+145: [DEBUG]Tick
+145: [DEBUG]Tick
+145: [DEBUG]Process end
+145: [DEBUG]Process begin
+146: [DEBUG]Tick
+146: [DEBUG]Tick
+146: [DEBUG]Tick
+146: [DEBUG]Tick
+146: [DEBUG]Tick
+146: [DEBUG]Process end
+146: [DEBUG]Process begin
+147: [DEBUG]Tick
+147: [DEBUG]Tick
+147: [DEBUG]Tick
+147: [DEBUG]Tick
+147: [DEBUG]Tick
+147: [DEBUG]Process end
+147: [DEBUG]Process begin
+148: [DEBUG]Tick
+148: [DEBUG]Tick
+148: [DEBUG]Tick
+148: [DEBUG]Tick
+148: [DEBUG]Tick
+148: [DEBUG]Process end
+148: [DEBUG]Process begin
+149: [DEBUG]Tick
+149: [DEBUG]Tick
+149: [DEBUG]Tick
+149: [DEBUG]Tick
+149: [DEBUG]Tick
+149: [DEBUG]Tick
+149: [DEBUG]Process end
+149: [DEBUG]Process begin
+150: [DEBUG]Tick
+150: [DEBUG]Tick
+150: [DEBUG]Tick
+150: [DEBUG]Tick
+150: [DEBUG]Tick
+150: [DEBUG]Process end
+150: [DEBUG]Process begin
+150: [VERBOSE]Current FPS: 23.6966838837
+150: [DEBUG]Tick
+150: [VERBOSE]Time spent in frame: 45
+150: [VERBOSE]Time spent doing calculations: 45
+151: [DEBUG]Tick
+151: [DEBUG]Tick
+151: [DEBUG]Tick
+151: [DEBUG]Tick
+151: [DEBUG]Process end
+151: [DEBUG]Process begin
+152: [DEBUG]Tick
+152: [DEBUG]Tick
+152: [DEBUG]Tick
+152: [DEBUG]Tick
+152: [DEBUG]Tick
+152: [DEBUG]Tick
+152: [DEBUG]Tick
+152: [DEBUG]Tick
+152: [DEBUG]Tick
+152: [DEBUG]Tick
+152: [DEBUG]Process end
+152: [DEBUG]Process begin
+153: [DEBUG]Tick
+153: [DEBUG]Tick
+153: [DEBUG]Tick
+153: [DEBUG]Tick
+153: [DEBUG]Tick
+153: [DEBUG]Process end
+153: [DEBUG]Process begin
+154: [DEBUG]Tick
+154: [DEBUG]Tick
+154: [DEBUG]Tick
+154: [DEBUG]Tick
+154: [DEBUG]Process end
+154: [DEBUG]Process begin
+155: [DEBUG]Tick
+155: [DEBUG]Tick
+155: [DEBUG]Tick
+155: [DEBUG]Tick
+155: [DEBUG]Process end
+155: [DEBUG]Process begin
+156: [DEBUG]Tick
+156: [DEBUG]Tick
+156: [DEBUG]Tick
+156: [DEBUG]Tick
+156: [DEBUG]Tick
+156: [DEBUG]Tick
+156: [DEBUG]Process end
+156: [DEBUG]Process begin
+157: [DEBUG]Tick
+157: [DEBUG]Tick
+157: [DEBUG]Tick
+157: [DEBUG]Tick
+157: [DEBUG]Tick
+157: [DEBUG]Tick
+157: [DEBUG]Process end
+157: [DEBUG]Process begin
+158: [DEBUG]Tick
+158: [DEBUG]Tick
+158: [DEBUG]Tick
+158: [DEBUG]Tick
+158: [DEBUG]Tick
+158: [DEBUG]Process end
+158: [DEBUG]Process begin
+159: [DEBUG]Tick
+159: [DEBUG]Tick
+159: [DEBUG]Tick
+159: [DEBUG]Tick
+159: [DEBUG]Tick
+159: [DEBUG]Tick
+159: [DEBUG]Process end
+159: [DEBUG]Process begin
+160: [DEBUG]Tick
+160: [DEBUG]Tick
+160: [DEBUG]Tick
+160: [DEBUG]Tick
+160: [DEBUG]Process end
+160: [DEBUG]Process begin
+161: [DEBUG]Tick
+161: [DEBUG]Tick
+161: [DEBUG]Tick
+161: [DEBUG]Tick
+161: [DEBUG]Tick
+161: [DEBUG]Tick
+161: [DEBUG]Process end
+161: [DEBUG]Process begin
+162: [DEBUG]Tick
+162: [DEBUG]Process end
+162: [DEBUG]Process begin
+163: [DEBUG]Tick
+163: [DEBUG]Tick
+163: [DEBUG]Tick
+163: [DEBUG]Tick
+163: [DEBUG]Tick
+163: [DEBUG]Process end
+163: [DEBUG]Process begin
+164: [DEBUG]Tick
+164: [DEBUG]Tick
+164: [DEBUG]Tick
+164: [DEBUG]Tick
+164: [DEBUG]Tick
+164: [DEBUG]Tick
+164: [DEBUG]Process end
+164: [DEBUG]Process begin
+165: [DEBUG]Tick
+165: [DEBUG]Tick
+165: [DEBUG]Tick
+165: [DEBUG]Tick
+165: [DEBUG]Tick
+165: [DEBUG]Process end
+165: [DEBUG]Process begin
+166: [DEBUG]Tick
+166: [DEBUG]Tick
+166: [DEBUG]Tick
+166: [DEBUG]Tick
+166: [DEBUG]Tick
+166: [DEBUG]Process end
+166: [DEBUG]Process begin
+167: [DEBUG]Tick
+167: [DEBUG]Tick
+167: [DEBUG]Tick
+167: [DEBUG]Tick
+167: [DEBUG]Tick
+167: [DEBUG]Process end
+167: [DEBUG]Process begin
+168: [DEBUG]Tick
+168: [DEBUG]Tick
+168: [DEBUG]Tick
+168: [DEBUG]Tick
+168: [DEBUG]Process end
+168: [DEBUG]Process begin
+169: [DEBUG]Tick
+169: [DEBUG]Tick
+169: [DEBUG]Tick
+169: [DEBUG]Process end
+169: [DEBUG]Process begin
+170: [DEBUG]Tick
+170: [DEBUG]Tick
+170: [DEBUG]Tick
+170: [DEBUG]Tick
+170: [DEBUG]Tick
+170: [DEBUG]Tick
+170: [DEBUG]Process end
+170: [DEBUG]Process begin
+171: [DEBUG]Tick
+171: [DEBUG]Tick
+171: [DEBUG]Tick
+171: [DEBUG]Process end
+171: [DEBUG]Process begin
+172: [DEBUG]Tick
+172: [DEBUG]Tick
+172: [DEBUG]Tick
+172: [DEBUG]Tick
+172: [DEBUG]Process end
+172: [DEBUG]Process begin
+173: [DEBUG]Tick
+173: [DEBUG]Tick
+173: [DEBUG]Tick
+173: [DEBUG]Tick
+173: [DEBUG]Tick
+173: [DEBUG]Process end
+173: [DEBUG]Process begin
+174: [DEBUG]Tick
+174: [DEBUG]Tick
+174: [DEBUG]Tick
+174: [DEBUG]Tick
+174: [DEBUG]Process end
+174: [DEBUG]Process begin
+175: [DEBUG]Tick
+175: [DEBUG]Tick
+175: [DEBUG]Tick
+175: [DEBUG]Tick
+175: [DEBUG]Tick
+175: [DEBUG]Process end
+175: [DEBUG]Process begin
+176: [DEBUG]Tick
+176: [DEBUG]Tick
+176: [DEBUG]Tick
+176: [DEBUG]Tick
+176: [DEBUG]Tick
+176: [DEBUG]Process end
+176: [DEBUG]Process begin
+177: [DEBUG]Tick
+177: [DEBUG]Tick
+177: [DEBUG]Tick
+177: [DEBUG]Tick
+177: [DEBUG]Tick
+177: [DEBUG]Process end
+177: [DEBUG]Process begin
+178: [DEBUG]Tick
+178: [DEBUG]Tick
+178: [DEBUG]Tick
+178: [DEBUG]Tick
+178: [DEBUG]Tick
+178: [DEBUG]Process end
+178: [DEBUG]Process begin
+178: [DEBUG]Tick
+179: [DEBUG]Tick
+179: [DEBUG]Tick
+179: [DEBUG]Tick
+179: [DEBUG]Tick
+179: [DEBUG]Process end
+179: [DEBUG]Process begin
+180: [DEBUG]Tick
+180: [DEBUG]Tick
+180: [DEBUG]Tick
+180: [DEBUG]Tick
+180: [DEBUG]Tick
+180: [DEBUG]Process end
+180: [DEBUG]Process begin
+180: [DEBUG]Tick
+180: [VERBOSE]Current FPS: 26.8096523285
+180: [VERBOSE]Time spent in frame: 36
+180: [VERBOSE]Time spent doing calculations: 36
+181: [DEBUG]Tick
+181: [DEBUG]Tick
+181: [DEBUG]Tick
+181: [DEBUG]Tick
+181: [DEBUG]Tick
+181: [DEBUG]Process end
+181: [DEBUG]Process begin
+181: [DEBUG]Tick
+181: [DEBUG]Tick
+182: [DEBUG]Tick
+182: [DEBUG]Tick
+182: [DEBUG]Tick
+182: [DEBUG]Tick
+182: [DEBUG]Tick
+182: [DEBUG]Tick
+182: [DEBUG]Tick
+182: [DEBUG]Tick
+182: [DEBUG]Tick
+182: [DEBUG]Tick
+182: [DEBUG]Process end
+182: [DEBUG]Process begin
+183: [DEBUG]Tick
+183: [DEBUG]Tick
+183: [DEBUG]Process end
+183: [DEBUG]Process begin
+184: [DEBUG]Tick
+184: [DEBUG]Tick
+184: [DEBUG]Tick
+184: [DEBUG]Tick
+184: [DEBUG]Process end
+184: [DEBUG]Process begin
+185: [DEBUG]Tick
+185: [DEBUG]Tick
+185: [DEBUG]Tick
+185: [DEBUG]Tick
+185: [DEBUG]Tick
+185: [DEBUG]Tick
+185: [DEBUG]Tick
+185: [DEBUG]Process end
+185: [DEBUG]Process begin
+186: [DEBUG]Tick
+186: [DEBUG]Tick
+186: [DEBUG]Tick
+186: [DEBUG]Tick
+186: [DEBUG]Process end
+186: [DEBUG]Process begin
+187: [DEBUG]Tick
+187: [DEBUG]Tick
+187: [DEBUG]Tick
+187: [DEBUG]Tick
+187: [DEBUG]Process end
+187: [DEBUG]Process begin
+188: [DEBUG]Tick
+188: [DEBUG]Tick
+188: [DEBUG]Tick
+188: [DEBUG]Process end
+188: [DEBUG]Process begin
+189: [DEBUG]Tick
+189: [DEBUG]Tick
+189: [DEBUG]Tick
+189: [DEBUG]Tick
+189: [DEBUG]Tick
+189: [DEBUG]Process end
+189: [DEBUG]Process begin
+190: [DEBUG]Tick
+190: [DEBUG]Tick
+190: [DEBUG]Tick
+190: [DEBUG]Tick
+190: [DEBUG]Process end
+190: [DEBUG]Process begin
+191: [DEBUG]Tick
+191: [DEBUG]Tick
+191: [DEBUG]Tick
+191: [DEBUG]Tick
+191: [DEBUG]Process end
+191: [DEBUG]Process begin
+192: [DEBUG]Tick
+192: [DEBUG]Tick
+192: [DEBUG]Tick
+192: [DEBUG]Tick
+192: [DEBUG]Process end
+192: [DEBUG]Process begin
+193: [DEBUG]Tick
+193: [DEBUG]Tick
+193: [DEBUG]Tick
+193: [DEBUG]Tick
+193: [DEBUG]Process end
+193: [DEBUG]Process begin
+194: [DEBUG]Tick
+194: [DEBUG]Tick
+194: [DEBUG]Tick
+194: [DEBUG]Tick
+194: [DEBUG]Process end
+194: [DEBUG]Process begin
+195: [DEBUG]Tick
+195: [DEBUG]Tick
+195: [DEBUG]Tick
+195: [DEBUG]Tick
+195: [DEBUG]Process end
+195: [DEBUG]Tick
+195: [DEBUG]Process begin
+196: [DEBUG]Tick
+196: [DEBUG]Tick
+196: [DEBUG]Tick
+196: [DEBUG]Tick
+196: [DEBUG]Tick
+196: [DEBUG]Process end
+196: [DEBUG]Process begin
+197: [DEBUG]Tick
+197: [DEBUG]Tick
+197: [DEBUG]Tick
+197: [DEBUG]Tick
+197: [DEBUG]Process end
+197: [DEBUG]Process begin
+198: [DEBUG]Tick
+198: [DEBUG]Tick
+198: [DEBUG]Tick
+198: [DEBUG]Tick
+198: [DEBUG]Process end
+198: [DEBUG]Process begin
+199: [DEBUG]Tick
+199: [DEBUG]Tick
+199: [DEBUG]Process end
+199: [DEBUG]Process begin
+200: [DEBUG]Tick
+200: [DEBUG]Tick
+200: [DEBUG]Tick
+200: [DEBUG]Tick
+200: [DEBUG]Tick
+200: [DEBUG]Process end
+200: [DEBUG]Process begin
+201: [DEBUG]Tick
+201: [DEBUG]Tick
+201: [DEBUG]Tick
+201: [DEBUG]Tick
+201: [DEBUG]Tick
+201: [DEBUG]Process end
+201: [DEBUG]Process begin
+202: [DEBUG]Tick
+202: [DEBUG]Tick
+202: [DEBUG]Tick
+202: [DEBUG]Tick
+202: [DEBUG]Tick
+202: [DEBUG]Process end
+202: [DEBUG]Process begin
+203: [DEBUG]Tick
+203: [DEBUG]Tick
+203: [DEBUG]Tick
+203: [DEBUG]Tick
+203: [DEBUG]Tick
+203: [DEBUG]Process end
+203: [DEBUG]Process begin
+204: [DEBUG]Tick
+204: [DEBUG]Tick
+204: [DEBUG]Tick
+204: [DEBUG]Tick
+204: [DEBUG]Process end
+204: [DEBUG]Process begin
+204: [DEBUG]Tick
+205: [DEBUG]Tick
+205: [DEBUG]Tick
+205: [DEBUG]Tick
+205: [DEBUG]Tick
+205: [DEBUG]Tick
+205: [DEBUG]Process end
+205: [DEBUG]Process begin
+206: [DEBUG]Tick
+206: [DEBUG]Tick
+206: [DEBUG]Tick
+206: [DEBUG]Tick
+206: [DEBUG]Tick
+206: [DEBUG]Process end
+206: [DEBUG]Process begin
+206: [DEBUG]Tick
+207: [DEBUG]Tick
+207: [DEBUG]Tick
+207: [DEBUG]Tick
+207: [DEBUG]Tick
+207: [DEBUG]Process end
+207: [DEBUG]Process begin
+208: [DEBUG]Tick
+208: [DEBUG]Tick
+208: [DEBUG]Tick
+208: [DEBUG]Tick
+208: [DEBUG]Process end
+208: [DEBUG]Process begin
+209: [DEBUG]Tick
+209: [DEBUG]Tick
+209: [DEBUG]Tick
+209: [DEBUG]Tick
+209: [DEBUG]Tick
+209: [DEBUG]Process end
+209: [DEBUG]Process begin
+210: [DEBUG]Tick
+210: [DEBUG]Tick
+210: [DEBUG]Tick
+210: [DEBUG]Tick
+210: [DEBUG]Tick
+210: [DEBUG]Process end
+210: [DEBUG]Process begin
+210: [VERBOSE]Current FPS: 27.2479553223
+210: [DEBUG]Tick
+210: [VERBOSE]Time spent in frame: 39
+210: [VERBOSE]Time spent doing calculations: 38
+211: [DEBUG]Tick
+211: [DEBUG]Tick
+211: [DEBUG]Tick
+211: [DEBUG]Tick
+211: [DEBUG]Process end
+211: [DEBUG]Process begin
+212: [DEBUG]Tick
+212: [DEBUG]Tick
+212: [DEBUG]Tick
+212: [DEBUG]Tick
+212: [DEBUG]Process end
+212: [DEBUG]Process begin
+213: [DEBUG]Tick
+213: [DEBUG]Tick
+213: [DEBUG]Tick
+213: [DEBUG]Process end
+213: [DEBUG]Process begin
+214: [DEBUG]Tick
+214: [DEBUG]Tick
+214: [DEBUG]Tick
+214: [DEBUG]Tick
+214: [DEBUG]Process end
+214: [DEBUG]Process begin
+215: [DEBUG]Tick
+215: [DEBUG]Tick
+215: [DEBUG]Tick
+215: [DEBUG]Tick
+215: [DEBUG]Tick
+215: [DEBUG]Process end
+215: [DEBUG]Process begin
+215: [DEBUG]Tick
+216: [DEBUG]Tick
+216: [DEBUG]Tick
+216: [DEBUG]Tick
+216: [DEBUG]Tick
+216: [DEBUG]Process end
+216: [DEBUG]Process begin
+217: [DEBUG]Tick
+217: [DEBUG]Tick
+217: [DEBUG]Tick
+217: [DEBUG]Tick
+217: [DEBUG]Process end
+217: [DEBUG]Process begin
+218: [DEBUG]Tick
+218: [DEBUG]Tick
+218: [DEBUG]Tick
+218: [DEBUG]Tick
+218: [DEBUG]Tick
+218: [DEBUG]Tick
+218: [DEBUG]Tick
+218: [DEBUG]Process end
+218: [DEBUG]Process begin
+219: [DEBUG]Tick
+219: [DEBUG]Tick
+219: [DEBUG]Tick
+219: [DEBUG]Tick
+219: [DEBUG]Tick
+219: [DEBUG]Process end
+219: [DEBUG]Process begin
+220: [DEBUG]Tick
+220: [DEBUG]Tick
+220: [DEBUG]Tick
+220: [DEBUG]Tick
+220: [DEBUG]Tick
+220: [DEBUG]Process end
+220: [DEBUG]Process begin
+221: [DEBUG]Tick
+221: [DEBUG]Tick
+221: [DEBUG]Tick
+221: [DEBUG]Tick
+221: [DEBUG]Tick
+221: [DEBUG]Process end
+221: [DEBUG]Process begin
+222: [DEBUG]Tick
+222: [DEBUG]Tick
+222: [DEBUG]Tick
+222: [DEBUG]Tick
+222: [DEBUG]Tick
+222: [DEBUG]Process end
+222: [DEBUG]Process begin
+223: [DEBUG]Tick
+223: [DEBUG]Tick
+223: [DEBUG]Tick
+223: [DEBUG]Tick
+223: [DEBUG]Process end
+223: [DEBUG]Process begin
+224: [DEBUG]Tick
+224: [DEBUG]Tick
+224: [DEBUG]Tick
+224: [DEBUG]Tick
+224: [DEBUG]Process end
+224: [DEBUG]Process begin
+225: [DEBUG]Tick
+225: [DEBUG]Tick
+225: [DEBUG]Tick
+225: [DEBUG]Tick
+225: [DEBUG]Process end
+225: [DEBUG]Process begin
+226: [DEBUG]Tick
+226: [DEBUG]Tick
+226: [DEBUG]Tick
+226: [DEBUG]Tick
+226: [DEBUG]Tick
+226: [DEBUG]Process end
+226: [DEBUG]Process begin
+227: [DEBUG]Tick
+227: [DEBUG]Tick
+227: [DEBUG]Tick
+227: [DEBUG]Tick
+227: [DEBUG]Process end
+227: [DEBUG]Process begin
+228: [DEBUG]Tick
+228: [DEBUG]Tick
+228: [DEBUG]Tick
+228: [DEBUG]Tick
+228: [DEBUG]Tick
+228: [DEBUG]Process end
+228: [DEBUG]Process begin
+229: [DEBUG]Tick
+229: [DEBUG]Tick
+229: [DEBUG]Tick
+229: [DEBUG]Tick
+229: [DEBUG]Tick
+229: [DEBUG]Process end
+229: [DEBUG]Process begin
+230: [DEBUG]Tick
+230: [DEBUG]Tick
+230: [DEBUG]Tick
+230: [DEBUG]Tick
+230: [DEBUG]Tick
+230: [DEBUG]Process end
+230: [DEBUG]Process begin
+231: [DEBUG]Tick
+231: [DEBUG]Tick
+231: [DEBUG]Tick
+231: [DEBUG]Process end
+231: [DEBUG]Process begin
+232: [DEBUG]Tick
+232: [DEBUG]Tick
+232: [DEBUG]Tick
+232: [DEBUG]Process end
+232: [DEBUG]Process begin
+233: [DEBUG]Tick
+233: [DEBUG]Tick
+233: [DEBUG]Tick
+233: [DEBUG]Tick
+233: [DEBUG]Process end
+233: [DEBUG]Process begin
+234: [DEBUG]Tick
+234: [DEBUG]Tick
+234: [DEBUG]Tick
+234: [DEBUG]Tick
+234: [DEBUG]Process end
+234: [DEBUG]Process begin
+235: [DEBUG]Tick
+235: [DEBUG]Tick
+235: [DEBUG]Tick
+235: [DEBUG]Tick
+235: [DEBUG]Process end
+235: [DEBUG]Process begin
+236: [DEBUG]Tick
+236: [DEBUG]Tick
+236: [DEBUG]Tick
+236: [DEBUG]Tick
+236: [DEBUG]Tick
+236: [DEBUG]Process end
+236: [DEBUG]Process begin
+237: [DEBUG]Tick
+237: [DEBUG]Process end
+237: [DEBUG]Process begin
+238: [DEBUG]Tick
+238: [DEBUG]Tick
+238: [DEBUG]Process end
+238: [DEBUG]Process begin
+238: [DEBUG]Tick
+239: [DEBUG]Tick
+239: [DEBUG]Tick
+239: [DEBUG]Tick
+239: [DEBUG]Tick
+239: [DEBUG]Process end
+239: [DEBUG]Process begin
+240: [DEBUG]Tick
+240: [DEBUG]Tick
+240: [DEBUG]Tick
+240: [DEBUG]Tick
+240: [DEBUG]Tick
+240: [DEBUG]Process end
+240: [DEBUG]Process begin
+240: [VERBOSE]Current FPS: 26.8817195892
+240: [DEBUG]Tick
+240: [VERBOSE]Time spent in frame: 35
+240: [VERBOSE]Time spent doing calculations: 35
+241: [DEBUG]Tick
+241: [DEBUG]Tick
+241: [DEBUG]Tick
+241: [DEBUG]Tick
+241: [DEBUG]Tick
+241: [DEBUG]Tick
+241: [DEBUG]Process end
+241: [DEBUG]Process begin
+242: [DEBUG]Tick
+242: [DEBUG]Tick
+242: [DEBUG]Tick
+242: [DEBUG]Tick
+242: [DEBUG]Tick
+242: [DEBUG]Process end
+242: [DEBUG]Process begin
+243: [DEBUG]Tick
+243: [DEBUG]Tick
+243: [DEBUG]Tick
+243: [DEBUG]Tick
+243: [DEBUG]Tick
+243: [DEBUG]Process end
+243: [DEBUG]Process begin
+244: [DEBUG]Tick
+244: [DEBUG]Tick
+244: [DEBUG]Tick
+244: [DEBUG]Tick
+244: [DEBUG]Tick
+244: [DEBUG]Process end
+244: [DEBUG]Process begin
+245: [DEBUG]Tick
+245: [DEBUG]Tick
+245: [DEBUG]Tick
+245: [DEBUG]Tick
+245: [DEBUG]Tick
+245: [DEBUG]Process end
+245: [DEBUG]Process begin
+246: [DEBUG]Tick
+246: [DEBUG]Tick
+246: [DEBUG]Tick
+246: [DEBUG]Tick
+246: [DEBUG]Tick
+246: [DEBUG]Process end
+246: [DEBUG]Process begin
+247: [DEBUG]Tick
+247: [DEBUG]Tick
+247: [DEBUG]Tick
+247: [DEBUG]Tick
+247: [DEBUG]Tick
+247: [DEBUG]Process end
+247: [DEBUG]Process begin
+248: [DEBUG]Tick
+248: [DEBUG]Tick
+248: [DEBUG]Tick
+248: [DEBUG]Tick
+248: [DEBUG]Tick
+248: [DEBUG]Tick
+248: [DEBUG]Process end
+248: [DEBUG]Process begin
+249: [DEBUG]Tick
+249: [DEBUG]Tick
+249: [DEBUG]Tick
+249: [DEBUG]Process end
+249: [DEBUG]Process begin
+250: [DEBUG]Tick
+250: [DEBUG]Tick
+250: [DEBUG]Tick
+250: [DEBUG]Tick
+250: [DEBUG]Tick
+250: [DEBUG]Process end
+250: [DEBUG]Process begin
+251: [DEBUG]Tick
+251: [DEBUG]Tick
+251: [DEBUG]Tick
+251: [DEBUG]Tick
+251: [DEBUG]Tick
+251: [DEBUG]Tick
+251: [DEBUG]Process end
+251: [DEBUG]Process begin
+252: [DEBUG]Tick
+252: [DEBUG]Tick
+252: [DEBUG]Tick
+252: [DEBUG]Tick
+252: [DEBUG]Process end
+252: [DEBUG]Process begin
+253: [DEBUG]Tick
+253: [DEBUG]Tick
+253: [DEBUG]Tick
+253: [DEBUG]Tick
+253: [DEBUG]Tick
+253: [DEBUG]Process end
+253: [DEBUG]Process begin
+254: [DEBUG]Tick
+254: [DEBUG]Tick
+254: [DEBUG]Tick
+254: [DEBUG]Tick
+254: [DEBUG]Process end
+254: [DEBUG]Process begin
+255: [DEBUG]Tick
+255: [DEBUG]Tick
+255: [DEBUG]Tick
+255: [DEBUG]Tick
+255: [DEBUG]Tick
+255: [DEBUG]Process end
+255: [DEBUG]Process begin
+256: [DEBUG]Tick
+256: [DEBUG]Tick
+256: [DEBUG]Tick
+256: [DEBUG]Tick
+256: [DEBUG]Tick
+256: [DEBUG]Process end
+256: [DEBUG]Process begin
+257: [DEBUG]Tick
+257: [DEBUG]Tick
+257: [DEBUG]Tick
+257: [DEBUG]Tick
+257: [DEBUG]Tick
+257: [DEBUG]Tick
+257: [DEBUG]Process end
+257: [DEBUG]Process begin
+258: [DEBUG]Tick
+258: [DEBUG]Tick
+258: [DEBUG]Tick
+258: [DEBUG]Tick
+258: [DEBUG]Tick
+258: [DEBUG]Process end
+258: [DEBUG]Process begin
+259: [DEBUG]Tick
+259: [DEBUG]Tick
+259: [DEBUG]Tick
+259: [DEBUG]Tick
+259: [DEBUG]Tick
+259: [DEBUG]Process end
+259: [DEBUG]Process begin
+260: [DEBUG]Tick
+260: [DEBUG]Tick
+260: [DEBUG]Tick
+260: [DEBUG]Tick
+260: [DEBUG]Tick
+260: [DEBUG]Process end
+260: [DEBUG]Process begin
+261: [DEBUG]Tick
+261: [DEBUG]Tick
+261: [DEBUG]Tick
+261: [DEBUG]Tick
+261: [DEBUG]Tick
+261: [DEBUG]Process end
+261: [DEBUG]Process begin
+262: [DEBUG]Tick
+262: [DEBUG]Tick
+262: [DEBUG]Tick
+262: [DEBUG]Tick
+262: [DEBUG]Tick
+262: [DEBUG]Tick
+262: [DEBUG]Process end
+262: [DEBUG]Process begin
+263: [DEBUG]Tick
+263: [DEBUG]Tick
+263: [DEBUG]Tick
+263: [DEBUG]Tick
+263: [DEBUG]Tick
+263: [DEBUG]Tick
+263: [DEBUG]Process end
+263: [DEBUG]Process begin
+264: [DEBUG]Tick
+264: [DEBUG]Tick
+264: [DEBUG]Tick
+264: [DEBUG]Tick
+264: [DEBUG]Tick
+264: [DEBUG]Process end
+264: [DEBUG]Process begin
+264: [DEBUG]Tick
+265: [DEBUG]Tick
+265: [DEBUG]Tick
+265: [DEBUG]Tick
+265: [DEBUG]Tick
+265: [DEBUG]Process end
+265: [DEBUG]Process begin
+266: [DEBUG]Tick
+266: [DEBUG]Tick
+266: [DEBUG]Tick
+266: [DEBUG]Tick
+266: [DEBUG]Tick
+266: [DEBUG]Process end
+266: [DEBUG]Process begin
+267: [DEBUG]Tick
+267: [DEBUG]Tick
+267: [DEBUG]Tick
+267: [DEBUG]Tick
+267: [DEBUG]Tick
+267: [DEBUG]Process end
+267: [DEBUG]Process begin
+268: [DEBUG]Tick
+268: [DEBUG]Tick
+268: [DEBUG]Tick
+268: [DEBUG]Tick
+268: [DEBUG]Tick
+268: [DEBUG]Process end
+268: [DEBUG]Process begin
+269: [DEBUG]Tick
+269: [DEBUG]Tick
+269: [DEBUG]Tick
+269: [DEBUG]Tick
+269: [DEBUG]Tick
+269: [DEBUG]Process end
+269: [DEBUG]Process begin
+270: [DEBUG]Tick
+270: [DEBUG]Tick
+270: [DEBUG]Tick
+270: [DEBUG]Tick
+270: [DEBUG]Tick
+270: [DEBUG]Process end
+270: [DEBUG]Process begin
+270: [VERBOSE]Current FPS: 28.2485866547
+270: [DEBUG]Tick
+270: [VERBOSE]Time spent in frame: 35
+270: [VERBOSE]Time spent doing calculations: 35
+271: [DEBUG]Tick
+271: [DEBUG]Tick
+271: [DEBUG]Tick
+271: [DEBUG]Tick
+271: [DEBUG]Tick
+271: [DEBUG]Process end
+271: [DEBUG]Process begin
+272: [DEBUG]Tick
+272: [DEBUG]Tick
+272: [DEBUG]Tick
+272: [DEBUG]Tick
+272: [DEBUG]Tick
+272: [DEBUG]Tick
+272: [DEBUG]Tick
+272: [DEBUG]Tick
+272: [DEBUG]Tick
+272: [DEBUG]Tick
+272: [DEBUG]Process end
+272: [DEBUG]Process begin
+273: [DEBUG]Tick
+273: [DEBUG]Tick
+273: [DEBUG]Tick
+273: [DEBUG]Tick
+273: [DEBUG]Tick
+273: [DEBUG]Process end
+273: [DEBUG]Process begin
+273: [DEBUG]Tick
+274: [DEBUG]Tick
+274: [DEBUG]Tick
+274: [DEBUG]Tick
+274: [DEBUG]Tick
+274: [DEBUG]Tick
+274: [DEBUG]Process end
+274: [DEBUG]Process begin
+275: [DEBUG]Tick
+275: [DEBUG]Tick
+275: [DEBUG]Tick
+275: [DEBUG]Tick
+275: [DEBUG]Tick
+275: [DEBUG]Tick
+275: [DEBUG]Process end
+275: [DEBUG]Process begin
+276: [DEBUG]Tick
+276: [DEBUG]Process end
+276: [DEBUG]Process begin
+277: [DEBUG]Tick
+277: [DEBUG]Tick
+277: [DEBUG]Tick
+277: [DEBUG]Tick
+277: [DEBUG]Tick
+277: [DEBUG]Process end
+277: [DEBUG]Process begin
+278: [DEBUG]Tick
+278: [DEBUG]Tick
+278: [DEBUG]Tick
+278: [DEBUG]Tick
+278: [DEBUG]Tick
+278: [DEBUG]Process end
+278: [DEBUG]Process begin
+279: [DEBUG]Tick
+279: [DEBUG]Tick
+279: [DEBUG]Tick
+279: [DEBUG]Tick
+279: [DEBUG]Tick
+279: [DEBUG]Tick
+279: [DEBUG]Process end
+279: [DEBUG]Process begin
+280: [DEBUG]Tick
+280: [DEBUG]Tick
+280: [DEBUG]Tick
+280: [DEBUG]Tick
+280: [DEBUG]Tick
+280: [DEBUG]Tick
+280: [DEBUG]Process end
+280: [DEBUG]Process begin
+281: [DEBUG]Tick
+281: [DEBUG]Tick
+281: [DEBUG]Tick
+281: [DEBUG]Tick
+281: [DEBUG]Tick
+281: [DEBUG]Tick
+281: [DEBUG]Process end
+281: [DEBUG]Process begin
+282: [DEBUG]Tick
+282: [DEBUG]Tick
+282: [DEBUG]Tick
+282: [DEBUG]Tick
+282: [DEBUG]Tick
+282: [DEBUG]Tick
+282: [DEBUG]Process end
+282: [DEBUG]Process begin
+283: [DEBUG]Tick
+283: [DEBUG]Tick
+283: [DEBUG]Tick
+283: [DEBUG]Tick
+283: [DEBUG]Tick
+283: [DEBUG]Process end
+283: [DEBUG]Process begin
+284: [DEBUG]Tick
+284: [DEBUG]Tick
+284: [DEBUG]Tick
+284: [DEBUG]Tick
+284: [DEBUG]Tick
+284: [DEBUG]Tick
+284: [DEBUG]Tick
+284: [DEBUG]Process end
+284: [DEBUG]Process begin
+285: [DEBUG]Tick
+285: [DEBUG]Tick
+285: [DEBUG]Tick
+285: [DEBUG]Tick
+285: [DEBUG]Tick
+285: [DEBUG]Process end
+285: [DEBUG]Process begin
+286: [DEBUG]Tick
+286: [DEBUG]Tick
+286: [DEBUG]Tick
+286: [DEBUG]Tick
+286: [DEBUG]Tick
+286: [DEBUG]Process end
+286: [DEBUG]Process begin
+286: [DEBUG]Tick
+286: [DEBUG]Tick
+287: [DEBUG]Tick
+287: [DEBUG]Tick
+287: [DEBUG]Tick
+287: [DEBUG]Tick
+287: [DEBUG]Tick
+287: [DEBUG]Process end
+287: [DEBUG]Process begin
+287: [DEBUG]Tick
+288: [DEBUG]Tick
+288: [DEBUG]Tick
+288: [DEBUG]Tick
+288: [DEBUG]Tick
+288: [DEBUG]Tick
+288: [DEBUG]Process end
+288: [DEBUG]Process begin
+288: [DEBUG]Tick
+289: [DEBUG]Tick
+289: [DEBUG]Tick
+289: [DEBUG]Tick
+289: [DEBUG]Tick
+289: [DEBUG]Tick
+289: [DEBUG]Tick
+289: [DEBUG]Process end
+289: [DEBUG]Process begin
+289: [DEBUG]Tick
+290: [DEBUG]Tick
+290: [DEBUG]Tick
+290: [DEBUG]Tick
+290: [DEBUG]Tick
+290: [DEBUG]Tick
+290: [DEBUG]Tick
+290: [DEBUG]Process end
+290: [DEBUG]Process begin
+290: [DEBUG]Tick
+291: [DEBUG]Tick
+291: [DEBUG]Tick
+291: [DEBUG]Tick
+291: [DEBUG]Tick
+291: [DEBUG]Tick
+291: [DEBUG]Process end
+291: [DEBUG]Process begin
+292: [DEBUG]Tick
+292: [DEBUG]Tick
+292: [DEBUG]Tick
+292: [DEBUG]Tick
+292: [DEBUG]Tick
+292: [DEBUG]Tick
+292: [DEBUG]Process end
+292: [DEBUG]Process begin
+292: [DEBUG]Tick
+293: [DEBUG]Tick
+293: [DEBUG]Tick
+293: [DEBUG]Tick
+293: [DEBUG]Tick
+293: [DEBUG]Tick
+293: [DEBUG]Process end
+293: [DEBUG]Process begin
+294: [DEBUG]Tick
+294: [DEBUG]Tick
+294: [DEBUG]Tick
+294: [DEBUG]Tick
+294: [DEBUG]Tick
+294: [DEBUG]Tick
+294: [DEBUG]Process end
+294: [DEBUG]Process begin
+295: [DEBUG]Tick
+295: [DEBUG]Tick
+295: [DEBUG]Tick
+295: [DEBUG]Process end
+295: [DEBUG]Process begin
+296: [DEBUG]Tick
+296: [DEBUG]Tick
+296: [DEBUG]Tick
+296: [DEBUG]Tick
+296: [DEBUG]Tick
+296: [DEBUG]Process end
+296: [DEBUG]Process begin
+297: [DEBUG]Tick
+297: [DEBUG]Tick
+297: [DEBUG]Tick
+297: [DEBUG]Tick
+297: [DEBUG]Process end
+297: [DEBUG]Process begin
+298: [DEBUG]Tick
+298: [DEBUG]Tick
+298: [DEBUG]Tick
+298: [DEBUG]Tick
+298: [DEBUG]Tick
+298: [DEBUG]Process end
+298: [DEBUG]Process begin
+299: [DEBUG]Tick
+299: [DEBUG]Tick
+299: [DEBUG]Tick
+299: [DEBUG]Tick
+299: [DEBUG]Process end
+299: [DEBUG]Process begin
+300: [DEBUG]Tick
+300: [DEBUG]Tick
+300: [DEBUG]Tick
+300: [DEBUG]Tick
+300: [DEBUG]Tick
+300: [DEBUG]Process end
+300: [DEBUG]Process begin
+300: [VERBOSE]Current FPS: 27.6243095398
+300: [DEBUG]Tick
+300: [VERBOSE]Time spent in frame: 40
+300: [VERBOSE]Time spent doing calculations: 40
+301: [DEBUG]Tick
+301: [DEBUG]Tick
+301: [DEBUG]Tick
+301: [DEBUG]Tick
+301: [DEBUG]Process end
+301: [DEBUG]Process begin
+302: [DEBUG]Tick
+302: [DEBUG]Tick
+302: [DEBUG]Tick
+302: [DEBUG]Tick
+302: [DEBUG]Tick
+302: [DEBUG]Process end
+302: [DEBUG]Process begin
+303: [DEBUG]Tick
+303: [DEBUG]Tick
+303: [DEBUG]Tick
+303: [DEBUG]Tick
+303: [DEBUG]Tick
+303: [DEBUG]Process end
+303: [DEBUG]Process begin
+304: [DEBUG]Tick
+304: [DEBUG]Tick
+304: [DEBUG]Tick
+304: [DEBUG]Tick
+304: [DEBUG]Tick
+304: [DEBUG]Tick
+304: [DEBUG]Tick
+304: [DEBUG]Process end
+304: [DEBUG]Process begin
+305: [DEBUG]Tick
+305: [DEBUG]Tick
+305: [DEBUG]Tick
+305: [DEBUG]Tick
+305: [DEBUG]Tick
+305: [DEBUG]Process end
+305: [DEBUG]Process begin
+306: [DEBUG]Tick
+306: [DEBUG]Tick
+306: [DEBUG]Tick
+306: [DEBUG]Tick
+306: [DEBUG]Tick
+306: [DEBUG]Tick
+306: [DEBUG]Tick
+306: [DEBUG]Process end
+306: [DEBUG]Process begin
+307: [DEBUG]Tick
+307: [DEBUG]Tick
+307: [DEBUG]Tick
+307: [DEBUG]Tick
+307: [DEBUG]Tick
+307: [DEBUG]Process end
+307: [DEBUG]Process begin
+308: [DEBUG]Tick
+308: [DEBUG]Tick
+308: [DEBUG]Tick
+308: [DEBUG]Tick
+308: [DEBUG]Tick
+308: [DEBUG]Process end
+308: [DEBUG]Process begin
+309: [DEBUG]Tick
+309: [DEBUG]Tick
+309: [DEBUG]Tick
+309: [DEBUG]Tick
+309: [DEBUG]Tick
+309: [DEBUG]Process end
+309: [DEBUG]Process begin
+310: [DEBUG]Tick
+310: [DEBUG]Tick
+310: [DEBUG]Tick
+310: [DEBUG]Tick
+310: [DEBUG]Tick
+310: [DEBUG]Process end
+310: [DEBUG]Process begin
+311: [DEBUG]Tick
+311: [DEBUG]Tick
+311: [DEBUG]Tick
+311: [DEBUG]Tick
+311: [DEBUG]Tick
+311: [DEBUG]Tick
+311: [DEBUG]Process end
+311: [DEBUG]Process begin
+312: [DEBUG]Tick
+312: [DEBUG]Tick
+312: [DEBUG]Tick
+312: [DEBUG]Tick
+312: [DEBUG]Tick
+312: [DEBUG]Tick
+312: [DEBUG]Process end
+312: [DEBUG]Process begin
+313: [DEBUG]Tick
+313: [DEBUG]Tick
+313: [DEBUG]Tick
+313: [DEBUG]Tick
+313: [DEBUG]Tick
+313: [DEBUG]Process end
+313: [DEBUG]Process begin
+314: [DEBUG]Tick
+314: [DEBUG]Tick
+314: [DEBUG]Tick
+314: [DEBUG]Tick
+314: [DEBUG]Tick
+314: [DEBUG]Tick
+314: [DEBUG]Process end
+314: [DEBUG]Process begin
+315: [DEBUG]Tick
+315: [DEBUG]Tick
+315: [DEBUG]Tick
+315: [DEBUG]Tick
+315: [DEBUG]Tick
+315: [DEBUG]Process end
+315: [DEBUG]Process begin
+316: [DEBUG]Tick
+316: [DEBUG]Tick
+316: [DEBUG]Tick
+316: [DEBUG]Tick
+316: [DEBUG]Tick
+316: [DEBUG]Process end
+316: [DEBUG]Process begin
+316: [DEBUG]Tick
+317: [DEBUG]Tick
+317: [DEBUG]Tick
+317: [DEBUG]Tick
+317: [DEBUG]Tick
+317: [DEBUG]Tick
+317: [DEBUG]Tick
+317: [DEBUG]Process end
+317: [DEBUG]Process begin
+317: [DEBUG]Tick
+318: [DEBUG]Tick
+318: [DEBUG]Tick
+318: [DEBUG]Tick
+318: [DEBUG]Tick
+318: [DEBUG]Tick
+318: [DEBUG]Process end
+318: [DEBUG]Process begin
+319: [DEBUG]Tick
+319: [DEBUG]Tick
+319: [DEBUG]Tick
+319: [DEBUG]Tick
+319: [DEBUG]Tick
+319: [DEBUG]Tick
+319: [DEBUG]Process end
+319: [DEBUG]Process begin
+320: [DEBUG]Tick
+320: [DEBUG]Tick
+320: [DEBUG]Tick
+320: [DEBUG]Tick
+320: [DEBUG]Tick
+320: [DEBUG]Process end
+320: [DEBUG]Process begin
+321: [DEBUG]Tick
+321: [DEBUG]Tick
+321: [DEBUG]Tick
+321: [DEBUG]Tick
+321: [DEBUG]Tick
+321: [DEBUG]Process end
+321: [DEBUG]Process begin
+322: [DEBUG]Tick
+322: [DEBUG]Tick
+322: [DEBUG]Tick
+322: [DEBUG]Tick
+322: [DEBUG]Process end
+322: [DEBUG]Process begin
+323: [DEBUG]Tick
+323: [DEBUG]Tick
+323: [DEBUG]Tick
+323: [DEBUG]Tick
+323: [DEBUG]Process end
+323: [DEBUG]Process begin
+324: [DEBUG]Tick
+324: [DEBUG]Tick
+324: [DEBUG]Tick
+324: [DEBUG]Tick
+324: [DEBUG]Process end
+324: [DEBUG]Process begin
+325: [DEBUG]Tick
+325: [DEBUG]Tick
+325: [DEBUG]Tick
+325: [DEBUG]Tick
+325: [DEBUG]Process end
+325: [DEBUG]Process begin
+326: [DEBUG]Tick
+326: [DEBUG]Tick
+326: [DEBUG]Tick
+326: [DEBUG]Tick
+326: [DEBUG]Tick
+326: [DEBUG]Process end
+326: [DEBUG]Process begin
+327: [DEBUG]Tick
+327: [DEBUG]Process end
+327: [DEBUG]Process begin
+328: [DEBUG]Tick
+328: [DEBUG]Tick
+328: [DEBUG]Tick
+328: [DEBUG]Tick
+328: [DEBUG]Process end
+328: [DEBUG]Process begin
+329: [DEBUG]Tick
+329: [DEBUG]Tick
+329: [DEBUG]Tick
+329: [DEBUG]Tick
+329: [DEBUG]Process end
+329: [DEBUG]Process begin
+330: [DEBUG]Tick
+330: [DEBUG]Tick
+330: [DEBUG]Tick
+330: [DEBUG]Tick
+330: [DEBUG]Process end
+330: [DEBUG]Process begin
+330: [VERBOSE]Current FPS: 25.1889152527
+330: [DEBUG]Tick
+330: [VERBOSE]Time spent in frame: 39
+330: [VERBOSE]Time spent doing calculations: 39
+331: [DEBUG]Tick
+331: [DEBUG]Tick
+331: [DEBUG]Tick
+331: [DEBUG]Tick
+331: [DEBUG]Process end
+331: [DEBUG]Process begin
+332: [DEBUG]Tick
+332: [DEBUG]Tick
+332: [DEBUG]Tick
+332: [DEBUG]Process end
+332: [DEBUG]Process begin
+333: [DEBUG]Tick
+333: [DEBUG]Tick
+333: [DEBUG]Tick
+333: [DEBUG]Tick
+333: [DEBUG]Tick
+333: [DEBUG]Process end
+333: [DEBUG]Process begin
+334: [DEBUG]Tick
+334: [DEBUG]Tick
+334: [DEBUG]Tick
+334: [DEBUG]Tick
+334: [DEBUG]Process end
+334: [DEBUG]Process begin
+335: [DEBUG]Tick
+335: [DEBUG]Tick
+335: [DEBUG]Tick
+335: [DEBUG]Tick
+335: [DEBUG]Process end
+335: [DEBUG]Process begin
+336: [DEBUG]Tick
+336: [DEBUG]Tick
+336: [DEBUG]Tick
+336: [DEBUG]Tick
+336: [DEBUG]Process end
+336: [DEBUG]Process begin
+337: [DEBUG]Tick
+337: [DEBUG]Tick
+337: [DEBUG]Tick
+337: [DEBUG]Tick
+337: [DEBUG]Process end
+337: [DEBUG]Process begin
+338: [DEBUG]Tick
+338: [DEBUG]Tick
+338: [DEBUG]Tick
+338: [DEBUG]Tick
+338: [DEBUG]Tick
+338: [DEBUG]Process end
+338: [DEBUG]Process begin
+339: [DEBUG]Tick
+339: [DEBUG]Tick
+339: [DEBUG]Tick
+339: [DEBUG]Tick
+339: [DEBUG]Process end
+339: [DEBUG]Process begin
+339: [DEBUG]Tick
+340: [DEBUG]Tick
+340: [DEBUG]Tick
+340: [DEBUG]Tick
+340: [DEBUG]Tick
+340: [DEBUG]Process end
+340: [DEBUG]Process begin
+340: [DEBUG]Tick
+341: [DEBUG]Tick
+341: [DEBUG]Tick
+341: [DEBUG]Tick
+341: [DEBUG]Tick
+341: [DEBUG]Process end
+341: [DEBUG]Process begin
+341: [DEBUG]Tick
+341: [DEBUG]Tick
+342: [DEBUG]Tick
+342: [DEBUG]Tick
+342: [DEBUG]Tick
+342: [DEBUG]Tick
+342: [DEBUG]Process end
+342: [DEBUG]Process begin
+343: [DEBUG]Tick
+343: [DEBUG]Tick
+343: [DEBUG]Tick
+343: [DEBUG]Tick
+343: [DEBUG]Process end
+343: [DEBUG]Process begin
+344: [DEBUG]Tick
+344: [DEBUG]Tick
+344: [DEBUG]Tick
+344: [DEBUG]Tick
+344: [DEBUG]Process end
+344: [DEBUG]Process begin
+344: [DEBUG]Tick
+345: [DEBUG]Tick
+345: [DEBUG]Tick
+345: [DEBUG]Tick
+345: [DEBUG]Tick
+345: [DEBUG]Process end
+345: [DEBUG]Process begin
+346: [DEBUG]Tick
+346: [DEBUG]Tick
+346: [DEBUG]Tick
+346: [DEBUG]Tick
+346: [DEBUG]Process end
+346: [DEBUG]Process begin
+347: [DEBUG]Tick
+347: [DEBUG]Tick
+347: [DEBUG]Tick
+347: [DEBUG]Tick
+347: [DEBUG]Process end
+347: [DEBUG]Process begin
+348: [DEBUG]Tick
+348: [DEBUG]Tick
+348: [DEBUG]Tick
+348: [DEBUG]Tick
+348: [DEBUG]Process end
+348: [DEBUG]Process begin
+349: [DEBUG]Tick
+349: [DEBUG]Tick
+349: [DEBUG]Tick
+349: [DEBUG]Tick
+349: [DEBUG]Tick
+349: [DEBUG]Process end
+349: [DEBUG]Process begin
+350: [DEBUG]Tick
+350: [DEBUG]Tick
+350: [DEBUG]Tick
+350: [DEBUG]Tick
+350: [DEBUG]Tick
+350: [DEBUG]Process end
+350: [DEBUG]Process begin
+351: [DEBUG]Tick
+351: [DEBUG]Tick
+351: [DEBUG]Tick
+351: [DEBUG]Tick
+351: [DEBUG]Tick
+351: [DEBUG]Process end
+351: [DEBUG]Process begin
+352: [DEBUG]Tick
+352: [DEBUG]Tick
+352: [DEBUG]Tick
+352: [DEBUG]Tick
+352: [DEBUG]Process end
+352: [DEBUG]Process begin
+353: [DEBUG]Tick
+353: [DEBUG]Tick
+353: [DEBUG]Tick
+353: [DEBUG]Tick
+353: [DEBUG]Tick
+353: [DEBUG]Process end
+353: [DEBUG]Process begin
+354: [DEBUG]Tick
+354: [DEBUG]Tick
+354: [DEBUG]Tick
+354: [DEBUG]Tick
+354: [DEBUG]Tick
+354: [DEBUG]Process end
+354: [DEBUG]Process begin
+355: [DEBUG]Tick
+355: [DEBUG]Tick
+355: [DEBUG]Tick
+355: [DEBUG]Tick
+355: [DEBUG]Tick
+355: [DEBUG]Process end
+355: [DEBUG]Process begin
+356: [DEBUG]Tick
+356: [DEBUG]Tick
+356: [DEBUG]Tick
+356: [DEBUG]Tick
+356: [DEBUG]Process end
+356: [DEBUG]Process begin
+357: [DEBUG]Tick
+357: [DEBUG]Tick
+357: [DEBUG]Tick
+357: [DEBUG]Tick
+357: [DEBUG]Tick
+357: [DEBUG]Process end
+357: [DEBUG]Process begin
+358: [DEBUG]Tick
+358: [DEBUG]Tick
+358: [DEBUG]Tick
+358: [DEBUG]Tick
+358: [DEBUG]Process end
+358: [DEBUG]Process begin
+359: [DEBUG]Tick
+359: [DEBUG]Tick
+359: [DEBUG]Tick
+359: [DEBUG]Tick
+359: [DEBUG]Tick
+359: [DEBUG]Process end
+359: [DEBUG]Process begin
+360: [DEBUG]Tick
+360: [DEBUG]Tick
+360: [DEBUG]Tick
+360: [DEBUG]Tick
+360: [DEBUG]Process end
+360: [DEBUG]Process begin
+360: [VERBOSE]Current FPS: 26.7379665375
+360: [DEBUG]Tick
+360: [VERBOSE]Time spent in frame: 44
+360: [DEBUG]Tick
+360: [VERBOSE]Time spent doing calculations: 43
+361: [DEBUG]Tick
+361: [DEBUG]Tick
+361: [DEBUG]Tick
+361: [DEBUG]Tick
+361: [DEBUG]Tick
+361: [DEBUG]Process end
+361: [DEBUG]Process begin
+361: [DEBUG]Tick
+362: [DEBUG]Tick
+362: [DEBUG]Tick
+362: [DEBUG]Tick
+362: [DEBUG]Process end
+362: [DEBUG]Process begin
+363: [DEBUG]Tick
+363: [DEBUG]Tick
+363: [DEBUG]Tick
+363: [DEBUG]Tick
+363: [DEBUG]Tick
+363: [DEBUG]Tick
+363: [DEBUG]Process end
+363: [DEBUG]Process begin
+364: [DEBUG]Tick
+364: [DEBUG]Tick
+364: [DEBUG]Tick
+364: [DEBUG]Tick
+364: [DEBUG]Tick
+364: [DEBUG]Process end
+364: [DEBUG]Process begin
+365: [DEBUG]Tick
+365: [DEBUG]Tick
+365: [DEBUG]Tick
+365: [DEBUG]Tick
+365: [DEBUG]Tick
+365: [DEBUG]Process end
+365: [DEBUG]Process begin
+366: [DEBUG]Tick
+366: [DEBUG]Tick
+366: [DEBUG]Tick
+366: [DEBUG]Tick
+366: [DEBUG]Tick
+366: [DEBUG]Process end
+366: [DEBUG]Process begin
+367: [DEBUG]Tick
+367: [DEBUG]Tick
+367: [DEBUG]Tick
+367: [DEBUG]Tick
+367: [DEBUG]Tick
+367: [DEBUG]Process end
+367: [DEBUG]Process begin
+368: [DEBUG]Tick
+368: [DEBUG]Tick
+368: [DEBUG]Tick
+368: [DEBUG]Tick
+368: [DEBUG]Tick
+368: [DEBUG]Process end
+368: [DEBUG]Process begin
+369: [DEBUG]Tick
+369: [DEBUG]Tick
+369: [DEBUG]Tick
+369: [DEBUG]Tick
+369: [DEBUG]Tick
+369: [DEBUG]Tick
+369: [DEBUG]Process end
+369: [DEBUG]Process begin
+370: [DEBUG]Tick
+370: [DEBUG]Tick
+370: [DEBUG]Tick
+370: [DEBUG]Tick
+370: [DEBUG]Tick
+370: [DEBUG]Process end
+370: [DEBUG]Process begin
+371: [DEBUG]Tick
+371: [DEBUG]Tick
+371: [DEBUG]Tick
+371: [DEBUG]Tick
+371: [DEBUG]Process end
+371: [DEBUG]Process begin
+372: [DEBUG]Tick
+372: [DEBUG]Tick
+372: [DEBUG]Tick
+372: [DEBUG]Tick
+372: [DEBUG]Process end
+372: [DEBUG]Process begin
+373: [DEBUG]Tick
+373: [DEBUG]Tick
+373: [DEBUG]Process end
+373: [DEBUG]Process begin
+374: [DEBUG]Tick
+374: [DEBUG]Tick
+374: [DEBUG]Tick
+374: [DEBUG]Tick
+374: [DEBUG]Tick
+374: [DEBUG]Process end
+374: [DEBUG]Process begin
+375: [DEBUG]Tick
+375: [DEBUG]Tick
+375: [DEBUG]Tick
+375: [DEBUG]Process end
+375: [DEBUG]Process begin
+376: [DEBUG]Tick
+376: [DEBUG]Tick
+376: [DEBUG]Tick
+376: [DEBUG]Tick
+376: [DEBUG]Tick
+376: [DEBUG]Tick
+376: [DEBUG]Process end
+376: [DEBUG]Process begin
+377: [DEBUG]Tick
+377: [DEBUG]Tick
+377: [DEBUG]Tick
+377: [DEBUG]Tick
+377: [DEBUG]Tick
+377: [DEBUG]Tick
+377: [DEBUG]Process end
+377: [DEBUG]Process begin
+378: [DEBUG]Tick
+378: [DEBUG]Tick
+378: [DEBUG]Tick
+378: [DEBUG]Tick
+378: [DEBUG]Tick
+378: [DEBUG]Process end
+378: [DEBUG]Process begin
+379: [DEBUG]Tick
+379: [DEBUG]Tick
+379: [DEBUG]Tick
+379: [DEBUG]Tick
+379: [DEBUG]Tick
+379: [DEBUG]Process end
+379: [DEBUG]Process begin
+380: [DEBUG]Tick
+380: [DEBUG]Tick
+380: [DEBUG]Tick
+380: [DEBUG]Tick
+380: [DEBUG]Process end
+380: [DEBUG]Process begin
+381: [DEBUG]Tick
+381: [DEBUG]Tick
+381: [DEBUG]Tick
+381: [DEBUG]Tick
+381: [DEBUG]Tick
+381: [DEBUG]Process end
+381: [DEBUG]Process begin
+382: [DEBUG]Tick
+382: [DEBUG]Tick
+382: [DEBUG]Tick
+382: [DEBUG]Tick
+382: [DEBUG]Process end
+382: [DEBUG]Process begin
+383: [DEBUG]Tick
+383: [DEBUG]Tick
+383: [DEBUG]Tick
+383: [DEBUG]Tick
+383: [DEBUG]Process end
+383: [DEBUG]Process begin
+384: [DEBUG]Tick
+384: [DEBUG]Tick
+384: [DEBUG]Tick
+384: [DEBUG]Tick
+384: [DEBUG]Process end
+384: [DEBUG]Process begin
+385: [DEBUG]Tick
+385: [DEBUG]Tick
+385: [DEBUG]Tick
+385: [DEBUG]Tick
+385: [DEBUG]Process end
+385: [DEBUG]Process begin
+386: [DEBUG]Tick
+386: [DEBUG]Tick
+386: [DEBUG]Tick
+386: [DEBUG]Tick
+386: [DEBUG]Tick
+386: [DEBUG]Tick
+386: [DEBUG]Process end
+386: [DEBUG]Process begin
+387: [DEBUG]Tick
+387: [DEBUG]Tick
+387: [DEBUG]Tick
+387: [DEBUG]Tick
+387: [DEBUG]Tick
+387: [DEBUG]Process end
+387: [DEBUG]Process begin
+388: [DEBUG]Tick
+388: [DEBUG]Tick
+388: [DEBUG]Tick
+388: [DEBUG]Tick
+388: [DEBUG]Tick
+388: [DEBUG]Process end
+388: [DEBUG]Process begin
+389: [DEBUG]Tick
+389: [DEBUG]Tick
+389: [DEBUG]Tick
+389: [DEBUG]Tick
+389: [DEBUG]Tick
+389: [DEBUG]Process end
+389: [DEBUG]Process begin
+390: [DEBUG]Tick
+390: [DEBUG]Tick
+390: [DEBUG]Tick
+390: [DEBUG]Tick
+390: [DEBUG]Process end
+390: [DEBUG]Process begin
+390: [VERBOSE]Current FPS: 23.3644866943
+390: [DEBUG]Tick
+390: [VERBOSE]Time spent in frame: 42
+390: [VERBOSE]Time spent doing calculations: 42
+390: [DEBUG]Tick
+390: [DEBUG]Tick
+391: [DEBUG]Tick
+391: [DEBUG]Tick
+391: [DEBUG]Tick
+391: [DEBUG]Tick
+391: [DEBUG]Process end
+391: [DEBUG]Process begin
+391: [DEBUG]Tick
+392: [DEBUG]Tick
+392: [DEBUG]Tick
+392: [DEBUG]Tick
+392: [DEBUG]Tick
+392: [DEBUG]Tick
+392: [DEBUG]Tick
+392: [DEBUG]Process end
+392: [DEBUG]Process begin
+393: [DEBUG]Tick
+393: [DEBUG]Tick
+393: [DEBUG]Tick
+393: [DEBUG]Tick
+393: [DEBUG]Tick
+393: [DEBUG]Process end
+393: [DEBUG]Process begin
+394: [DEBUG]Tick
+394: [DEBUG]Tick
+394: [DEBUG]Tick
+394: [DEBUG]Tick
+394: [DEBUG]Tick
+394: [DEBUG]Tick
+394: [DEBUG]Process end
+394: [DEBUG]Process begin
+395: [DEBUG]Tick
+395: [DEBUG]Tick
+395: [DEBUG]Tick
+395: [DEBUG]Tick
+395: [DEBUG]Tick
+395: [DEBUG]Process end
+395: [DEBUG]Process begin
+396: [DEBUG]Tick
+396: [DEBUG]Tick
+396: [DEBUG]Tick
+396: [DEBUG]Tick
+396: [DEBUG]Tick
+396: [DEBUG]Tick
+396: [DEBUG]Process end
+396: [DEBUG]Process begin
+397: [DEBUG]Tick
+397: [DEBUG]Tick
+397: [DEBUG]Tick
+397: [DEBUG]Tick
+397: [DEBUG]Process end
+397: [DEBUG]Process begin
+398: [DEBUG]Tick
+398: [DEBUG]Tick
+398: [DEBUG]Tick
+398: [DEBUG]Tick
+398: [DEBUG]Tick
+398: [DEBUG]Tick
+398: [DEBUG]Process end
+398: [DEBUG]Process begin
+399: [DEBUG]Tick
+399: [DEBUG]Tick
+399: [DEBUG]Tick
+399: [DEBUG]Tick
+399: [DEBUG]Tick
+399: [DEBUG]Process end
+399: [DEBUG]Process begin
+400: [DEBUG]Tick
+400: [DEBUG]Tick
+400: [DEBUG]Tick
+400: [DEBUG]Tick
+400: [DEBUG]Tick
+400: [DEBUG]Process end
+400: [DEBUG]Process begin
+401: [DEBUG]Tick
+401: [DEBUG]Tick
+401: [DEBUG]Tick
+401: [DEBUG]Tick
+401: [DEBUG]Tick
+401: [DEBUG]Tick
+401: [DEBUG]Tick
+401: [DEBUG]Tick
+401: [DEBUG]Process end
+401: [DEBUG]Process begin
+402: [DEBUG]Tick
+402: [DEBUG]Tick
+402: [DEBUG]Tick
+402: [DEBUG]Tick
+402: [DEBUG]Tick
+402: [DEBUG]Process end
+402: [DEBUG]Process begin
+403: [DEBUG]Tick
+403: [DEBUG]Tick
+403: [DEBUG]Tick
+403: [DEBUG]Tick
+403: [DEBUG]Tick
+403: [DEBUG]Tick
+403: [DEBUG]Process end
+403: [DEBUG]Process begin
+404: [DEBUG]Tick
+404: [DEBUG]Tick
+404: [DEBUG]Tick
+404: [DEBUG]Tick
+404: [DEBUG]Tick
+404: [DEBUG]Process end
+404: [DEBUG]Process begin
+405: [DEBUG]Tick
+405: [DEBUG]Tick
+405: [DEBUG]Tick
+405: [DEBUG]Process end
+405: [DEBUG]Process begin
+406: [DEBUG]Tick
+406: [DEBUG]Tick
+406: [DEBUG]Tick
+406: [DEBUG]Tick
+406: [DEBUG]Process end
+406: [DEBUG]Process begin
+407: [DEBUG]Tick
+407: [DEBUG]Tick
+407: [DEBUG]Tick
+407: [DEBUG]Tick
+407: [DEBUG]Process end
+407: [DEBUG]Process begin
+408: [DEBUG]Tick
+408: [DEBUG]Tick
+408: [DEBUG]Tick
+408: [DEBUG]Tick
+408: [DEBUG]Process end
+408: [DEBUG]Process begin
+409: [DEBUG]Tick
+409: [DEBUG]Tick
+409: [DEBUG]Tick
+409: [DEBUG]Tick
+409: [DEBUG]Process end
+409: [DEBUG]Process begin
+410: [DEBUG]Tick
+410: [DEBUG]Tick
+410: [DEBUG]Tick
+410: [DEBUG]Tick
+410: [DEBUG]Process end
+410: [DEBUG]Process begin
+411: [DEBUG]Tick
+411: [DEBUG]Tick
+411: [DEBUG]Tick
+411: [DEBUG]Tick
+411: [DEBUG]Tick
+411: [DEBUG]Process end
+411: [DEBUG]Process begin
+411: [DEBUG]Tick
+412: [DEBUG]Tick
+412: [DEBUG]Tick
+412: [DEBUG]Tick
+412: [DEBUG]Tick
+412: [DEBUG]Tick
+412: [DEBUG]Process end
+412: [DEBUG]Process begin
+413: [DEBUG]Tick
+413: [DEBUG]Tick
+413: [DEBUG]Tick
+413: [DEBUG]Tick
+413: [DEBUG]Process end
+413: [DEBUG]Process begin
+414: [DEBUG]Tick
+414: [DEBUG]Tick
+414: [DEBUG]Tick
+414: [DEBUG]Tick
+414: [DEBUG]Tick
+414: [DEBUG]Process end
+414: [DEBUG]Process begin
+415: [DEBUG]Tick
+415: [DEBUG]Tick
+415: [DEBUG]Tick
+415: [DEBUG]Tick
+415: [DEBUG]Tick
+415: [DEBUG]Process end
+415: [DEBUG]Process begin
+416: [DEBUG]Tick
+416: [DEBUG]Tick
+416: [DEBUG]Tick
+416: [DEBUG]Tick
+416: [DEBUG]Tick
+416: [DEBUG]Process end
+416: [DEBUG]Process begin
+417: [DEBUG]Tick
+417: [DEBUG]Tick
+417: [DEBUG]Tick
+417: [DEBUG]Tick
+417: [DEBUG]Process end
+417: [DEBUG]Process begin
+418: [DEBUG]Tick
+418: [DEBUG]Tick
+418: [DEBUG]Tick
+418: [DEBUG]Tick
+418: [DEBUG]Tick
+418: [DEBUG]Tick
+418: [DEBUG]Process end
+418: [DEBUG]Process begin
+419: [DEBUG]Tick
+419: [DEBUG]Tick
+419: [DEBUG]Tick
+419: [DEBUG]Tick
+419: [DEBUG]Process end
+419: [DEBUG]Process begin
+419: [DEBUG]Tick
+420: [DEBUG]Tick
+420: [DEBUG]Tick
+420: [DEBUG]Tick
+420: [DEBUG]Tick
+420: [DEBUG]Tick
+420: [DEBUG]Process end
+420: [DEBUG]Tick
+420: [DEBUG]Process begin
+420: [VERBOSE]Current FPS: 21.3219604492
+420: [DEBUG]Tick
+420: [VERBOSE]Time spent in frame: 48
+420: [VERBOSE]Time spent doing calculations: 48
+421: [DEBUG]Tick
+421: [DEBUG]Tick
+421: [DEBUG]Tick
+421: [DEBUG]Tick
+421: [DEBUG]Tick
+421: [DEBUG]Process end
+421: [DEBUG]Process begin
+422: [DEBUG]Tick
+422: [DEBUG]Tick
+422: [DEBUG]Tick
+422: [DEBUG]Tick
+422: [DEBUG]Tick
+422: [DEBUG]Tick
+422: [DEBUG]Tick
+422: [DEBUG]Process end
+422: [DEBUG]Process begin
+423: [DEBUG]Tick
+423: [DEBUG]Tick
+423: [DEBUG]Tick
+423: [DEBUG]Tick
+423: [DEBUG]Tick
+423: [DEBUG]Process end
+423: [DEBUG]Process begin
+424: [DEBUG]Tick
+424: [DEBUG]Tick
+424: [DEBUG]Tick
+424: [DEBUG]Tick
+424: [DEBUG]Tick
+424: [DEBUG]Tick
+424: [DEBUG]Tick
+424: [DEBUG]Tick
+424: [DEBUG]Process end
+424: [DEBUG]Process begin
+424: [DEBUG]Tick
+425: [DEBUG]Tick
+425: [DEBUG]Tick
+425: [DEBUG]Tick
+425: [DEBUG]Tick
+425: [DEBUG]Process end
+425: [DEBUG]Process begin
+426: [DEBUG]Tick
+426: [DEBUG]Tick
+426: [DEBUG]Tick
+426: [DEBUG]Tick
+426: [DEBUG]Process end
+426: [DEBUG]Process begin
+427: [DEBUG]Tick
+427: [DEBUG]Tick
+427: [DEBUG]Tick
+427: [DEBUG]Tick
+427: [DEBUG]Tick
+427: [DEBUG]Process end
+427: [DEBUG]Process begin
+428: [DEBUG]Tick
+428: [DEBUG]Tick
+428: [DEBUG]Tick
+428: [DEBUG]Tick
+428: [DEBUG]Tick
+428: [DEBUG]Tick
+428: [DEBUG]Tick
+428: [DEBUG]Process end
+428: [DEBUG]Process begin
+429: [DEBUG]Tick
+429: [DEBUG]Tick
+429: [DEBUG]Tick
+429: [DEBUG]Tick
+429: [DEBUG]Tick
+429: [DEBUG]Process end
+429: [DEBUG]Process begin
+430: [DEBUG]Tick
+430: [DEBUG]Tick
+430: [DEBUG]Tick
+430: [DEBUG]Tick
+430: [DEBUG]Tick
+430: [DEBUG]Tick
+430: [DEBUG]Tick
+430: [DEBUG]Process end
+430: [DEBUG]Process begin
+431: [DEBUG]Tick
+431: [DEBUG]Tick
+431: [DEBUG]Tick
+431: [DEBUG]Tick
+431: [DEBUG]Tick
+431: [DEBUG]Tick
+431: [DEBUG]Process end
+431: [DEBUG]Process begin
+432: [DEBUG]Tick
+432: [DEBUG]Tick
+432: [DEBUG]Tick
+432: [DEBUG]Tick
+432: [DEBUG]Tick
+432: [DEBUG]Process end
+432: [DEBUG]Process begin
+433: [DEBUG]Tick
+433: [DEBUG]Tick
+433: [DEBUG]Tick
+433: [DEBUG]Tick
+433: [DEBUG]Tick
+433: [DEBUG]Tick
+433: [DEBUG]Tick
+433: [DEBUG]Process end
+433: [DEBUG]Process begin
+434: [DEBUG]Tick
+434: [DEBUG]Tick
+434: [DEBUG]Tick
+434: [DEBUG]Tick
+434: [DEBUG]Tick
+434: [DEBUG]Tick
+434: [DEBUG]Process end
+434: [DEBUG]Process begin
+435: [DEBUG]Tick
+435: [DEBUG]Tick
+435: [DEBUG]Tick
+435: [DEBUG]Tick
+435: [DEBUG]Tick
+435: [DEBUG]Tick
+435: [DEBUG]Tick
+435: [DEBUG]Process end
+435: [DEBUG]Process begin
+436: [DEBUG]Tick
+436: [DEBUG]Tick
+436: [DEBUG]Tick
+436: [DEBUG]Tick
+436: [DEBUG]Tick
+436: [DEBUG]Tick
+436: [DEBUG]Tick
+436: [DEBUG]Tick
+436: [DEBUG]Tick
+436: [DEBUG]Tick
+436: [DEBUG]Tick
+436: [DEBUG]Tick
+436: [DEBUG]Process end
+436: [DEBUG]Process begin
+437: [DEBUG]Tick
+437: [DEBUG]Tick
+437: [DEBUG]Tick
+437: [DEBUG]Tick
+437: [DEBUG]Process end
+437: [DEBUG]Process begin
+437: [DEBUG]Tick
+438: [DEBUG]Tick
+438: [DEBUG]Tick
+438: [DEBUG]Process end
+438: [DEBUG]Process begin
+439: [DEBUG]Tick
+439: [DEBUG]Tick
+439: [DEBUG]Tick
+439: [DEBUG]Tick
+439: [DEBUG]Process end
+439: [DEBUG]Process begin
+440: [DEBUG]Tick
+440: [DEBUG]Tick
+440: [DEBUG]Tick
+440: [DEBUG]Tick
+440: [DEBUG]Tick
+440: [DEBUG]Process end
+440: [DEBUG]Process begin
+441: [DEBUG]Tick
+441: [DEBUG]Tick
+441: [DEBUG]Tick
+441: [DEBUG]Tick
+441: [DEBUG]Tick
+441: [DEBUG]Process end
+441: [DEBUG]Process begin
+442: [DEBUG]Tick
+442: [DEBUG]Tick
+442: [DEBUG]Tick
+442: [DEBUG]Tick
+442: [DEBUG]Tick
+442: [DEBUG]Process end
+442: [DEBUG]Process begin
+443: [DEBUG]Tick
+443: [DEBUG]Tick
+443: [DEBUG]Tick
+443: [DEBUG]Tick
+443: [DEBUG]Tick
+443: [DEBUG]Process end
+443: [DEBUG]Process begin
+444: [DEBUG]Tick
+444: [DEBUG]Tick
+444: [DEBUG]Tick
+444: [DEBUG]Tick
+444: [DEBUG]Process end
+444: [DEBUG]Process begin
+445: [DEBUG]Tick
+445: [DEBUG]Process end
+445: [DEBUG]Process begin
+445: [DEBUG]Tick
+446: [DEBUG]Tick
+446: [DEBUG]Tick
+446: [DEBUG]Tick
+446: [DEBUG]Tick
+446: [DEBUG]Process end
+446: [DEBUG]Process begin
+446: [DEBUG]Tick
+447: [DEBUG]Tick
+447: [DEBUG]Tick
+447: [DEBUG]Tick
+447: [DEBUG]Tick
+447: [DEBUG]Process end
+447: [DEBUG]Process begin
+447: [DEBUG]Tick
+448: [DEBUG]Tick
+448: [DEBUG]Tick
+448: [DEBUG]Tick
+448: [DEBUG]Process end
+448: [DEBUG]Process begin
+449: [DEBUG]Tick
+449: [DEBUG]Tick
+449: [DEBUG]Tick
+449: [DEBUG]Tick
+449: [DEBUG]Tick
+449: [DEBUG]Process end
+449: [DEBUG]Process begin
+449: [DEBUG]Tick
+450: [DEBUG]Tick
+450: [DEBUG]Tick
+450: [DEBUG]Tick
+450: [DEBUG]Tick
+450: [DEBUG]Process end
+450: [DEBUG]Tick
+450: [DEBUG]Process begin
+450: [VERBOSE]Current FPS: 18.8679256439
+450: [DEBUG]Tick
+450: [VERBOSE]Time spent in frame: 47
+450: [VERBOSE]Time spent doing calculations: 47
+451: [DEBUG]Tick
+451: [DEBUG]Tick
+451: [DEBUG]Tick
+451: [DEBUG]Tick
+451: [DEBUG]Process end
+451: [DEBUG]Process begin
+452: [DEBUG]Tick
+452: [DEBUG]Tick
+452: [DEBUG]Tick
+452: [DEBUG]Tick
+452: [DEBUG]Tick
+452: [DEBUG]Process end
+452: [DEBUG]Process begin
+453: [DEBUG]Tick
+453: [DEBUG]Tick
+453: [DEBUG]Tick
+453: [DEBUG]Tick
+453: [DEBUG]Tick
+453: [DEBUG]Process end
+453: [DEBUG]Process begin
+453: [DEBUG]Tick
+454: [DEBUG]Tick
+454: [DEBUG]Tick
+454: [DEBUG]Tick
+454: [DEBUG]Tick
+454: [DEBUG]Tick
+454: [DEBUG]Process end
+454: [DEBUG]Process begin
+454: [DEBUG]Tick
+455: [DEBUG]Tick
+455: [DEBUG]Tick
+455: [DEBUG]Tick
+455: [DEBUG]Tick
+455: [DEBUG]Tick
+455: [DEBUG]Process end
+455: [DEBUG]Process begin
+456: [DEBUG]Tick
+456: [DEBUG]Tick
+456: [DEBUG]Tick
+456: [DEBUG]Tick
+456: [DEBUG]Tick
+456: [DEBUG]Tick
+456: [DEBUG]Tick
+456: [DEBUG]Process end
+456: [DEBUG]Process begin
+457: [DEBUG]Tick
+457: [DEBUG]Tick
+457: [DEBUG]Tick
+457: [DEBUG]Tick
+457: [DEBUG]Tick
+457: [DEBUG]Process end
+457: [DEBUG]Process begin
+458: [DEBUG]Tick
+458: [DEBUG]Tick
+458: [DEBUG]Tick
+458: [DEBUG]Process end
+458: [DEBUG]Process begin
+459: [DEBUG]Tick
+459: [DEBUG]Tick
+459: [DEBUG]Tick
+459: [DEBUG]Tick
+459: [DEBUG]Tick
+459: [DEBUG]Tick
+459: [DEBUG]Process end
+459: [DEBUG]Process begin
+460: [DEBUG]Tick
+460: [DEBUG]Tick
+460: [DEBUG]Tick
+460: [DEBUG]Tick
+460: [DEBUG]Tick
+460: [DEBUG]Process end
+460: [DEBUG]Process begin
+461: [DEBUG]Tick
+461: [DEBUG]Tick
+461: [DEBUG]Tick
+461: [DEBUG]Tick
+461: [DEBUG]Tick
+461: [DEBUG]Process end
+461: [DEBUG]Process begin
+462: [DEBUG]Tick
+462: [DEBUG]Tick
+462: [DEBUG]Tick
+462: [DEBUG]Tick
+462: [DEBUG]Tick
+462: [DEBUG]Tick
+462: [DEBUG]Process end
+462: [DEBUG]Process begin
+463: [DEBUG]Tick
+463: [DEBUG]Tick
+463: [DEBUG]Tick
+463: [DEBUG]Tick
+463: [DEBUG]Tick
+463: [DEBUG]Process end
+463: [DEBUG]Process begin
+464: [DEBUG]Tick
+464: [DEBUG]Tick
+464: [DEBUG]Tick
+464: [DEBUG]Tick
+464: [DEBUG]Tick
+464: [DEBUG]Tick
+464: [DEBUG]Process end
+464: [DEBUG]Process begin
+465: [DEBUG]Tick
+465: [DEBUG]Tick
+465: [DEBUG]Tick
+465: [DEBUG]Tick
+465: [DEBUG]Tick
+465: [DEBUG]Tick
+465: [DEBUG]Process end
+465: [DEBUG]Process begin
+466: [DEBUG]Tick
+466: [DEBUG]Tick
+466: [DEBUG]Tick
+466: [DEBUG]Tick
+466: [DEBUG]Process end
+466: [DEBUG]Process begin
+467: [DEBUG]Tick
+467: [DEBUG]Tick
+467: [DEBUG]Tick
+467: [DEBUG]Tick
+467: [DEBUG]Process end
+467: [DEBUG]Process begin
+468: [DEBUG]Tick
+468: [DEBUG]Tick
+468: [DEBUG]Tick
+468: [DEBUG]Tick
+468: [DEBUG]Process end
+468: [DEBUG]Tick
+468: [DEBUG]Process begin
+469: [DEBUG]Tick
+469: [DEBUG]Tick
+469: [DEBUG]Tick
+469: [DEBUG]Tick
+469: [DEBUG]Tick
+469: [DEBUG]Process end
+469: [DEBUG]Process begin
+469: [DEBUG]Tick
+470: [DEBUG]Tick
+470: [DEBUG]Tick
+470: [DEBUG]Tick
+470: [DEBUG]Tick
+470: [DEBUG]Process end
+470: [DEBUG]Tick
+470: [DEBUG]Process begin
+470: [DEBUG]Tick
+471: [DEBUG]Tick
+471: [DEBUG]Tick
+471: [DEBUG]Tick
+471: [DEBUG]Tick
+471: [DEBUG]Tick
+471: [DEBUG]Process end
+471: [DEBUG]Process begin
+472: [DEBUG]Tick
+472: [DEBUG]Tick
+472: [DEBUG]Tick
+472: [DEBUG]Tick
+472: [DEBUG]Tick
+472: [DEBUG]Process end
+472: [DEBUG]Process begin
+472: [DEBUG]Tick
+473: [DEBUG]Tick
+473: [DEBUG]Tick
+473: [DEBUG]Tick
+473: [DEBUG]Tick
+473: [DEBUG]Process end
+473: [DEBUG]Process begin
+474: [DEBUG]Tick
+474: [DEBUG]Tick
+474: [DEBUG]Tick
+474: [DEBUG]Tick
+474: [DEBUG]Process end
+474: [DEBUG]Process begin
+475: [DEBUG]Tick
+475: [DEBUG]Tick
+475: [DEBUG]Tick
+475: [DEBUG]Tick
+475: [DEBUG]Tick
+475: [DEBUG]Process end
+475: [DEBUG]Process begin
+476: [DEBUG]Tick
+476: [DEBUG]Tick
+476: [DEBUG]Tick
+476: [DEBUG]Tick
+476: [DEBUG]Process end
+476: [DEBUG]Process begin
+477: [DEBUG]Tick
+477: [DEBUG]Tick
+477: [DEBUG]Tick
+477: [DEBUG]Tick
+477: [DEBUG]Process end
+477: [DEBUG]Process begin
+478: [DEBUG]Tick
+478: [DEBUG]Tick
+478: [DEBUG]Tick
+478: [DEBUG]Tick
+478: [DEBUG]Tick
+478: [DEBUG]Tick
+478: [DEBUG]Process end
+478: [DEBUG]Process begin
+479: [DEBUG]Tick
+479: [DEBUG]Tick
+479: [DEBUG]Tick
+479: [DEBUG]Tick
+479: [DEBUG]Process end
+479: [DEBUG]Process begin
+480: [DEBUG]Tick
+480: [DEBUG]Tick
+480: [DEBUG]Tick
+480: [DEBUG]Tick
+480: [DEBUG]Tick
+480: [DEBUG]Process end
+480: [DEBUG]Process begin
+480: [VERBOSE]Current FPS: 21.8340606689
+480: [DEBUG]Tick
+480: [VERBOSE]Time spent in frame: 47
+480: [VERBOSE]Time spent doing calculations: 47
+481: [DEBUG]Tick
+481: [DEBUG]Tick
+481: [DEBUG]Tick
+481: [DEBUG]Process end
+481: [DEBUG]Process begin
+482: [DEBUG]Tick
+482: [DEBUG]Tick
+482: [DEBUG]Tick
+482: [DEBUG]Tick
+482: [DEBUG]Tick
+482: [DEBUG]Tick
+482: [DEBUG]Process end
+482: [DEBUG]Process begin
+482: [DEBUG]Tick
+483: [DEBUG]Tick
+483: [DEBUG]Tick
+483: [DEBUG]Tick
+483: [DEBUG]Tick
+483: [DEBUG]Process end
+483: [DEBUG]Process begin
+483: [DEBUG]Tick
+484: [DEBUG]Tick
+484: [DEBUG]Tick
+484: [DEBUG]Tick
+484: [DEBUG]Tick
+484: [DEBUG]Process end
+484: [DEBUG]Process begin
+485: [DEBUG]Tick
+485: [DEBUG]Tick
+485: [DEBUG]Tick
+485: [DEBUG]Tick
+485: [DEBUG]Tick
+485: [DEBUG]Process end
+485: [DEBUG]Process begin
+486: [DEBUG]Tick
+486: [DEBUG]Tick
+486: [DEBUG]Tick
+486: [DEBUG]Tick
+486: [DEBUG]Tick
+486: [DEBUG]Process end
+486: [DEBUG]Process begin
+486: [DEBUG]Tick
+487: [DEBUG]Tick
+487: [DEBUG]Tick
+487: [DEBUG]Tick
+487: [DEBUG]Tick
+487: [DEBUG]Tick
+487: [DEBUG]Tick
+487: [DEBUG]Tick
+487: [DEBUG]Process end
+487: [DEBUG]Process begin
+488: [DEBUG]Tick
+488: [DEBUG]Tick
+488: [DEBUG]Tick
+488: [DEBUG]Tick
+488: [DEBUG]Tick
+488: [DEBUG]Process end
+488: [DEBUG]Process begin
+489: [DEBUG]Tick
+489: [DEBUG]Tick
+489: [DEBUG]Tick
+489: [DEBUG]Tick
+489: [DEBUG]Tick
+489: [DEBUG]Tick
+489: [DEBUG]Tick
+489: [DEBUG]Process end
+489: [DEBUG]Process begin
+490: [DEBUG]Tick
+490: [DEBUG]Tick
+490: [DEBUG]Tick
+490: [DEBUG]Tick
+490: [DEBUG]Tick
+490: [DEBUG]Process end
+490: [DEBUG]Process begin
+491: [DEBUG]Tick
+491: [DEBUG]Tick
+491: [DEBUG]Tick
+491: [DEBUG]Tick
+491: [DEBUG]Tick
+491: [DEBUG]Tick
+491: [DEBUG]Process end
+491: [DEBUG]Process begin
+492: [DEBUG]Tick
+492: [DEBUG]Tick
+492: [DEBUG]Tick
+492: [DEBUG]Tick
+492: [DEBUG]Tick
+492: [DEBUG]Process end
+492: [DEBUG]Process begin
+493: [DEBUG]Tick
+493: [DEBUG]Tick
+493: [DEBUG]Tick
+493: [DEBUG]Tick
+493: [DEBUG]Tick
+493: [DEBUG]Tick
+493: [DEBUG]Process end
+493: [DEBUG]Process begin
+494: [DEBUG]Tick
+494: [DEBUG]Process end
+494: [DEBUG]Process begin
+495: [DEBUG]Tick
+495: [DEBUG]Process end
+495: [DEBUG]Process begin
+496: [DEBUG]Tick
+496: [DEBUG]Tick
+496: [DEBUG]Tick
+496: [DEBUG]Tick
+496: [DEBUG]Tick
+496: [DEBUG]Process end
+496: [DEBUG]Process begin
+497: [DEBUG]Tick
+497: [DEBUG]Tick
+497: [DEBUG]Tick
+497: [DEBUG]Tick
+497: [DEBUG]Tick
+497: [DEBUG]Process end
+497: [DEBUG]Process begin
+498: [DEBUG]Tick
+498: [DEBUG]Tick
+498: [DEBUG]Tick
+498: [DEBUG]Process end
+498: [DEBUG]Process begin
+499: [DEBUG]Tick
+499: [DEBUG]Tick
+499: [DEBUG]Tick
+499: [DEBUG]Tick
+499: [DEBUG]Process end
+499: [DEBUG]Process begin
+500: [DEBUG]Tick
+500: [DEBUG]Tick
+500: [DEBUG]Tick
+500: [DEBUG]Tick
+500: [DEBUG]Tick
+500: [DEBUG]Tick
+500: [DEBUG]Process end
+500: [DEBUG]Process begin
+501: [DEBUG]Tick
+501: [DEBUG]Tick
+501: [DEBUG]Tick
+501: [DEBUG]Tick
+501: [DEBUG]Tick
+501: [DEBUG]Tick
+501: [DEBUG]Process end
+501: [DEBUG]Process begin
+502: [DEBUG]Tick
+502: [DEBUG]Tick
+502: [DEBUG]Tick
+502: [DEBUG]Tick
+502: [DEBUG]Tick
+502: [DEBUG]Tick
+502: [DEBUG]Process end
+502: [DEBUG]Process begin
+503: [DEBUG]Tick
+503: [DEBUG]Tick
+503: [DEBUG]Tick
+503: [DEBUG]Tick
+503: [DEBUG]Tick
+503: [DEBUG]Process end
+503: [DEBUG]Process begin
+504: [DEBUG]Tick
+504: [DEBUG]Tick
+504: [DEBUG]Tick
+504: [DEBUG]Tick
+504: [DEBUG]Tick
+504: [DEBUG]Process end
+504: [DEBUG]Process begin
+505: [DEBUG]Tick
+505: [DEBUG]Tick
+505: [DEBUG]Tick
+505: [DEBUG]Tick
+505: [DEBUG]Tick
+505: [DEBUG]Process end
+505: [DEBUG]Process begin
+505: [DEBUG]Tick
+506: [DEBUG]Tick
+506: [DEBUG]Tick
+506: [DEBUG]Tick
+506: [DEBUG]Tick
+506: [DEBUG]Tick
+506: [DEBUG]Process end
+506: [DEBUG]Process begin
+506: [DEBUG]Tick
+507: [DEBUG]Tick
+507: [DEBUG]Tick
+507: [DEBUG]Tick
+507: [DEBUG]Tick
+507: [DEBUG]Tick
+507: [DEBUG]Process end
+507: [DEBUG]Process begin
+507: [DEBUG]Tick
+508: [DEBUG]Tick
+508: [DEBUG]Tick
+508: [DEBUG]Tick
+508: [DEBUG]Tick
+508: [DEBUG]Tick
+508: [DEBUG]Tick
+508: [DEBUG]Process end
+508: [DEBUG]Process begin
+508: [DEBUG]Tick
+509: [DEBUG]Tick
+509: [DEBUG]Tick
+509: [DEBUG]Tick
+509: [DEBUG]Tick
+509: [DEBUG]Tick
+509: [DEBUG]Process end
+509: [DEBUG]Process begin
+510: [DEBUG]Tick
+510: [DEBUG]Tick
+510: [DEBUG]Tick
+510: [DEBUG]Tick
+510: [DEBUG]Tick
+510: [DEBUG]Tick
+510: [DEBUG]Process end
+510: [DEBUG]Process begin
+510: [DEBUG]Tick
+510: [VERBOSE]Current FPS: 23.5849056244
+510: [VERBOSE]Time spent in frame: 42
+510: [VERBOSE]Time spent doing calculations: 41
+511: [DEBUG]Tick
+511: [DEBUG]Tick
+511: [DEBUG]Tick
+511: [DEBUG]Process end
+511: [DEBUG]Process begin
+512: [DEBUG]Tick
+512: [DEBUG]Tick
+512: [DEBUG]Tick
+512: [DEBUG]Tick
+512: [DEBUG]Process end
+512: [DEBUG]Process begin
+513: [DEBUG]Tick
+513: [DEBUG]Tick
+513: [DEBUG]Tick
+513: [DEBUG]Tick
+513: [DEBUG]Process end
+513: [DEBUG]Process begin
+514: [DEBUG]Tick
+514: [DEBUG]Tick
+514: [DEBUG]Tick
+514: [DEBUG]Process end
+514: [DEBUG]Process begin
+515: [DEBUG]Tick
+515: [DEBUG]Tick
+515: [DEBUG]Tick
+515: [DEBUG]Tick
+515: [DEBUG]Process end
+515: [DEBUG]Process begin
+515: [DEBUG]Tick
+516: [DEBUG]Tick
+516: [DEBUG]Tick
+516: [DEBUG]Tick
+516: [DEBUG]Tick
+516: [DEBUG]Process end
+516: [DEBUG]Tick
+516: [DEBUG]Process begin
+517: [DEBUG]Tick
+517: [DEBUG]Tick
+517: [DEBUG]Tick
+517: [DEBUG]Tick
+517: [DEBUG]Process end
+517: [DEBUG]Process begin
+518: [DEBUG]Tick
+518: [DEBUG]Tick
+518: [DEBUG]Tick
+518: [DEBUG]Tick
+518: [DEBUG]Tick
+518: [DEBUG]Process end
+518: [DEBUG]Process begin
+519: [DEBUG]Tick
+519: [DEBUG]Tick
+519: [DEBUG]Tick
+519: [DEBUG]Tick
+519: [DEBUG]Tick
+519: [DEBUG]Process end
+519: [DEBUG]Process begin
+520: [DEBUG]Tick
+520: [DEBUG]Tick
+520: [DEBUG]Tick
+520: [DEBUG]Tick
+520: [DEBUG]Tick
+520: [DEBUG]Tick
+520: [DEBUG]Process end
+520: [DEBUG]Process begin
+521: [DEBUG]Tick
+521: [DEBUG]Tick
+521: [DEBUG]Tick
+521: [DEBUG]Tick
+521: [DEBUG]Process end
+521: [DEBUG]Process begin
+522: [DEBUG]Tick
+522: [DEBUG]Tick
+522: [DEBUG]Tick
+522: [DEBUG]Tick
+522: [DEBUG]Tick
+522: [DEBUG]Process end
+522: [DEBUG]Process begin
+523: [DEBUG]Tick
+523: [DEBUG]Tick
+523: [DEBUG]Tick
+523: [DEBUG]Process end
+523: [DEBUG]Process begin
+524: [DEBUG]Tick
+524: [DEBUG]Tick
+524: [DEBUG]Tick
+524: [DEBUG]Tick
+524: [DEBUG]Tick
+524: [DEBUG]Process end
+524: [DEBUG]Process begin
+525: [DEBUG]Tick
+525: [DEBUG]Tick
+525: [DEBUG]Tick
+525: [DEBUG]Tick
+525: [DEBUG]Tick
+525: [DEBUG]Process end
+525: [DEBUG]Process begin
+526: [DEBUG]Tick
+526: [DEBUG]Tick
+526: [DEBUG]Tick
+526: [DEBUG]Tick
+526: [DEBUG]Tick
+526: [DEBUG]Process end
+526: [DEBUG]Process begin
+526: [DEBUG]Tick
+527: [DEBUG]Tick
+527: [DEBUG]Tick
+527: [DEBUG]Tick
+527: [DEBUG]Tick
+527: [DEBUG]Tick
+527: [DEBUG]Process end
+527: [DEBUG]Process begin
+528: [DEBUG]Tick
+528: [DEBUG]Tick
+528: [DEBUG]Tick
+528: [DEBUG]Tick
+528: [DEBUG]Process end
+528: [DEBUG]Process begin
+529: [DEBUG]Tick
+529: [DEBUG]Tick
+529: [DEBUG]Tick
+529: [DEBUG]Tick
+529: [DEBUG]Process end
+529: [DEBUG]Process begin
+530: [DEBUG]Tick
+530: [DEBUG]Tick
+530: [DEBUG]Tick
+530: [DEBUG]Tick
+530: [DEBUG]Tick
+530: [DEBUG]Process end
+530: [DEBUG]Process begin
+531: [DEBUG]Tick
+531: [DEBUG]Tick
+531: [DEBUG]Tick
+531: [DEBUG]Tick
+531: [DEBUG]Tick
+531: [DEBUG]Process end
+531: [DEBUG]Process begin
+532: [DEBUG]Tick
+532: [DEBUG]Tick
+532: [DEBUG]Tick
+532: [DEBUG]Tick
+532: [DEBUG]Tick
+532: [DEBUG]Process end
+532: [DEBUG]Process begin
+533: [DEBUG]Tick
+533: [DEBUG]Tick
+533: [DEBUG]Tick
+533: [DEBUG]Tick
+533: [DEBUG]Process end
+533: [DEBUG]Process begin
+534: [DEBUG]Tick
+534: [DEBUG]Tick
+534: [DEBUG]Tick
+534: [DEBUG]Tick
+534: [DEBUG]Tick
+534: [DEBUG]Tick
+534: [DEBUG]Process end
+534: [DEBUG]Process begin
+535: [DEBUG]Tick
+535: [DEBUG]Tick
+535: [DEBUG]Tick
+535: [DEBUG]Tick
+535: [DEBUG]Tick
+535: [DEBUG]Process end
+535: [DEBUG]Process begin
+536: [DEBUG]Tick
+536: [DEBUG]Tick
+536: [DEBUG]Tick
+536: [DEBUG]Tick
+536: [DEBUG]Tick
+536: [DEBUG]Process end
+536: [DEBUG]Process begin
+537: [DEBUG]Tick
+537: [DEBUG]Tick
+537: [DEBUG]Tick
+537: [DEBUG]Tick
+537: [DEBUG]Process end
+537: [DEBUG]Process begin
+538: [DEBUG]Tick
+538: [DEBUG]Tick
+538: [DEBUG]Tick
+538: [DEBUG]Tick
+538: [DEBUG]Tick
+538: [DEBUG]Process end
+538: [DEBUG]Process begin
+539: [DEBUG]Tick
+539: [DEBUG]Tick
+539: [DEBUG]Tick
+539: [DEBUG]Tick
+539: [DEBUG]Process end
+539: [DEBUG]Tick
+539: [DEBUG]Process begin
+540: [DEBUG]Tick
+540: [DEBUG]Tick
+540: [DEBUG]Tick
+540: [DEBUG]Tick
+540: [DEBUG]Tick
+540: [DEBUG]Tick
+540: [DEBUG]Process end
+540: [DEBUG]Process begin
+540: [VERBOSE]Current FPS: 24.1545886993
+540: [DEBUG]Tick
+540: [VERBOSE]Time spent in frame: 41
+540: [VERBOSE]Time spent doing calculations: 41
+541: [DEBUG]Tick
+541: [DEBUG]Tick
+541: [DEBUG]Tick
+541: [DEBUG]Tick
+541: [DEBUG]Process end
+541: [DEBUG]Process begin
+542: [DEBUG]Tick
+542: [DEBUG]Tick
+542: [DEBUG]Process end
+542: [DEBUG]Process begin
+543: [DEBUG]Tick
+543: [DEBUG]Tick
+543: [DEBUG]Tick
+543: [DEBUG]Tick
+543: [DEBUG]Process end
+543: [DEBUG]Process begin
+543: [DEBUG]Tick
+544: [DEBUG]Tick
+544: [DEBUG]Tick
+544: [DEBUG]Tick
+544: [DEBUG]Tick
+544: [DEBUG]Process end
+544: [DEBUG]Process begin
+545: [DEBUG]Tick
+545: [DEBUG]Tick
+545: [DEBUG]Tick
+545: [DEBUG]Tick
+545: [DEBUG]Tick
+545: [DEBUG]Process end
+545: [DEBUG]Process begin
+546: [DEBUG]Tick
+546: [DEBUG]Tick
+546: [DEBUG]Tick
+546: [DEBUG]Tick
+546: [DEBUG]Process end
+546: [DEBUG]Process begin
+547: [DEBUG]Tick
+547: [DEBUG]Tick
+547: [DEBUG]Tick
+547: [DEBUG]Tick
+547: [DEBUG]Process end
+547: [DEBUG]Process begin
+548: [DEBUG]Tick
+548: [DEBUG]Tick
+548: [DEBUG]Tick
+548: [DEBUG]Tick
+548: [DEBUG]Tick
+548: [DEBUG]Process end
+548: [DEBUG]Process begin
+548: [DEBUG]Tick
+549: [DEBUG]Tick
+549: [DEBUG]Tick
+549: [DEBUG]Tick
+549: [DEBUG]Tick
+549: [DEBUG]Process end
+549: [DEBUG]Process begin
+550: [DEBUG]Tick
+550: [DEBUG]Tick
+550: [DEBUG]Tick
+550: [DEBUG]Process end
+550: [DEBUG]Process begin
+551: [DEBUG]Tick
+551: [DEBUG]Tick
+551: [DEBUG]Tick
+551: [DEBUG]Tick
+551: [DEBUG]Tick
+551: [DEBUG]Process end
+551: [DEBUG]Process begin
+552: [DEBUG]Tick
+552: [DEBUG]Tick
+552: [DEBUG]Tick
+552: [DEBUG]Tick
+552: [DEBUG]Tick
+552: [DEBUG]Process end
+552: [DEBUG]Process begin
+553: [DEBUG]Tick
+553: [DEBUG]Tick
+553: [DEBUG]Tick
+553: [DEBUG]Tick
+553: [DEBUG]Process end
+553: [DEBUG]Process begin
+554: [DEBUG]Tick
+554: [DEBUG]Tick
+554: [DEBUG]Tick
+554: [DEBUG]Tick
+554: [DEBUG]Tick
+554: [DEBUG]Process end
+554: [DEBUG]Process begin
+555: [DEBUG]Tick
+555: [DEBUG]Tick
+555: [DEBUG]Tick
+555: [DEBUG]Tick
+555: [DEBUG]Tick
+555: [DEBUG]Process end
+555: [DEBUG]Process begin
+556: [DEBUG]Tick
+556: [DEBUG]Tick
+556: [DEBUG]Tick
+556: [DEBUG]Tick
+556: [DEBUG]Process end
+556: [DEBUG]Process begin
+557: [DEBUG]Tick
+557: [DEBUG]Tick
+557: [DEBUG]Tick
+557: [DEBUG]Tick
+557: [DEBUG]Process end
+557: [DEBUG]Process begin
+558: [DEBUG]Tick
+558: [DEBUG]Tick
+558: [DEBUG]Tick
+558: [DEBUG]Tick
+558: [DEBUG]Tick
+558: [DEBUG]Process end
+558: [DEBUG]Process begin
+559: [DEBUG]Tick
+559: [DEBUG]Tick
+559: [DEBUG]Tick
+559: [DEBUG]Tick
+559: [DEBUG]Tick
+559: [DEBUG]Tick
+559: [DEBUG]Process end
+559: [DEBUG]Process begin
+560: [DEBUG]Tick
+560: [DEBUG]Tick
+560: [DEBUG]Tick
+560: [DEBUG]Tick
+560: [DEBUG]Tick
+560: [DEBUG]Process end
+560: [DEBUG]Process begin
+560: [DEBUG]Tick
+561: [DEBUG]Tick
+561: [DEBUG]Tick
+561: [DEBUG]Tick
+561: [DEBUG]Tick
+561: [DEBUG]Process end
+561: [DEBUG]Process begin
+561: [DEBUG]Tick
+562: [DEBUG]Tick
+562: [DEBUG]Tick
+562: [DEBUG]Tick
+562: [DEBUG]Tick
+562: [DEBUG]Process end
+562: [DEBUG]Process begin
+563: [DEBUG]Tick
+563: [DEBUG]Tick
+563: [DEBUG]Tick
+563: [DEBUG]Process end
+563: [DEBUG]Process begin
+564: [DEBUG]Tick
+564: [DEBUG]Tick
+564: [DEBUG]Tick
+564: [DEBUG]Tick
+564: [DEBUG]Tick
+564: [DEBUG]Process end
+564: [DEBUG]Process begin
+564: [DEBUG]Tick
+565: [DEBUG]Tick
+565: [DEBUG]Tick
+565: [DEBUG]Tick
+565: [DEBUG]Tick
+565: [DEBUG]Process end
+565: [DEBUG]Process begin
+566: [DEBUG]Tick
+566: [DEBUG]Tick
+566: [DEBUG]Tick
+566: [DEBUG]Tick
+566: [DEBUG]Process end
+566: [DEBUG]Process begin
+566: [DEBUG]Tick
+567: [DEBUG]Tick
+567: [DEBUG]Tick
+567: [DEBUG]Tick
+567: [DEBUG]Tick
+567: [DEBUG]Tick
+567: [DEBUG]Tick
+567: [DEBUG]Process end
+567: [DEBUG]Process begin
+568: [DEBUG]Tick
+568: [DEBUG]Tick
+568: [DEBUG]Tick
+568: [DEBUG]Tick
+568: [DEBUG]Tick
+568: [DEBUG]Process end
+568: [DEBUG]Process begin
+569: [DEBUG]Tick
+569: [DEBUG]Tick
+569: [DEBUG]Tick
+569: [DEBUG]Tick
+569: [DEBUG]Tick
+569: [DEBUG]Process end
+569: [DEBUG]Process begin
+570: [DEBUG]Tick
+570: [DEBUG]Tick
+570: [DEBUG]Tick
+570: [DEBUG]Tick
+570: [DEBUG]Tick
+570: [DEBUG]Process end
+570: [DEBUG]Process begin
+570: [VERBOSE]Current FPS: 29.4117641449
+570: [DEBUG]Tick
+570: [VERBOSE]Time spent in frame: 41
+570: [VERBOSE]Time spent doing calculations: 41
+571: [DEBUG]Tick
+571: [DEBUG]Tick
+571: [DEBUG]Tick
+571: [DEBUG]Tick
+571: [DEBUG]Process end
+571: [DEBUG]Process begin
+572: [DEBUG]Tick
+572: [DEBUG]Tick
+572: [DEBUG]Tick
+572: [DEBUG]Tick
+572: [DEBUG]Tick
+572: [DEBUG]Process end
+572: [DEBUG]Process begin
+573: [DEBUG]Tick
+573: [DEBUG]Tick
+573: [DEBUG]Tick
+573: [DEBUG]Tick
+573: [DEBUG]Tick
+573: [DEBUG]Process end
+573: [DEBUG]Process begin
+574: [DEBUG]Tick
+574: [DEBUG]Tick
+574: [DEBUG]Tick
+574: [DEBUG]Tick
+574: [DEBUG]Tick
+574: [DEBUG]Process end
+574: [DEBUG]Process begin
+575: [DEBUG]Tick
+575: [DEBUG]Tick
+575: [DEBUG]Tick
+575: [DEBUG]Tick
+575: [DEBUG]Process end
+575: [DEBUG]Process begin
+575: [DEBUG]Tick
+576: [DEBUG]Tick
+576: [DEBUG]Tick
+576: [DEBUG]Tick
+576: [DEBUG]Tick
+576: [DEBUG]Process end
+576: [DEBUG]Process begin
+577: [DEBUG]Tick
+577: [DEBUG]Tick
+577: [DEBUG]Tick
+577: [DEBUG]Tick
+577: [DEBUG]Tick
+577: [DEBUG]Process end
+577: [DEBUG]Process begin
+578: [DEBUG]Tick
+578: [DEBUG]Tick
+578: [DEBUG]Tick
+578: [DEBUG]Tick
+578: [DEBUG]Tick
+578: [DEBUG]Tick
+578: [DEBUG]Process end
+578: [DEBUG]Process begin
+579: [DEBUG]Tick
+579: [DEBUG]Tick
+579: [DEBUG]Tick
+579: [DEBUG]Tick
+579: [DEBUG]Tick
+579: [DEBUG]Process end
+579: [DEBUG]Process begin
+580: [DEBUG]Tick
+580: [DEBUG]Tick
+580: [DEBUG]Tick
+580: [DEBUG]Process end
+580: [DEBUG]Process begin
+580: [DEBUG]Tick
+581: [DEBUG]Tick
+581: [DEBUG]Tick
+581: [DEBUG]Tick
+581: [DEBUG]Tick
+581: [DEBUG]Process end
+581: [DEBUG]Process begin
+582: [DEBUG]Tick
+582: [DEBUG]Process end
+582: [DEBUG]Process begin
+583: [DEBUG]Tick
+583: [DEBUG]Tick
+583: [DEBUG]Tick
+583: [DEBUG]Process end
+583: [DEBUG]Process begin
+584: [DEBUG]Tick
+584: [DEBUG]Tick
+584: [DEBUG]Tick
+584: [DEBUG]Tick
+584: [DEBUG]Tick
+584: [DEBUG]Process end
+584: [DEBUG]Process begin
+585: [DEBUG]Tick
+585: [DEBUG]Tick
+585: [DEBUG]Tick
+585: [DEBUG]Tick
+585: [DEBUG]Tick
+585: [DEBUG]Process end
+585: [DEBUG]Process begin
+586: [DEBUG]Tick
+586: [DEBUG]Tick
+586: [DEBUG]Tick
+586: [DEBUG]Tick
+586: [DEBUG]Tick
+586: [DEBUG]Process end
+586: [DEBUG]Process begin
+587: [DEBUG]Tick
+587: [DEBUG]Tick
+587: [DEBUG]Tick
+587: [DEBUG]Tick
+587: [DEBUG]Tick
+587: [DEBUG]Process end
+587: [DEBUG]Process begin
+588: [DEBUG]Tick
+588: [DEBUG]Tick
+588: [DEBUG]Tick
+588: [DEBUG]Tick
+588: [DEBUG]Tick
+588: [DEBUG]Process end
+588: [DEBUG]Process begin
+589: [DEBUG]Tick
+589: [DEBUG]Tick
+589: [DEBUG]Tick
+589: [DEBUG]Tick
+589: [DEBUG]Process end
+589: [DEBUG]Process begin
+590: [DEBUG]Tick
+590: [DEBUG]Tick
+590: [DEBUG]Tick
+590: [DEBUG]Tick
+590: [DEBUG]Tick
+590: [DEBUG]Process end
+590: [DEBUG]Process begin
+591: [DEBUG]Tick
+591: [DEBUG]Tick
+591: [DEBUG]Tick
+591: [DEBUG]Process end
+591: [DEBUG]Process begin
+591: [DEBUG]Tick
+592: [DEBUG]Tick
+592: [DEBUG]Tick
+592: [DEBUG]Tick
+592: [DEBUG]Tick
+592: [DEBUG]Process end
+592: [DEBUG]Process begin
+592: [DEBUG]Tick
+593: [DEBUG]Tick
+593: [DEBUG]Tick
+593: [DEBUG]Tick
+593: [DEBUG]Tick
+593: [DEBUG]Process end
+593: [DEBUG]Process begin
+594: [DEBUG]Tick
+594: [DEBUG]Tick
+594: [DEBUG]Tick
+594: [DEBUG]Tick
+594: [DEBUG]Tick
+594: [DEBUG]Process end
+594: [DEBUG]Process begin
+595: [DEBUG]Tick
+595: [DEBUG]Tick
+595: [DEBUG]Tick
+595: [DEBUG]Tick
+595: [DEBUG]Tick
+595: [DEBUG]Process end
+595: [DEBUG]Process begin
+596: [DEBUG]Tick
+596: [DEBUG]Tick
+596: [DEBUG]Tick
+596: [DEBUG]Tick
+596: [DEBUG]Tick
+596: [DEBUG]Process end
+596: [DEBUG]Process begin
+596: [DEBUG]Tick
+597: [DEBUG]Tick
+597: [DEBUG]Tick
+597: [DEBUG]Tick
+597: [DEBUG]Tick
+597: [DEBUG]Tick
+597: [DEBUG]Tick
+597: [DEBUG]Process end
+597: [DEBUG]Process begin
+597: [DEBUG]Tick
+598: [DEBUG]Tick
+598: [DEBUG]Tick
+598: [DEBUG]Tick
+598: [DEBUG]Tick
+598: [DEBUG]Tick
+598: [DEBUG]Tick
+598: [DEBUG]Process end
+598: [DEBUG]Process begin
+598: [DEBUG]Tick
+599: [DEBUG]Tick
+599: [DEBUG]Tick
+599: [DEBUG]Tick
+599: [DEBUG]Tick
+599: [DEBUG]Process end
+599: [DEBUG]Process begin
+600: [DEBUG]Tick
+600: [DEBUG]Tick
+600: [DEBUG]Tick
+600: [DEBUG]Tick
+600: [DEBUG]Tick
+600: [DEBUG]Process end
+600: [DEBUG]Process begin
+600: [VERBOSE]Current FPS: 26.5251979828
+600: [DEBUG]Tick
+600: [VERBOSE]Time spent in frame: 36
+600: [VERBOSE]Time spent doing calculations: 36
+601: [DEBUG]Tick
+601: [DEBUG]Tick
+601: [DEBUG]Tick
+601: [DEBUG]Tick
+601: [DEBUG]Tick
+601: [DEBUG]Process end
+601: [DEBUG]Process begin
+602: [DEBUG]Tick
+602: [DEBUG]Tick
+602: [DEBUG]Tick
+602: [DEBUG]Tick
+602: [DEBUG]Tick
+602: [DEBUG]Tick
+602: [DEBUG]Process end
+602: [DEBUG]Process begin
+603: [DEBUG]Tick
+603: [DEBUG]Tick
+603: [DEBUG]Tick
+603: [DEBUG]Tick
+603: [DEBUG]Tick
+603: [DEBUG]Process end
+603: [DEBUG]Process begin
+604: [DEBUG]Tick
+604: [DEBUG]Tick
+604: [DEBUG]Tick
+604: [DEBUG]Tick
+604: [DEBUG]Tick
+604: [DEBUG]Process end
+604: [DEBUG]Process begin
+605: [DEBUG]Tick
+605: [DEBUG]Tick
+605: [DEBUG]Tick
+605: [DEBUG]Tick
+605: [DEBUG]Tick
+605: [DEBUG]Process end
+605: [DEBUG]Process begin
+606: [DEBUG]Tick
+606: [DEBUG]Tick
+606: [DEBUG]Tick
+606: [DEBUG]Tick
+606: [DEBUG]Tick
+606: [DEBUG]Process end
+606: [DEBUG]Process begin
+607: [DEBUG]Tick
+607: [DEBUG]Tick
+607: [DEBUG]Tick
+607: [DEBUG]Tick
+607: [DEBUG]Process end
+607: [DEBUG]Process begin
+608: [DEBUG]Tick
+608: [DEBUG]Tick
+608: [DEBUG]Tick
+608: [DEBUG]Tick
+608: [DEBUG]Tick
+608: [DEBUG]Process end
+608: [DEBUG]Process begin
+609: [DEBUG]Tick
+609: [DEBUG]Tick
+609: [DEBUG]Tick
+609: [DEBUG]Tick
+609: [DEBUG]Tick
+609: [DEBUG]Tick
+609: [DEBUG]Process end
+609: [DEBUG]Process begin
+610: [DEBUG]Tick
+610: [DEBUG]Tick
+610: [DEBUG]Tick
+610: [DEBUG]Tick
+610: [DEBUG]Tick
+610: [DEBUG]Process end
+610: [DEBUG]Process begin
+611: [DEBUG]Tick
+611: [DEBUG]Tick
+611: [DEBUG]Tick
+611: [DEBUG]Tick
+611: [DEBUG]Tick
+611: [DEBUG]Tick
+611: [DEBUG]Process end
+611: [DEBUG]Process begin
+611: [DEBUG]Tick
+612: [DEBUG]Tick
+612: [DEBUG]Tick
+612: [DEBUG]Tick
+612: [DEBUG]Tick
+612: [DEBUG]Tick
+612: [DEBUG]Process end
+612: [DEBUG]Process begin
+613: [DEBUG]Tick
+613: [DEBUG]Tick
+613: [DEBUG]Tick
+613: [DEBUG]Tick
+613: [DEBUG]Tick
+613: [DEBUG]Process end
+613: [DEBUG]Process begin
+613: [DEBUG]Tick
+614: [DEBUG]Tick
+614: [DEBUG]Tick
+614: [DEBUG]Tick
+614: [DEBUG]Tick
+614: [DEBUG]Tick
+614: [DEBUG]Process end
+614: [DEBUG]Process begin
+615: [DEBUG]Tick
+615: [DEBUG]Tick
+615: [DEBUG]Tick
+615: [DEBUG]Tick
+615: [DEBUG]Tick
+615: [DEBUG]Process end
+615: [DEBUG]Process begin
+616: [DEBUG]Tick
+616: [DEBUG]Tick
+616: [DEBUG]Tick
+616: [DEBUG]Tick
+616: [DEBUG]Tick
+616: [DEBUG]Process end
+616: [DEBUG]Process begin
+617: [DEBUG]Tick
+617: [DEBUG]Tick
+617: [DEBUG]Tick
+617: [DEBUG]Tick
+617: [DEBUG]Tick
+617: [DEBUG]Process end
+617: [DEBUG]Process begin
+618: [DEBUG]Tick
+618: [DEBUG]Tick
+618: [DEBUG]Tick
+618: [DEBUG]Tick
+618: [DEBUG]Tick
+618: [DEBUG]Process end
+618: [DEBUG]Process begin
+619: [DEBUG]Tick
+619: [DEBUG]Tick
+619: [DEBUG]Tick
+619: [DEBUG]Tick
+619: [DEBUG]Tick
+619: [DEBUG]Process end
+619: [DEBUG]Process begin
+620: [DEBUG]Tick
+620: [DEBUG]Tick
+620: [DEBUG]Tick
+620: [DEBUG]Tick
+620: [DEBUG]Tick
+620: [DEBUG]Process end
+620: [DEBUG]Process begin
+621: [DEBUG]Tick
+621: [DEBUG]Tick
+621: [DEBUG]Tick
+621: [DEBUG]Tick
+621: [DEBUG]Tick
+621: [DEBUG]Process end
+621: [DEBUG]Process begin
+622: [DEBUG]Tick
+622: [DEBUG]Tick
+622: [DEBUG]Tick
+622: [DEBUG]Tick
+622: [DEBUG]Tick
+622: [DEBUG]Tick
+622: [DEBUG]Process end
+622: [DEBUG]Process begin
+623: [DEBUG]Tick
+623: [DEBUG]Tick
+623: [DEBUG]Tick
+623: [DEBUG]Tick
+623: [DEBUG]Tick
+623: [DEBUG]Process end
+623: [DEBUG]Process begin
+624: [DEBUG]Tick
+624: [DEBUG]Tick
+624: [DEBUG]Tick
+624: [DEBUG]Tick
+624: [DEBUG]Tick
+624: [DEBUG]Process end
+624: [DEBUG]Process begin
+624: [DEBUG]Tick
+625: [DEBUG]Tick
+625: [DEBUG]Tick
+625: [DEBUG]Tick
+625: [DEBUG]Tick
+625: [DEBUG]Tick
+625: [DEBUG]Process end
+625: [DEBUG]Process begin
+626: [DEBUG]Tick
+626: [DEBUG]Tick
+626: [DEBUG]Tick
+626: [DEBUG]Tick
+626: [DEBUG]Tick
+626: [DEBUG]Process end
+626: [DEBUG]Process begin
+627: [DEBUG]Tick
+627: [DEBUG]Tick
+627: [DEBUG]Tick
+627: [DEBUG]Tick
+627: [DEBUG]Process end
+627: [DEBUG]Process begin
+628: [DEBUG]Tick
+628: [DEBUG]Tick
+628: [DEBUG]Tick
+628: [DEBUG]Tick
+628: [DEBUG]Tick
+628: [DEBUG]Process end
+628: [DEBUG]Process begin
+629: [DEBUG]Tick
+629: [DEBUG]Tick
+629: [DEBUG]Tick
+629: [DEBUG]Tick
+629: [DEBUG]Tick
+629: [DEBUG]Process end
+629: [DEBUG]Process begin
+630: [DEBUG]Tick
+630: [DEBUG]Tick
+630: [DEBUG]Tick
+630: [DEBUG]Tick
+630: [DEBUG]Tick
+630: [DEBUG]Process end
+630: [DEBUG]Process begin
+630: [VERBOSE]Current FPS: 27.0270271301
+630: [DEBUG]Tick
+630: [VERBOSE]Time spent in frame: 44
+630: [VERBOSE]Time spent doing calculations: 44
+631: [DEBUG]Tick
+631: [DEBUG]Tick
+631: [DEBUG]Tick
+631: [DEBUG]Tick
+631: [DEBUG]Process end
+631: [DEBUG]Process begin
+632: [DEBUG]Tick
+632: [DEBUG]Tick
+632: [DEBUG]Tick
+632: [DEBUG]Tick
+632: [DEBUG]Tick
+632: [DEBUG]Tick
+632: [DEBUG]Tick
+632: [DEBUG]Process end
+632: [DEBUG]Process begin
+633: [DEBUG]Tick
+633: [DEBUG]Tick
+633: [DEBUG]Tick
+633: [DEBUG]Tick
+633: [DEBUG]Tick
+633: [DEBUG]Process end
+633: [DEBUG]Process begin
+634: [DEBUG]Tick
+634: [DEBUG]Tick
+634: [DEBUG]Tick
+634: [DEBUG]Tick
+634: [DEBUG]Tick
+634: [DEBUG]Tick
+634: [DEBUG]Process end
+634: [DEBUG]Process begin
+635: [DEBUG]Tick
+635: [DEBUG]Tick
+635: [DEBUG]Tick
+635: [DEBUG]Tick
+635: [DEBUG]Tick
+635: [DEBUG]Tick
+635: [DEBUG]Tick
+635: [DEBUG]Process end
+635: [DEBUG]Process begin
+636: [DEBUG]Tick
+636: [DEBUG]Tick
+636: [DEBUG]Tick
+636: [DEBUG]Tick
+636: [DEBUG]Tick
+636: [DEBUG]Process end
+636: [DEBUG]Process begin
+637: [DEBUG]Tick
+637: [DEBUG]Tick
+637: [DEBUG]Tick
+637: [DEBUG]Tick
+637: [DEBUG]Tick
+637: [DEBUG]Process end
+637: [DEBUG]Process begin
+638: [DEBUG]Tick
+638: [DEBUG]Tick
+638: [DEBUG]Tick
+638: [DEBUG]Tick
+638: [DEBUG]Tick
+638: [DEBUG]Tick
+638: [DEBUG]Process end
+638: [DEBUG]Process begin
+639: [DEBUG]Tick
+639: [DEBUG]Tick
+639: [DEBUG]Tick
+639: [DEBUG]Tick
+639: [DEBUG]Process end
+639: [DEBUG]Process begin
+640: [DEBUG]Tick
+640: [DEBUG]Tick
+640: [DEBUG]Tick
+640: [DEBUG]Tick
+640: [DEBUG]Tick
+640: [DEBUG]Tick
+640: [DEBUG]Process end
+640: [DEBUG]Process begin
+641: [DEBUG]Tick
+641: [DEBUG]Tick
+641: [DEBUG]Tick
+641: [DEBUG]Tick
+641: [DEBUG]Tick
+641: [DEBUG]Process end
+641: [DEBUG]Process begin
+642: [DEBUG]Tick
+642: [DEBUG]Tick
+642: [DEBUG]Tick
+642: [DEBUG]Tick
+642: [DEBUG]Process end
+642: [DEBUG]Process begin
+643: [DEBUG]Tick
+643: [DEBUG]Tick
+643: [DEBUG]Tick
+643: [DEBUG]Tick
+643: [DEBUG]Process end
+643: [DEBUG]Process begin
+644: [DEBUG]Tick
+644: [DEBUG]Tick
+644: [DEBUG]Tick
+644: [DEBUG]Tick
+644: [DEBUG]Process end
+644: [DEBUG]Process begin
+645: [DEBUG]Tick
+645: [DEBUG]Tick
+645: [DEBUG]Tick
+645: [DEBUG]Tick
+645: [DEBUG]Tick
+645: [DEBUG]Process end
+645: [DEBUG]Process begin
+646: [DEBUG]Tick
+646: [DEBUG]Tick
+646: [DEBUG]Tick
+646: [DEBUG]Tick
+646: [DEBUG]Tick
+646: [DEBUG]Process end
+646: [DEBUG]Process begin
+647: [DEBUG]Tick
+647: [DEBUG]Tick
+647: [DEBUG]Tick
+647: [DEBUG]Tick
+647: [DEBUG]Process end
+647: [DEBUG]Process begin
+648: [DEBUG]Tick
+648: [DEBUG]Tick
+648: [DEBUG]Tick
+648: [DEBUG]Tick
+648: [DEBUG]Tick
+648: [DEBUG]Process end
+648: [DEBUG]Process begin
+649: [DEBUG]Tick
+649: [DEBUG]Tick
+649: [DEBUG]Tick
+649: [DEBUG]Tick
+649: [DEBUG]Tick
+649: [DEBUG]Process end
+649: [DEBUG]Process begin
+650: [DEBUG]Tick
+650: [DEBUG]Tick
+650: [DEBUG]Tick
+650: [DEBUG]Tick
+650: [DEBUG]Process end
+650: [DEBUG]Process begin
+651: [DEBUG]Tick
+651: [DEBUG]Process end
+651: [DEBUG]Process begin
+652: [DEBUG]Tick
+652: [DEBUG]Tick
+652: [DEBUG]Tick
+652: [DEBUG]Tick
+652: [DEBUG]Tick
+652: [DEBUG]Process end
+652: [DEBUG]Process begin
+653: [DEBUG]Tick
+653: [DEBUG]Tick
+653: [DEBUG]Tick
+653: [DEBUG]Tick
+653: [DEBUG]Process end
+653: [DEBUG]Process begin
+654: [DEBUG]Tick
+654: [DEBUG]Tick
+654: [DEBUG]Tick
+654: [DEBUG]Tick
+654: [DEBUG]Tick
+654: [DEBUG]Process end
+654: [DEBUG]Process begin
+655: [DEBUG]Tick
+655: [DEBUG]Tick
+655: [DEBUG]Tick
+655: [DEBUG]Tick
+655: [DEBUG]Tick
+655: [DEBUG]Process end
+655: [DEBUG]Process begin
+656: [DEBUG]Tick
+656: [DEBUG]Tick
+656: [DEBUG]Tick
+656: [DEBUG]Tick
+656: [DEBUG]Process end
+656: [DEBUG]Process begin
+657: [DEBUG]Tick
+657: [DEBUG]Tick
+657: [DEBUG]Tick
+657: [DEBUG]Tick
+657: [DEBUG]Tick
+657: [DEBUG]Process end
+657: [DEBUG]Process begin
+658: [DEBUG]Tick
+658: [DEBUG]Tick
+658: [DEBUG]Tick
+658: [DEBUG]Process end
+658: [DEBUG]Process begin
+659: [DEBUG]Tick
+659: [DEBUG]Tick
+659: [DEBUG]Tick
+659: [DEBUG]Tick
+659: [DEBUG]Tick
+659: [DEBUG]Process end
+659: [DEBUG]Process begin
+660: [DEBUG]Tick
+660: [DEBUG]Tick
+660: [DEBUG]Tick
+660: [DEBUG]Tick
+660: [DEBUG]Tick
+660: [DEBUG]Process end
+660: [DEBUG]Process begin
+660: [VERBOSE]Current FPS: 24.3309001923
+660: [DEBUG]Tick
+660: [VERBOSE]Time spent in frame: 35
+660: [VERBOSE]Time spent doing calculations: 35
+661: [DEBUG]Tick
+661: [DEBUG]Tick
+661: [DEBUG]Tick
+661: [DEBUG]Tick
+661: [DEBUG]Process end
+661: [DEBUG]Process begin
+662: [DEBUG]Tick
+662: [DEBUG]Tick
+662: [DEBUG]Tick
+662: [DEBUG]Tick
+662: [DEBUG]Tick
+662: [DEBUG]Process end
+662: [DEBUG]Process begin
+663: [DEBUG]Tick
+663: [DEBUG]Tick
+663: [DEBUG]Tick
+663: [DEBUG]Tick
+663: [DEBUG]Process end
+663: [DEBUG]Process begin
+664: [DEBUG]Tick
+664: [DEBUG]Tick
+664: [DEBUG]Tick
+664: [DEBUG]Tick
+664: [DEBUG]Tick
+664: [DEBUG]Process end
+664: [DEBUG]Process begin
+665: [DEBUG]Tick
+665: [DEBUG]Tick
+665: [DEBUG]Tick
+665: [DEBUG]Tick
+665: [DEBUG]Tick
+665: [DEBUG]Process end
+665: [DEBUG]Process begin
+665: [DEBUG]Tick
+666: [DEBUG]Tick
+666: [DEBUG]Tick
+666: [DEBUG]Tick
+666: [DEBUG]Tick
+666: [DEBUG]Process end
+666: [DEBUG]Process begin
+667: [DEBUG]Tick
+667: [DEBUG]Tick
+667: [DEBUG]Tick
+667: [DEBUG]Tick
+667: [DEBUG]Tick
+667: [DEBUG]Process end
+667: [DEBUG]Process begin
+668: [DEBUG]Tick
+668: [DEBUG]Tick
+668: [DEBUG]Tick
+668: [DEBUG]Tick
+668: [DEBUG]Tick
+668: [DEBUG]Tick
+668: [DEBUG]Process end
+668: [DEBUG]Process begin
+668: [DEBUG]Tick
+669: [DEBUG]Tick
+669: [DEBUG]Tick
+669: [DEBUG]Tick
+669: [DEBUG]Tick
+669: [DEBUG]Process end
+669: [DEBUG]Process begin
+669: [DEBUG]Tick
+670: [DEBUG]Tick
+670: [DEBUG]Tick
+670: [DEBUG]Tick
+670: [DEBUG]Tick
+670: [DEBUG]Tick
+670: [DEBUG]Process end
+670: [DEBUG]Process begin
+670: [DEBUG]Tick
+671: [DEBUG]Tick
+671: [DEBUG]Tick
+671: [DEBUG]Tick
+671: [DEBUG]Tick
+671: [DEBUG]Process end
+671: [DEBUG]Process begin
+672: [DEBUG]Tick
+672: [DEBUG]Tick
+672: [DEBUG]Tick
+672: [DEBUG]Tick
+672: [DEBUG]Tick
+672: [DEBUG]Process end
+672: [DEBUG]Process begin
+672: [DEBUG]Tick
+673: [DEBUG]Tick
+673: [DEBUG]Tick
+673: [DEBUG]Tick
+673: [DEBUG]Tick
+673: [DEBUG]Tick
+673: [DEBUG]Tick
+673: [DEBUG]Process end
+673: [DEBUG]Process begin
+674: [DEBUG]Tick
+674: [DEBUG]Tick
+674: [DEBUG]Tick
+674: [DEBUG]Tick
+674: [DEBUG]Tick
+674: [DEBUG]Process end
+674: [DEBUG]Process begin
+675: [DEBUG]Tick
+675: [DEBUG]Tick
+675: [DEBUG]Tick
+675: [DEBUG]Tick
+675: [DEBUG]Process end
+675: [DEBUG]Process begin
+676: [DEBUG]Tick
+676: [DEBUG]Tick
+676: [DEBUG]Tick
+676: [DEBUG]Tick
+676: [DEBUG]Tick
+676: [DEBUG]Process end
+676: [DEBUG]Process begin
+677: [DEBUG]Tick
+677: [DEBUG]Tick
+677: [DEBUG]Tick
+677: [DEBUG]Tick
+677: [DEBUG]Tick
+677: [DEBUG]Process end
+677: [DEBUG]Process begin
+678: [DEBUG]Tick
+678: [DEBUG]Tick
+678: [DEBUG]Tick
+678: [DEBUG]Tick
+678: [DEBUG]Tick
+678: [DEBUG]Process end
+678: [DEBUG]Tick
+678: [DEBUG]Process begin
+679: [DEBUG]Tick
+679: [DEBUG]Tick
+679: [DEBUG]Tick
+679: [DEBUG]Tick
+679: [DEBUG]Process end
+679: [DEBUG]Tick
+679: [DEBUG]Process begin
+680: [DEBUG]Tick
+680: [DEBUG]Tick
+680: [DEBUG]Tick
+680: [DEBUG]Tick
+680: [DEBUG]Tick
+680: [DEBUG]Process end
+680: [DEBUG]Process begin
+681: [DEBUG]Tick
+681: [DEBUG]Tick
+681: [DEBUG]Tick
+681: [DEBUG]Process end
+681: [DEBUG]Tick
+681: [DEBUG]Process begin
+682: [DEBUG]Tick
+682: [DEBUG]Tick
+682: [DEBUG]Tick
+682: [DEBUG]Tick
+682: [DEBUG]Tick
+682: [DEBUG]Process end
+682: [DEBUG]Process begin
+683: [DEBUG]Tick
+683: [DEBUG]Tick
+683: [DEBUG]Tick
+683: [DEBUG]Tick
+683: [DEBUG]Process end
+683: [DEBUG]Process begin
+683: [DEBUG]Tick
+684: [DEBUG]Tick
+684: [DEBUG]Tick
+684: [DEBUG]Tick
+684: [DEBUG]Tick
+684: [DEBUG]Process end
+684: [DEBUG]Process begin
+685: [DEBUG]Tick
+685: [DEBUG]Tick
+685: [DEBUG]Tick
+685: [DEBUG]Tick
+685: [DEBUG]Tick
+685: [DEBUG]Tick
+685: [DEBUG]Process end
+685: [DEBUG]Process begin
+686: [DEBUG]Tick
+686: [DEBUG]Tick
+686: [DEBUG]Tick
+686: [DEBUG]Tick
+686: [DEBUG]Tick
+686: [DEBUG]Process end
+686: [DEBUG]Process begin
+687: [DEBUG]Tick
+687: [DEBUG]Tick
+687: [DEBUG]Tick
+687: [DEBUG]Tick
+687: [DEBUG]Tick
+687: [DEBUG]Process end
+687: [DEBUG]Process begin
+688: [DEBUG]Tick
+688: [DEBUG]Tick
+688: [DEBUG]Tick
+688: [DEBUG]Process end
+688: [DEBUG]Process begin
+689: [DEBUG]Tick
+689: [DEBUG]Tick
+689: [DEBUG]Tick
+689: [DEBUG]Tick
+689: [DEBUG]Tick
+689: [DEBUG]Process end
+689: [DEBUG]Process begin
+690: [DEBUG]Tick
+690: [DEBUG]Tick
+690: [DEBUG]Tick
+690: [DEBUG]Tick
+690: [DEBUG]Tick
+690: [DEBUG]Tick
+690: [DEBUG]Process end
+690: [DEBUG]Process begin
+690: [VERBOSE]Current FPS: 25.1256275177
+690: [DEBUG]Tick
+690: [VERBOSE]Time spent in frame: 41
+690: [VERBOSE]Time spent doing calculations: 41
+691: [DEBUG]Tick
+691: [DEBUG]Tick
+691: [DEBUG]Tick
+691: [DEBUG]Tick
+691: [DEBUG]Process end
+691: [DEBUG]Process begin
+692: [DEBUG]Tick
+692: [DEBUG]Tick
+692: [DEBUG]Tick
+692: [DEBUG]Tick
+692: [DEBUG]Tick
+692: [DEBUG]Tick
+692: [DEBUG]Tick
+692: [DEBUG]Tick
+692: [DEBUG]Process end
+692: [DEBUG]Process begin
+693: [DEBUG]Tick
+693: [DEBUG]Tick
+693: [DEBUG]Tick
+693: [DEBUG]Tick
+693: [DEBUG]Tick
+693: [DEBUG]Process end
+693: [DEBUG]Process begin
+694: [DEBUG]Tick
+694: [DEBUG]Tick
+694: [DEBUG]Tick
+694: [DEBUG]Tick
+694: [DEBUG]Process end
+694: [DEBUG]Process begin
+695: [DEBUG]Tick
+695: [DEBUG]Tick
+695: [DEBUG]Tick
+695: [DEBUG]Tick
+695: [DEBUG]Tick
+695: [DEBUG]Process end
+695: [DEBUG]Process begin
+696: [DEBUG]Tick
+696: [DEBUG]Tick
+696: [DEBUG]Tick
+696: [DEBUG]Tick
+696: [DEBUG]Tick
+696: [DEBUG]Process end
+696: [DEBUG]Process begin
+697: [DEBUG]Tick
+697: [DEBUG]Tick
+697: [DEBUG]Tick
+697: [DEBUG]Tick
+697: [DEBUG]Tick
+697: [DEBUG]Process end
+697: [DEBUG]Process begin
+698: [DEBUG]Tick
+698: [DEBUG]Tick
+698: [DEBUG]Tick
+698: [DEBUG]Tick
+698: [DEBUG]Tick
+698: [DEBUG]Process end
+698: [DEBUG]Process begin
+699: [DEBUG]Tick
+699: [DEBUG]Tick
+699: [DEBUG]Tick
+699: [DEBUG]Tick
+699: [DEBUG]Tick
+699: [DEBUG]Process end
+699: [DEBUG]Process begin
+700: [DEBUG]Tick
+700: [DEBUG]Tick
+700: [DEBUG]Tick
+700: [DEBUG]Tick
+700: [DEBUG]Tick
+700: [DEBUG]Tick
+700: [DEBUG]Tick
+700: [DEBUG]Process end
+700: [DEBUG]Process begin
+701: [DEBUG]Tick
+701: [DEBUG]Tick
+701: [DEBUG]Tick
+701: [DEBUG]Tick
+701: [DEBUG]Tick
+701: [DEBUG]Process end
+701: [DEBUG]Process begin
+702: [DEBUG]Tick
+702: [DEBUG]Tick
+702: [DEBUG]Tick
+702: [DEBUG]Tick
+702: [DEBUG]Tick
+702: [DEBUG]Tick
+702: [DEBUG]Tick
+702: [DEBUG]Process end
+702: [DEBUG]Tick
+702: [DEBUG]Process begin
+703: [DEBUG]Tick
+703: [DEBUG]Tick
+703: [DEBUG]Tick
+703: [DEBUG]Tick
+703: [DEBUG]Tick
+703: [DEBUG]Process end
+703: [DEBUG]Process begin
+704: [DEBUG]Tick
+704: [DEBUG]Tick
+704: [DEBUG]Tick
+704: [DEBUG]Tick
+704: [DEBUG]Tick
+704: [DEBUG]Process end
+704: [DEBUG]Process begin
+705: [DEBUG]Tick
+705: [DEBUG]Tick
+705: [DEBUG]Tick
+705: [DEBUG]Tick
+705: [DEBUG]Tick
+705: [DEBUG]Tick
+705: [DEBUG]Tick
+705: [DEBUG]Tick
+705: [DEBUG]Process end
+705: [DEBUG]Process begin
+706: [DEBUG]Tick
+706: [DEBUG]Tick
+706: [DEBUG]Tick
+706: [DEBUG]Tick
+706: [DEBUG]Tick
+706: [DEBUG]Tick
+706: [DEBUG]Tick
+706: [DEBUG]Process end
+706: [DEBUG]Process begin
+707: [DEBUG]Tick
+707: [DEBUG]Tick
+707: [DEBUG]Tick
+707: [DEBUG]Tick
+707: [DEBUG]Tick
+707: [DEBUG]Tick
+707: [DEBUG]Process end
+707: [DEBUG]Process begin
+708: [DEBUG]Tick
+708: [DEBUG]Tick
+708: [DEBUG]Tick
+708: [DEBUG]Tick
+708: [DEBUG]Tick
+708: [DEBUG]Tick
+708: [DEBUG]Tick
+708: [DEBUG]Tick
+708: [DEBUG]Process end
+708: [DEBUG]Process begin
+709: [DEBUG]Tick
+709: [DEBUG]Tick
+709: [DEBUG]Tick
+709: [DEBUG]Tick
+709: [DEBUG]Tick
+709: [DEBUG]Process end
+709: [DEBUG]Process begin
+710: [DEBUG]Tick
+710: [DEBUG]Tick
+710: [DEBUG]Tick
+710: [DEBUG]Tick
+710: [DEBUG]Tick
+710: [DEBUG]Tick
+710: [DEBUG]Process end
+710: [DEBUG]Process begin
+711: [DEBUG]Tick
+711: [DEBUG]Tick
+711: [DEBUG]Tick
+711: [DEBUG]Tick
+711: [DEBUG]Tick
+711: [DEBUG]Process end
+711: [DEBUG]Process begin
+712: [DEBUG]Tick
+712: [DEBUG]Tick
+712: [DEBUG]Tick
+712: [DEBUG]Tick
+712: [DEBUG]Process end
+712: [DEBUG]Process begin
+713: [DEBUG]Tick
+713: [DEBUG]Tick
+713: [DEBUG]Tick
+713: [DEBUG]Tick
+713: [DEBUG]Process end
+713: [DEBUG]Process begin
+714: [DEBUG]Tick
+714: [DEBUG]Tick
+714: [DEBUG]Tick
+714: [DEBUG]Tick
+714: [DEBUG]Tick
+714: [DEBUG]Process end
+714: [DEBUG]Process begin
+714: [DEBUG]Tick
+715: [DEBUG]Tick
+715: [DEBUG]Tick
+715: [DEBUG]Tick
+715: [DEBUG]Tick
+715: [DEBUG]Tick
+715: [DEBUG]Tick
+715: [DEBUG]Tick
+715: [DEBUG]Tick
+715: [DEBUG]Tick
+715: [DEBUG]Tick
+715: [DEBUG]Process end
+715: [DEBUG]Process begin
+716: [DEBUG]Tick
+716: [DEBUG]Tick
+716: [DEBUG]Tick
+716: [DEBUG]Tick
+716: [DEBUG]Tick
+716: [DEBUG]Process end
+716: [DEBUG]Process begin
+717: [DEBUG]Tick
+717: [DEBUG]Tick
+717: [DEBUG]Tick
+717: [DEBUG]Tick
+717: [DEBUG]Tick
+717: [DEBUG]Tick
+717: [DEBUG]Tick
+717: [DEBUG]Process end
+717: [DEBUG]Process begin
+718: [DEBUG]Tick
+718: [DEBUG]Tick
+718: [DEBUG]Tick
+718: [DEBUG]Tick
+718: [DEBUG]Process end
+718: [DEBUG]Process begin
+719: [DEBUG]Tick
+719: [DEBUG]Tick
+719: [DEBUG]Tick
+719: [DEBUG]Process end
+719: [DEBUG]Process begin
+720: [DEBUG]Tick
+720: [DEBUG]Tick
+720: [DEBUG]Tick
+720: [DEBUG]Tick
+720: [DEBUG]Tick
+720: [DEBUG]Tick
+720: [DEBUG]Process end
+720: [DEBUG]Process begin
+720: [VERBOSE]Current FPS: 24.4498767853
+720: [DEBUG]Tick
+720: [VERBOSE]Time spent in frame: 39
+720: [VERBOSE]Time spent doing calculations: 39
+721: [DEBUG]Tick
+721: [DEBUG]Tick
+721: [DEBUG]Tick
+721: [DEBUG]Tick
+721: [DEBUG]Process end
+721: [DEBUG]Process begin
+722: [DEBUG]Tick
+722: [DEBUG]Tick
+722: [DEBUG]Tick
+722: [DEBUG]Tick
+722: [DEBUG]Tick
+722: [DEBUG]Tick
+722: [DEBUG]Process end
+722: [DEBUG]Process begin
+723: [DEBUG]Tick
+723: [DEBUG]Tick
+723: [DEBUG]Tick
+723: [DEBUG]Tick
+723: [DEBUG]Tick
+723: [DEBUG]Process end
+723: [DEBUG]Process begin
+724: [DEBUG]Tick
+724: [DEBUG]Tick
+724: [DEBUG]Tick
+724: [DEBUG]Tick
+724: [DEBUG]Tick
+724: [DEBUG]Tick
+724: [DEBUG]Process end
+724: [DEBUG]Process begin
+725: [DEBUG]Tick
+725: [DEBUG]Tick
+725: [DEBUG]Tick
+725: [DEBUG]Tick
+725: [DEBUG]Tick
+725: [DEBUG]Process end
+725: [DEBUG]Process begin
+726: [DEBUG]Tick
+726: [DEBUG]Tick
+726: [DEBUG]Tick
+726: [DEBUG]Tick
+726: [DEBUG]Tick
+726: [DEBUG]Process end
+726: [DEBUG]Process begin
+727: [DEBUG]Tick
+727: [DEBUG]Tick
+727: [DEBUG]Tick
+727: [DEBUG]Tick
+727: [DEBUG]Tick
+727: [DEBUG]Tick
+727: [DEBUG]Process end
+727: [DEBUG]Process begin
+728: [DEBUG]Tick
+728: [DEBUG]Tick
+728: [DEBUG]Tick
+728: [DEBUG]Tick
+728: [DEBUG]Tick
+728: [DEBUG]Process end
+728: [DEBUG]Process begin
+729: [DEBUG]Tick
+729: [DEBUG]Tick
+729: [DEBUG]Tick
+729: [DEBUG]Tick
+729: [DEBUG]Tick
+729: [DEBUG]Tick
+729: [DEBUG]Process end
+729: [DEBUG]Process begin
+730: [DEBUG]Tick
+730: [DEBUG]Tick
+730: [DEBUG]Tick
+730: [DEBUG]Tick
+730: [DEBUG]Tick
+730: [DEBUG]Tick
+730: [DEBUG]Process end
+730: [DEBUG]Process begin
+731: [DEBUG]Tick
+731: [DEBUG]Tick
+731: [DEBUG]Tick
+731: [DEBUG]Tick
+731: [DEBUG]Tick
+731: [DEBUG]Tick
+731: [DEBUG]Tick
+731: [DEBUG]Tick
+731: [DEBUG]Tick
+731: [DEBUG]Tick
+731: [DEBUG]Tick
+731: [DEBUG]Tick
+731: [DEBUG]Process end
+731: [DEBUG]Process begin
+732: [DEBUG]Tick
+732: [DEBUG]Tick
+732: [DEBUG]Tick
+732: [DEBUG]Tick
+732: [DEBUG]Tick
+732: [DEBUG]Tick
+732: [DEBUG]Tick
+732: [DEBUG]Tick
+732: [DEBUG]Tick
+732: [DEBUG]Tick
+732: [DEBUG]Tick
+732: [DEBUG]Tick
+732: [DEBUG]Tick
+732: [DEBUG]Process end
+732: [DEBUG]Process begin
+733: [DEBUG]Tick
+733: [DEBUG]Tick
+733: [DEBUG]Tick
+733: [DEBUG]Tick
+733: [DEBUG]Tick
+733: [DEBUG]Tick
+733: [DEBUG]Process end
+733: [DEBUG]Process begin
+734: [WARN]Quitting game at: 2018-05-05 18:21:56.071871
+734: [DEBUG]Process end
+734: [WARN]Game exited at: 2018-05-05 18:21:56.127524
