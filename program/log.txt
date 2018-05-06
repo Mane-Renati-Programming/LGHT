@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 0: [WARN]Starting game at: 2018-05-05 18:50:58.519000
 0: [DEBUG]Process begin
 0: [VERBOSE]Current FPS: 0.0
@@ -3684,3 +3685,5 @@
 215: [WARN]Quitting game at: 2018-05-05 18:53:07.703000
 215: [DEBUG]Process end
 215: [WARN]Game exited at: 2018-05-05 18:53:07.711000
+=======
+>>>>>>> 94c8d07a8718be3adb5f8eafa09b220d5afbc6ae
