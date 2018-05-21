@@ -3,7 +3,7 @@ Leocadia "Leia" Prieto
 Quick Stats:
 	Name: Leocadia "Leia" Prieto
 	Meaning: Spanish for "Dark Light"
-	Age:
+	Age: 21
 	Gender: F
 	Species: Human
 	Semblance: Shadow-walking
