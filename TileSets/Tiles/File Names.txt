@@ -1,0 +1,14 @@
+Prefix:
+	F = Floor
+	W = Wall
+	B = Building
+
+Suffix:
+	L = Left
+	R = Right
+	T = Top
+	B = Bottom
+	TL = Top Left
+	TR = Top Right
+	BL = Bottom Left
+	BR = Bottom Right
