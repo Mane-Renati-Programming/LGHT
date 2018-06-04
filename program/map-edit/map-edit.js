@@ -24,13 +24,13 @@ function loadKeyHandler() {
 }
 
 function keyHandler(e) {
-    processCurrentKey(e.keyCode);
+    processCurrentKey(e.key);
 }
 
 function processCurrentKey(key) {
 
     switch (key) {
-        case 40: //Down
+        case "ArrowDown": //Down
             if (currentY >= mapArray.length - 1) {
                 currentY = mapArray.length - 1;
                 break;
@@ -41,7 +41,7 @@ function processCurrentKey(key) {
             oldMapValue = getValueOfMap(currentX, currentY);
             setSpotOnMap(currentX, currentY, cursor);
             break;
-        case 38: //Up
+        case "ArrowUp": //Up
             if (currentY <= 0) {
                 currentY = 0;
                 break;
@@ -52,7 +52,7 @@ function processCurrentKey(key) {
             oldMapValue = getValueOfMap(currentX, currentY);
             setSpotOnMap(currentX, currentY, cursor);
             break;
-        case 37: //Left
+        case "ArrowLeft": //Left
             if (currentX <= 0) {
                 currentX = 0;
                 break;
@@ -63,7 +63,7 @@ function processCurrentKey(key) {
             oldMapValue = getValueOfMap(currentX, currentY);
             setSpotOnMap(currentX, currentY, cursor);
             break;
-        case 39: //Right
+        case "ArrowRight": //Right
             if (currentX >= mapArray[0].length - 1) {
                 currentX = mapArray[0].length - 1;
                 break;
@@ -74,10 +74,13 @@ function processCurrentKey(key) {
             oldMapValue = getValueOfMap(currentX, currentY);
             setSpotOnMap(currentX, currentY, cursor);
             break;
+        case "Delete":
+        case " ":
+            key = ".";
         default:
             console.log("key");
-            setSpotOnMap(currentX, currentY, String.fromCharCode(key));
-            oldMapValue = String.fromCharCode(key);
+            setSpotOnMap(currentX, currentY, key[0]);
+            oldMapValue = key[0];
             break;
     }
     drawMap();
@@ -95,13 +98,12 @@ function getValueOfMap(x, y) {
 
 function drawMap() {
     var out = document.getElementById("mapOutput");
-    var line;
-    line = "map = ";
+    var line = "";
     for (let i = 0; i < mapArray.length; i++) {
         for (let j = 0; j < mapArray[i].length; j++) {
             line = line + getValueOfMap(j, i);
         }
-        line = line + "<br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+        line = line + "<br>";
     }
     out.innerHTML = line;
 

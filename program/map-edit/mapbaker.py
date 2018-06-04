@@ -1,5 +1,5 @@
 #We import our main libraries which we need
-import sys, ConfigParser, datetime
+import sys, ConfigParser
 #We import the libraries needed by pygame
 import pygame, pygame.locals
 
@@ -78,11 +78,12 @@ class Map:
         tmpMap = []
         tmpKey = {}
         parser = ConfigParser.ConfigParser()
-        parser.read("../assets/maps/" + mapname + ".map")
+        parser.read("assets/maps/" + mapname + "/metadata.ini")
+        mapdat = open("assets/maps/" + mapname + "/mapdata.map")
+        tmpMap = mapdat.read().splitlines()
         self.tileset = Tileset(("../assets/tilesets/" + parser.get("level", "tileset")), TILE_WIDTH, TILE_HEIGHT)
         self.playerx = int(parser.get("player", "startx"))
         self.playery = int(parser.get("player", "starty"))
-        tmpMap = parser.get("level", "map").split('\n')
         self.dimensions = (len(tmpMap[0]) * TILE_WIDTH, len(tmpMap) * TILE_HEIGHT)
         for section in parser.sections():
             #We check if the section is a tile descriptor (It will only have one character)
@@ -145,5 +146,5 @@ if __name__=='__main__':
     #Draw the map on that surface
     map.draw(surface)
     #Save an image of that map
-    pygame.image.save(surface, "../assets/maps/" + mapfile + ".png")
+    pygame.image.save(surface, "../assets/maps/" + mapfile + "/map.png")
     #And our work here is done
